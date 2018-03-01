@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--2018-03-01 url stream Slubfurt, WüsteWelle, bermudafunk, FDS, Wiesental, Coloradio, freefm, Kassel, ARA, Meißner aktualisiert -->
+<!--2018-01-31 url xml coloRadio Dresden aktualisiert -->
+<!--2018-01-18 url xml Lora München, Radio FREI, RDL aktualisiert -->
+<!--2017-12-07 url xml bermudafunk aktualisiert -->
+<!--2017-11-20 url stream Pi-Radio korrigiert -->
+<!--2017-11-15 wohlgeformtheit & zu &amp; in URL StHörfunk korrigiert  -->
+<!--2016-11-20 url freefm korrigiert | lat,lon geändert in opengis-Format-->
+<!--2016-11-06 url Lohro Rostock korrigiert-->
+<!--2016-11-02 url Freies Radio Wiesental, Bermudafunk, WüsteWelle, Corax Halle-->
+<!--2016-10-28 url StHörfunk korrigiert -->
+<!--2016-10-28 url RUM korrigiert -->
+<!--2016-10-22 url und stream Freies Radio Freudenstadt korrigiert-->
+<!--2016-10-24 url Pi-Radio korrigiert-->
+<freeradioapp lastupdate="2018-03-01T16:55:00.6875000+02:00" xmlns:gml="http://www.opengis.net/gml">
+	<stationlist>
+		<station lastupdate="2018-03-01T16:55:00.6875000+02:00" id="2">
+			<name>bermuda.funk</name>
+			<city>Mannheim</city>
+			<xmluri>http://bermudafunk.org/fileadmin/station.xml</xmluri>
+			<frequency>105,4</frequency>
+			<frequency>89,6</frequency>
+			<gml:Point>
+				<gml:pos>49.49539 8.47386</gml:pos>
+			</gml:Point>
+			<streamurl>http://streaming.fueralle.org:8000/bermudafunk_high</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="3">
+			<name>Freies Radio für Stuttgart</name>
+			<city>Stuttgart</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_2_station.xml</xmluri>
+			<frequency>99,2</frequency>
+			<gml:Point>
+				<gml:pos>48.789925 9.199612</gml:pos>
+			</gml:Point>
+			<streamurl>http://streaming.fueralle.org:8000/frs-hi.mp3</streamurl>
+		</station>
+		<station lastupdate="2018-01-04T17:38:00.6875000+02:00" id="4">
+			<name>Radio Dreyeckland</name>
+			<city>Freiburg</city>
+			<xmluri>https://rdl.de/rdl-frnapp.xml</xmluri>
+			<frequency>102,3</frequency>
+			<gml:Point>
+				<gml:pos>47.992961 7.840556</gml:pos>
+			</gml:Point>
+			<streamurl>http://www.rdl.de:8000/rdl</streamurl>
+		</station>
+		<station lastupdate="2017-12-18T02:16:00.6875000+02:00" id="6">
+			<name>Lora München</name>
+			<city>München</city>
+			<xmluri>http://live.lora924.de:8000/fr-app/LoraMuenchenStationData.xml</xmluri>
+			<frequency>92,4</frequency>
+			<gml:Point>
+				<gml:pos>48.137375 11.553813</gml:pos>
+			</gml:Point>
+			<streamurl>http://live.lora924.de:8000/loramp3.mp3</streamurl>
+		</station>
+		<station lastupdate="2017-12-12T17:08:00.6875000+02:00" id="7">
+			<name>Radio FREI</name>
+			<city>Erfurt</city>
+			<xmluri>http://www.radiofrei.de/radiofrei.xml</xmluri>
+			<frequency>96,2</frequency>
+			<gml:Point>
+				<gml:pos>50.980043 11.032032</gml:pos>
+			</gml:Point>
+			<streamurl>http://streaming.fueralle.org:8000/Radio-F.R.E.I</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="8">
+			<name>Radio Flora</name>
+			<city>Hannover</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_7_station.xml</xmluri>
+			<gml:Point>
+				<gml:pos>52.376224 9.709933</gml:pos>
+			</gml:Point>
+			<streamurl>http://88.198.12.12:8000/live.mp3</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="9">
+			<name>Punksender</name>
+			<city>KC6ln</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_8_station.xml</xmluri>
+			<gml:Point>
+				<gml:pos>50.943719 6.954345</gml:pos>
+			</gml:Point>
+			<streamurl>http://83.125.45.214:8000/punk</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="10">
+			<name>LOHRO</name>
+			<city>Rostock</city>
+			<xmluri>http://files.lohro.de/lohro-v3.xml</xmluri>
+			<frequency>90,2</frequency>
+			<gml:Point>
+				<gml:pos>54.091266 12.123069</gml:pos>
+			</gml:Point>
+			<streamurl>http://stream.lohro.de:8000/lohro.mp3</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="14">
+			<name>Radio Unerhört Marburg</name>
+			<city>Marburg</city>
+			<xmluri>http://www.radio-rum.de/station-v3.xml</xmluri>
+			<frequency>90,1</frequency>
+			<gml:Point>
+				<gml:pos>50.816122 8.778467</gml:pos>
+			</gml:Point>
+			<streamurl>http://stream.radio-rum.de:8000/rum.mp3</streamurl>
+		</station>
+		<station lastupdate="2018-03-01T12:55:00.6875000+02:00" id="12">
+			<name>Radio Słubfurt</name>
+			<city>Slubice</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_11_station.xml</xmluri>
+			<gml:Point>
+				<gml:pos>52.330644 14.55182</gml:pos>
+			</gml:Point>
+			<streamurl>http://streaming.fueralle.org:8000/slubfurt</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="15">
+			<name>Freies Sender Kombinat - FSK</name>
+			<city>Hamburg</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_14_station.xml</xmluri>
+			<frequency>93,0</frequency>
+			<gml:Point>
+				<gml:pos>53.566654 9.957312</gml:pos>
+			</gml:Point>
+			<streamurl>http://stream.fsk-hh.org:8000/fsk.mp3</streamurl>
+		</station>
+		<station lastupdate="2018-03-01T12:55:00.6875000+02:00" id="16">
+			<name>Wüste Welle</name>
+			<city>Tübingen</city>
+			<xmluri>http://www.wueste-welle.de/frapp/wuestewelle.xml</xmluri>
+			<frequency>96,6</frequency>
+			<gml:Point>
+				<gml:pos>48.499639 9.064391</gml:pos>
+			</gml:Point>
+			<streamurl>http://livestream.wueste-welle.de:8000/mp3</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="17">
+			<name>Querfunk</name>
+			<city>Karlsruhe</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_16_station.xml</xmluri>
+			<frequency>104,8</frequency>
+			<gml:Point>
+				<gml:pos>49.006997 8.407303</gml:pos>
+			</gml:Point>
+			<streamurl>http://mp3.querfunk.de/qfhi</streamurl>
+		</station>
+		<station lastupdate="2018-03-01T12:55:00.6875000+02:00" id="20">
+			<name>Radio ARA</name>
+			<city>Luxembourg</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_19_station.xml</xmluri>
+			<frequency>102.9</frequency>
+			<frequency>105.2</frequency>
+			<gml:Point>
+				<gml:pos>49.600536 6.137609</gml:pos>
+			</gml:Point>
+			<streamurl>http://stream.ara.lu/stream.mp3</streamurl>
+		</station>
+		<station lastupdate="2017-11-20T00:01:00.6875000+02:00" id="21">
+			<name>Pi-Radio</name>
+			<city>Berlin</city>
+			<xmluri>http://piradio.de/agenda/freefm.xml</xmluri>
+			<frequency>88,4</frequency>
+			<frequency>90,7</frequency>
+			<gml:Point>
+				<gml:pos>52.530787 13.407485</gml:pos>
+			</gml:Point>
+			<streamurl>http://ice.rosebud-media.de:8000/88vier</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="23">
+			<name>Radio Blau</name>
+			<city>Leipzig</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_22_station.xml</xmluri>
+			<frequency>99,2</frequency>
+			<frequency>94,4</frequency>
+			<frequency>89,2</frequency>
+			<gml:Point>
+				<gml:pos>51.329449 12.370279</gml:pos>
+			</gml:Point>
+			<streamurl>http://radioblau.hoerradar.de/radioblau</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="24">
+			<name>Freies Radio Freudenstadt</name>
+			<city>Freudenstadt</city>
+			<xmluri>http://radio-fds.de/fileadmin/inhalt/freies_radio_freudenstadt_station-v3.xml</xmluri>
+			<frequency>100,0</frequency>
+			<frequency>104,1</frequency>
+			<gml:Point>
+				<gml:pos>48.46676 8.41039</gml:pos>
+			</gml:Point>
+			<streamurl>http://85.25.176.186:9140/listen.pls</streamurl>
+		</station>
+		<station lastupdate="2018-03-01T12:55:00.6875000+02:00" id="26">
+			<name>coloRadio</name>
+			<city>Dresden</city>
+			<xmluri>http://coloradio.org/olaf/station.xml</xmluri>
+			<frequency>98,4</frequency>
+			<frequency>99,3</frequency>
+			<gml:Point>
+				<gml:pos>51.068961 13.749668</gml:pos>
+			</gml:Point>
+			<streamurl>http://streaming.fueralle.org:8000/coloradio_160.mp3</streamurl>
+		</station>
+		<station lastupdate="2018-03-01T12:55:00.6875000+02:00" id="27">
+			<name>Freies Radio Wiesental</name>
+			<city>Schopfheim</city>
+			<xmluri>http://freies-radio-wiesental.de/radioapp/station.xml</xmluri>
+			<frequency>104,5</frequency>
+			<gml:Point>
+				<gml:pos>47.650923 7.823826</gml:pos>
+			</gml:Point>
+			<streamurl>http://88.99.63.244:8000/stream</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="28">
+			<name>Radio Corax</name>
+			<city>Halle</city>
+			<xmluri>https://radioco.radiocorax.de/station-data</xmluri>
+			<frequency>95,9</frequency>
+			<gml:Point>
+				<gml:pos>51.48768 11.970599</gml:pos>
+			</gml:Point>
+			<streamurl>http://streaming.fueralle.org:8000/corax.mp3</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="29">
+			<name>RundFunk Meissner</name>
+			<city>Eschwege</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_28_station.xml</xmluri>
+			<frequency>96,5</frequency>
+			<frequency>99,4</frequency>
+			<frequency>99,7</frequency>
+			<frequency>102,6</frequency>
+			<gml:Point>
+				<gml:pos>51.189719 10.058632</gml:pos>
+			</gml:Point>
+			<streamurl>http://s8.pop-stream.de:8650/listen.pls</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="30">
+			<name>Radio T</name>
+			<city>Chemnitz</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_29_station.xml</xmluri>
+			<frequency>102,7</frequency>
+			<gml:Point>
+				<gml:pos>50.840148 12.924567</gml:pos>
+			</gml:Point>
+			<streamurl>http://streaming.fueralle.org:8000/radiot.mp3</streamurl>
+		</station>
+		<station lastupdate="2018-03-01T12:55:00.6875000+02:00" id="31">
+			<name>Radio free FM</name>
+			<city>Ulm</city>
+			<xmluri>http://app.freefm.de/station.xml</xmluri>
+			<frequency>102,6</frequency>
+			<gml:Point>
+				<gml:pos>48.400566 9.991118</gml:pos>
+			</gml:Point>
+			<streamurl>http://stream.freefm.de:8100/</streamurl>
+		</station>
+		<station lastupdate="2018-03-01T12:55:00.6875000+02:00" id="32">
+			<name>Freies Radio Kassel</name>
+			<city>Kassel</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_31_station.xml</xmluri>
+			<frequency>105,8</frequency>
+			<gml:Point>
+				<gml:pos>51.314154 9.493415</gml:pos>
+			</gml:Point>
+			<streamurl>http://85.214.67.121:8000/listen.pls?sid=1</streamurl>
+		</station>
+		<station lastupdate="2016-11-20T12:55:00.6875000+02:00" id="33">
+			<name>Radio Z</name>
+			<city>Nürnberg</city>
+			<xmluri>http://www.oput.info/clients/__freefm/data/28_09_16_32_station.xml</xmluri>
+			<frequency>95,8</frequency>
+			<gml:Point>
+				<gml:pos>49.439352 11.080326</gml:pos>
+			</gml:Point>
+			<streamurl>http://snd.radio-z.net:8000/Radio-Z</streamurl>
+		</station>
+		<station lastupdate="2017-11-15T12:55:00.6875000+02:00" id="34">
+			<name>Radio StHörfunk</name>
+			<city>Schwäbisch Hall</city>
+			<xmluri>http://daten.sthoerfunk.de/radioautomation.php?abfrage=app&amp;version=1&amp;format=xml</xmluri>
+			<frequency>97,5</frequency>
+			<gml:Point>
+				<gml:pos>49.11158 9.73603</gml:pos>
+			</gml:Point>
+			<streamurl>http://stream.sthoerfunk.de:7000/sthoerfunk.mp3</streamurl>
+		</station>
+	</stationlist>
+</freeradioapp>
