@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Allgemeine Angaben für die App:
+Ansprechpartner Homepage Server: 
+Vorname: Sabine
+Name: Fratzke
+Telefon: 
+Email-Adresse: freieradioapp@freefm.de
+Erreichbarkeit: reagiert innerhalb von 24h auf Mails
+
+URL für die Ablage der Station XML: 
+-->
+<!--	Grundsätzlich: wenn eine Angabe mehrfach benötigt wird, einfach das Attribut/Zeile (mit Unterpunkten) kopieren-->
+<station lastupdate="2013-08-21T15:07:38.6875000+02:00" xmlns:gml="http://www.opengis.net/gml">
+	<info>
+		<displayname>Radio free FM</displayname>
+		<fullname>Radio free FM gGmbH</fullname>
+		<logo src="http://freefm.de/radioapp_logo.png"/>
+		<basecolor>#FF6600</basecolor>
+		<city>Ulm</city>
+		<description>Senderbeschreibung: 40 Wörter / 266 Zeichen</description><!--v2 ergänzt-->
+		<studio>
+			<street>Platzgasse</street>
+			<number>18</number>
+			<city>Ulm</city>
+			<zip>89073</zip>
+			<studio-location>
+				<gml:Point>
+					<gml:pos>48.400608 9.991119</gml:pos>
+				</gml:Point>
+			</studio-location>
+			<phone type="studio">+49 731 938 62 99</phone>
+			<phone type="office">+49 731 938 62 84</phone>
+			<email type="studio">studio@freefm.de</email>
+			<email type="office">radio@freefm.de</email>
+			<open time-from="10:00:00" time-to="16:00:00"/>
+		</studio>
+	</info>
+	<media-channels>
+		<transmitter type="ukw">
+			<frequency>102.6</frequency>
+			<frequencyunit>MHz</frequencyunit>
+			<city>Ermingen</city>
+			<operator>MediaBroadcast</operator>
+			<transmit-power>1</transmit-power>
+			<transmit-power-unit>kW</transmit-power-unit>
+			<transmit-rds-id>freeFM</transmit-rds-id>
+			<transmit-times>
+				<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+			</transmit-times>
+			<transmitter-location>
+				<gml:Point>
+					<gml:pos>48.390347 9.895706</gml:pos>
+				</gml:Point>
+			</transmitter-location>
+			<receptionarea>
+				<gml:Polygon>
+					<gml:exterior>
+						<gml:LinearRing>
+							<gml:posList>48.50387 9.74213 48.34472 9.74213 48.18565 9.73938 48.04354 9.77783 48.01047 9.85886 48.03068 10.06897 48.09585 10.40543 48.25336 10.61005 48.4514 10.80917 48.68075 10.94513 48.69525 10.83252 48.72063 10.70068 48.57182 10.29968 48.50387 9.94812 48.50387 9.74213
+						</gml:posList>
+						</gml:LinearRing>
+					</gml:exterior>
+				</gml:Polygon>
+			</receptionarea>
+		</transmitter>
+		<transmitter type="cable">
+			<frequency>97.7</frequency>
+			<frequencyunit>MHz</frequencyunit>
+			<operator>KabelBW</operator>
+			<transmit-times>
+				<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+			</transmit-times>
+		</transmitter>
+		<transmitter type="cable">
+			<frequency>93.45</frequency>
+			<frequencyunit>MHz</frequencyunit>
+			<operator>Kabel Deutschland</operator>
+			<transmit-times>
+				<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+			</transmit-times>
+		</transmitter>
+		<webstream>
+			<transmit-times>
+				<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+			</transmit-times>
+			<url>http://stream.freefm.de:8100/listen.pls</url>
+			<format>audio/mpeg</format>
+			<quality>160kbps</quality>
+		</webstream>
+		<website>
+			<url>http://www.freefm.de</url>
+		</website>
+	</media-channels>
+	<programme>
+		<broadcast id="1">
+			<title>Testsendung</title>
+			<description>Existiert nicht wirklich, veranschaulicht nur die Wiederholungsregeln...</description>
+			<categories>
+				<!-- 	Wir werden vorerst die hier aufgelisteten Genre benutzen - Erläuterungen folgen auf BfR Kongress
+					Falls jemand wirklich gar nicht abgebildet ist, dann bitte unten an die Liste Vorschläge posten.
+					v2: Nach Rückmeldungen aus Workshop What's App des BfR Kongress 2014 werden die Genre durch Wort Genre erweitert
+					v3: Achtung geänderte Genre!
+
+					Genre: 
+					1	Alternative	(rock/punk/grunge/metal / blues /soul/beat / country)
+					2	Elektronika	(House/Techno/Elektro/Drum´n´Bass...)
+					3	HipHop	
+					4	Jazz	
+					5	Klassik	
+					6	Reggae	
+					7	R'n'B / Black	
+					8	Singer-Songwriter	
+					9	U-Musi &amp; Schlager	(Volkstümliche Musik, Orchester, James Last, Bert Kämpfert)
+					10	Volksmusik	(originale Volksmusik, Bänkelsang, Guggenmusi, Jodeln, Blasmusik)
+					11	Worldmusik
+					12	SoundExperiment
+					13	AndereSpachen
+					14	Gesellschaft (Politik, Arbeit, Soziales, Wirtschaft, Antifa, ...)	
+					15	International (EineWelt, Frieden, Menschenrechte, ...)
+					16	Inklusion (Inklusion, Behinderung, Barrierefreiheit)
+					17	Kinder Jugend 
+					18	Kultur (Literatur, Fantasy, Film, Theater, ... )
+					19	Medien (Computer, Social Media, Rundfunk)
+					20	LGBTI-Gender (LGBTI, Gender, Frauen, Männer)
+					21	ReligionEthik
+					22	Satire
+					23	Sport
+					24	Talk (Talk, Diskussion, wenn sich was nicht unter den anderen spezifizieren läßt)
+					25	Umwelt
+					26	Wissenschaft (Forschung, Medizin, ...)
+
+					weitere Vorschläge:
+
+
+					Es werden nur die ersten drei Genreangaben jeder Sendung ausgewertet (mehr angeben macht keinen Sinn). -->
+				<category name="Wort" id="12"/>
+				<category name="Elektronika" id="2"/>
+			</categories>
+			<feed>
+				<title>Podcast-Feed</title>
+				<url>http://freefm.de/url-zum-podcast</url>
+			</feed>
+			<transmit-times>
+				<!--- mit "transmit-times" (plural mit s) beginnt der Bereich, der alle Sendezeiten einer Sendung/Redaktion beschreibt.
+					- es können mehrere Sendezeiten für eine Sendung angegeben werden.
+					- jede Sendezeit beginnt mit transmit-time (singluar ohne s)
+					- Rhytmusregeln werden in Sondersendung, täglich (daily), wochenbasiert (weekly) oder monatsorientiert (weekOfMonth) unterschieden.
+
+					Sondersendungen
+					- Recurrence definiert den Unterschied zwischen Sondersendung und Serie
+  					  recurrence="false" ist eine Sondersendung 
+  					  recurrence="true" ist eine regelmäßigen Ausstrahlung (Serie).
+
+					Wiederholungen
+					- Rerun definiert den Unterschied zwischen Erstausstrahlung und Wiederholung
+  					  rerun="false" ist eine Erstausstrahlung
+  					  rerun="true" oder ist dieser Termin eine reine inhaltliche Wiederholung des zuletzt live gesendeten Termins 
+
+					Allgemeines
+					- Nicht-wiederkehrende Sendungstermine überschreiben wiederkehrende Sendungstermine grundsätzlich
+					- Wiederkehrende Sendungstermine werden in ihrer Prio abgearbeitet, wenn alle Prios gleich sind gewinnt bei Kollisionen nur ein Termin
+					- Regeln werden NICHT auf Konsistenz geprüft dies muss schon bei der Sendeplanerstellung geschehen-->
+
+				<!--Sondersendung-->
+				<transmit-time date-from="2013-08-21T15:00:00.000+02:00" date-to="2013-08-21T17:00:00.000+02:00" recurrence="false" rerun="false"/>
+				<!--regelmäßige Ausstrahlungen (Serien)-->
+				<transmit-time recurrence="true">
+				
+					<!-- tägliche Sendezeit beginnt mit daily ...-->
+					<!--- Jeden Tag von 17 bis 19 Uhr -->
+					<daily time-from="17:00:00" time-to="19:00:00"/>
+					
+					<!--Senderhytmus wochenbasiert beginnt mit weekly ...-->
+					<!--- Jede Woche Montags von 17 bis 19 Uhr -->
+					<weekly day="MO" priority="0" time-from="17:00:00" time-to="19:00:00"/>
+					<!--- Alle 4 Wochen Freitags von 17 bis 19 Uhr, mit Startdatum -->
+					<weekly day="FR" priority="0" time-from="17:00:00" time-to="19:00:00" weekFrequency="4" date-from="2013-08-21T15:00:00.000+02:00"/>
+					<!--- Sonntags von 17 bis 19 Uhr, mit Startdatum, in den drei Wochen in denen das Gegenereignis nicht stattfindet -->
+					<weekly day="SO" priority="0" time-from="17:00:00" time-to="19:00:00" weekFrequency="4" date-from="2013-08-21T15:00:00.000+02:00" invert="true"/>
+					<!--- Jede ungerade Woche Freitags von 17 bis 19 Uhr, mit OddEven (gerade=even, ungerade=odd) -->
+					<weekly day="DO" priority="0" time-from="17:00:00" time-to="19:00:00" weekFrequency="2" oddEvenWeekNbr="odd"/>
+
+					<!--Senderhytmus monatsbasiert beginnt mit weekOfMonth ...-->
+					<!--- Jede 1. und 4. Woche des Monats am Mittwoch -->
+					<weekOfMonth day="MI" priority="0" time-from="17:00:00" time-to="19:00:00" week1="true" week2="false" week3="false" week4="true" week5="false"/>
+					<!--- Jeden letzten und ersten Dienstag im Monat -->
+					<weekOfMonth day="DI" priority="0" time-from="17:00:00" time-to="19:00:00" lastWeek="true" firstWeek="true"/>
+
+				</transmit-time>
+			</transmit-times>
+		</broadcast>
+	</programme>
+</station>
