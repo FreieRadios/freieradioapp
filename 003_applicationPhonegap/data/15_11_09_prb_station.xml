@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<station lastupdate="2015-11-09T12:29:57+01:00" xmlns:gml="http://www.opengis.net/gml">
+    <info>
+        <displayname>Pi-Radio</displayname>
+        <fullname>Pi-Radio</fullname>
+        <logo src="http://piradio.de/sites/default/files/logo.png" />
+        <basecolor>#FF6600</basecolor>
+        <city>Berlin</city>
+        <studio>
+            <street>Lottumstrasse</street>
+            <number>9</number>
+            <city>Berlin</city>
+            <zip>10119</zip>
+            <studio-location>    
+                <gml:Point>
+                    <gml:pos>52.53119 13.4066</gml:pos>
+                </gml:Point>
+            </studio-location>
+            <phone type="studio">+49 030 609 37 277</phone>
+        </studio>
+    </info>
+
+    <media-channels>
+        <transmitter type="ukw">
+            <frequency>88.4</frequency>
+            <frequencyunit>MHz</frequencyunit>
+            <city>Berlin</city>
+            <operator>MediaBroadcast</operator>
+            <transmit-power>500</transmit-power>
+            <transmit-power-unit>W</transmit-power-unit>
+            <transmit-rds-id>88vier</transmit-rds-id>
+            <transmit-times>
+                <transmit-time recurrence="true" />
+                    <weekly day="MI" priority="0" time-from="19:00:00" time-to="06:00:00" />
+                    <weekly day="DO" priority="0" time-from="19:00:00" time-to="06:00:00" />
+            </transmit-times>
+
+            <transmitter-location>
+                <gml:Point>
+                    <gml:pos>52.456534 13.625693</gml:pos>
+                </gml:Point>
+            </transmitter-location>
+        </transmitter>
+
+        <website>
+            <url>http://piradio.de</url>
+        </website>
+    </media-channels>
+
+<programme>
+
+<broadcast id="24807">
+    <title>Berliner Runde - Radia Obskura #131</title>
+    <description>
+        Aktuelles Magazin für subversive Unternehmungen für, gegen und aus Berlin - eine gemeinsame Sendung von Radio Corax (Halle), dem Freien Sender Kombinat (Hamburg) und Pi Radio (Berlin). 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24807.html#Berliner%20Runde-Radia%20Obskura</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-11T19:00:00+01:00" date-to="2015-11-11T20:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24806">
+    <title>ORWOhaus - Plattensprung #112</title>
+    <description>
+        Plattensprung - die Sendung aus dem ORWOhaus. Alle zwei Wochen neuste Infos rund um das Haus und die Musik, die in ihm entsteht. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24806.html#ORWOhaus-Plattensprung</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-11T20:00:00+01:00" date-to="2015-11-11T20:30:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24808">
+    <title>Howdy Eddy - Musik jenseits von Gut und Böse #59</title>
+    <description>
+        Mit Edgar Lend die Welt entdecken: was klingt da, wer spricht da, wo bin ich, was tu ich? 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24808.html#Howdy%20Eddy-Musik%20jenseits%20von%20Gut%20und%20B%C3%B6se</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-11T20:30:00+01:00" date-to="2015-11-11T21:30:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24809">
+    <title>Stroko - It&#x27;s all in a technicolour dream #22</title>
+    <description>
+        It’s all in a technicolour dream: Bubblegumsike trifft Schokoladengarage. Musiksendung mit Martin und Stroko 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24809.html#Stroko-It%27s%20all%20in%20a%20technicolour%20dream</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-11T21:30:00+01:00" date-to="2015-11-11T23:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24810">
+    <title>Nordpolzigeuner - Kaputtes Feuerzeug #71</title>
+    <description>
+        DJ Nordpolzigeuner ist nach eigener Aussage der schlechteste DJ aller Zeiten. Auf Pi Radio macht er die Sendung &#x22;Kaputtes Feuerzeug&#x22;, ein Sammelsurium an Musik und poetischen Beiträgen. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24810.html#Nordpolzigeuner-Kaputtes%20Feuerzeug</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-11T23:00:00+01:00" date-to="2015-11-12T01:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24811">
+    <title>Beatnik Radio - Kirche eklektischer elektrischer Religion: Schaum der Tage &#x26; Texturen #104</title>
+    <description>
+        Im Beatnikradio ist quasi alles möglich, obwohl der Moderator Gene Berlin als Gründer der &#x22;Kirche Eklektischer Elektrischer Religion&#x22; seinen Schwerpunkt auf elektronische Musik legt. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24811.html#Beatnik%20Radio-Kirche%20eklektischer%20elektrischer%20Religion</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-12T01:00:00+01:00" date-to="2015-11-12T03:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="23694">
+    <title>Kol HaCampus - Begilufin: Betrunken #32</title>
+    <description>
+        Im Austausch zwischen Pi Radio und Ko HaCampus (106fm Israel) unser Nachtprogramm mit Begulifin von Ziv. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/23694.html#Kol%20HaCampus-Begilufin</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-12T03:00:00+01:00" date-to="2015-11-12T04:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="23620">
+    <title>Kol HaCampus - Filter: Im Radio #30</title>
+    <description>
+        Im Austausch zwischen Pi Radio und Ko HaCampus (106fm Israel) unser Nachtprogramm mit Filter von Rotem Doitcher. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/23620.html#Kol%20HaCampus-Filter</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-12T04:00:00+01:00" date-to="2015-11-12T05:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="23586">
+    <title>Garagepunx Hideout - Way Past Cool: Tom Waits Special #40</title>
+    <description>
+        Funk, Soul, Surf und RnR aus der Garage von Spätinsbettgeher für Frühaufsteher. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/23586.html#Garagepunx%20Hideout-Way%20Past%20Cool</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-12T05:00:00+01:00" date-to="2015-11-12T06:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24812">
+    <title>Berliner Runde - Hauptstadtteam #141</title>
+    <description>
+        Was ist denn hier los? Frau Claudia, Herr Torsten, Herr Schinski, Herr Orange und Herr Boss stellen vor. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24812.html#Berliner%20Runde-Hauptstadtteam</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-12T19:00:00+01:00" date-to="2015-11-12T20:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24817">
+    <title>Pathos T - Der Wegbereiter #67</title>
+    <description>
+        Die Sendung informiert über die aktuellen Entwicklungen - was bewegt den postsowjetischen Raum. Analytische Interpretationseinblicke zu den Geschehnissen werden ausgesprochen. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24817.html#Pathos%20T-Der%20Wegbereiter</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-12T20:00:00+01:00" date-to="2015-11-12T20:30:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24813">
+    <title>SubCult - Klänge jenseits des Hauptstroms #96</title>
+    <description>
+        Die Sendung für alle, die nicht nur tagsüber über das warme Pflaster der Stadt hüpfen, sondern sich auch dafür interessieren, was in den Kellern, Clubs und Konzertorten abgeht. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24813.html#SubCult-Kl%C3%A4nge%20jenseits%20des%20Hauptstroms</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-12T20:30:00+01:00" date-to="2015-11-12T21:30:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24814">
+    <title>Sendeplatz - Platz für... #16</title>
+    <description>
+        Platz für Poesie, Piraterie, Agitation, Stammtisch, Experiment, Wort &#x26; Geräusch. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24814.html#Sendeplatz-Platz%20f%C3%BCr...</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-12T21:30:00+01:00" date-to="2015-11-12T22:30:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24815">
+    <title>Abendlandung - Slow is the new fast #85</title>
+    <description>
+        Slow is the new fast. Eine musikalische Sendung von Jean-Marie Dhur. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24815.html#Abendlandung-Slow%20is%20the%20new%20fast</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-12T22:30:00+01:00" date-to="2015-11-13T00:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24816">
+    <title>Polanskifunk - Themen</title>
+    <description>
+        Spielwiese zum Ausprobieren. Reisemagazin, Kinofunk, Werkschau oder was auch immer. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24816.html#Polanskifunk-Themen</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-13T00:00:00+01:00" date-to="2015-11-13T02:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="22870">
+    <title>Brainwashed - Radio Edition #291</title>
+    <description>
+        Die Brainwashed - Radio Edition ist eine einstündige Show mit Musik von den Künstlern und Labels auf Brainwashed.com. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/22870.html#Brainwashed-Radio%20Edition</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-13T02:00:00+01:00" date-to="2015-11-13T03:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24140">
+    <title>Kol HaCampus - Hamachog Hakatan: Die kleine Hand #16</title>
+    <description>
+        Im Austausch zwischen Pi Radio und Ko HaCampus (106fm Israel) unser Nachtprogramm mit Chen Attar und seinen Nadeln. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24140.html#Kol%20HaCampus-Hamachog%20Hakatan</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-13T03:00:00+01:00" date-to="2015-11-13T04:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24103">
+    <title>Kol HaCampus - Afterflow: Der Nachlauf #4</title>
+    <description>
+        Im Austausch zwischen Pi Radio und Ko HaCampus (106fm Israel) unser Nachtprogramm mit Afterflow von Kapuze Aharoni. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24103.html#Kol%20HaCampus-Afterflow</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-13T04:00:00+01:00" date-to="2015-11-13T05:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="23543">
+    <title>Garagepunx Hideout - The House of Wild Delights #26</title>
+    <description>
+        Funk, Soul, Surf und RnR aus der Garage von Spätinsbettgeher für Frühaufsteher. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/23543.html#Garagepunx%20Hideout-The%20House%20of%20Wild%20Delights</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-13T05:00:00+01:00" date-to="2015-11-13T06:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24818">
+    <title>Berliner Runde - Funkfabrik B #58</title>
+    <description>
+        Punk-Rock-Magazin für Punks, Hörer und Menschen. Ein bisschen Parodie, ein bisschen Anarchie und viel zu wenig Empathie. Die geschmeidige Stunde Dilettantismus und Nonsens mit Afri und Veit. Jetzt auch in Halle (Corax) und Hamburg (FSK). 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24818.html#Berliner%20Runde-Funkfabrik%20B</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-18T19:00:00+01:00" date-to="2015-11-18T20:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24844">
+    <title>SolidarnOST - Emisija #13</title>
+    <description>
+        Radio Solidarnost informiert über die Situation in den Nachfolgestaaten Jugoslawiens, mit der Antifaschist_innen aus der Region konfrontiert sind. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24844.html#SolidarnOST-Emisija</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-18T20:00:00+01:00" date-to="2015-11-18T20:30:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24819">
+    <title>Silentium - Geschichten #13</title>
+    <description>
+        Interview-Reihe mit verschiedenen Persönlichkeiten, eingeladen von Torsten Hochmuth. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24819.html#Silentium-Geschichten</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-18T20:30:00+01:00" date-to="2015-11-18T21:30:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24820">
+    <title>Trashfilm - Die Radioshow #18</title>
+    <description>
+        Jede Woche sieht sich das Trashfilm-Kollektiv einen Film an, und bewertet ihn im Anschluss auf seinem Blog gnadenlos, subjektiv und ohne akademischen Anspruch. Alle vier Wochen gibt es dazu die Live-Sendung auf Pi Radio. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24820.html#Trashfilm-Die%20Radioshow</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-18T21:30:00+01:00" date-to="2015-11-18T23:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24821">
+    <title>Radiokombinat - Ghostdriver &#x26; Musikschaukel &#x26; Budenzauber #58</title>
+    <description>
+        Drei Sendungen: Michael Schumachers Ghostdriver Radioshow + Stanhopes Musikschaukel + Budenzauber. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24821.html#Radiokombinat-Ghostdriver%20und%20Musikschaukel%20und%20Budenzauber</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-18T23:00:00+01:00" date-to="2015-11-19T01:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24822">
+    <title>WiseUp - Geschichten und Legenden um Musik #22</title>
+    <description>
+        Da uns Pop-Kultur täglich umgibt und beeinflusst ist WiseUp eine kritische Auseinandersetzung damit wichtig. Einzelne Künstler und Akteure sollen hier die Möglichkeit bekommen, ihre Arbeit ausführlicher vorzustellen. Und dabei zur kritischen (Selbst-)Reflektion motivieren. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24822.html#WiseUp-Geschichten%20und%20Legenden%20um%20Musik</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-19T01:00:00+01:00" date-to="2015-11-19T03:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="23695">
+    <title>Kol HaCampus - Begilufin: Betrunken #33</title>
+    <description>
+        Im Austausch zwischen Pi Radio und Ko HaCampus (106fm Israel) unser Nachtprogramm mit Begulifin von Ziv. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/23695.html#Kol%20HaCampus-Begilufin</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-19T03:00:00+01:00" date-to="2015-11-19T04:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="23621">
+    <title>Kol HaCampus - Filter: Im Radio #31</title>
+    <description>
+        Im Austausch zwischen Pi Radio und Ko HaCampus (106fm Israel) unser Nachtprogramm mit Filter von Rotem Doitcher. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/23621.html#Kol%20HaCampus-Filter</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-19T04:00:00+01:00" date-to="2015-11-19T05:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="23579">
+    <title>Garagepunx Hideout - Bubblegum Fuzz #16</title>
+    <description>
+        Funk, Soul, Surf und RnR aus der Garage von Spätinsbettgeher für Frühaufsteher. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/23579.html#Garagepunx%20Hideout-Bubblegum%20Fuzz</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-19T05:00:00+01:00" date-to="2015-11-19T06:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24823">
+    <title>Berliner Runde - Frequenzkonsum #3</title>
+    <description>
+        Frequenzkonsum - eine Sendung der Gruppe Vosifa aus Pankow - junge Leute, die einen politischen und unkommerziellen Anspruch haben. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24823.html#Berliner%20Runde-Frequenzkonsum</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-19T19:00:00+01:00" date-to="2015-11-19T20:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24824">
+    <title>Pathos T - Der Wegbereiter #68</title>
+    <description>
+        Die Sendung informiert über die aktuellen Entwicklungen - was bewegt den postsowjetischen Raum. Analytische Interpretationseinblicke zu den Geschehnissen werden ausgesprochen. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24824.html#Pathos%20T-Der%20Wegbereiter</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-19T20:00:00+01:00" date-to="2015-11-19T20:30:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24718">
+    <title>Pi-Pa-Po-Rade - Kopf an Kopf: November 2015 #42</title>
+    <description>
+        Der Versuch ne Hitparade bei Pi Radio zu etablieren. Die Versuchspersonen sind noch motiviert. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24718.html#Pi-Pa-Po-Rade-Kopf%20an%20Kopf</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-19T20:30:00+01:00" date-to="2015-11-19T21:30:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24825">
+    <title>Begilufin - Berlin Live #74</title>
+    <description>
+        Begilufin trys to bring a taste from the great diversity of the rich music world. With different sounds, old and new, vibes from different eras, different lands and Israeli music scene. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24825.html#Begilufin-Berlin%20Live</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-19T21:30:00+01:00" date-to="2015-11-19T22:30:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24826">
+    <title>Digital in Berlin - Recommended #118</title>
+    <description>
+        D/B Radio with a view to bringing different styles and directions in music to a wider audience, and so fostering music that has a formidable and extraordinary approach. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24826.html#Digital%20in%20Berlin-Recommended</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-19T22:30:00+01:00" date-to="2015-11-20T00:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24827">
+    <title>Sand FM - Orange und Gäste #112</title>
+    <description>
+        Der Fingernagelknipser, die Wüste, der Plattenspieler … und (wahrscheinlich) Ich. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24827.html#Sand%20FM-Orange%20und%20G%C3%A4ste</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-20T00:00:00+01:00" date-to="2015-11-20T02:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24670">
+    <title>This is Radioclash - L&#x27;Automne #67</title>
+    <description>
+        Ein &#x22;Radioclash&#x22; ist eine 60-minütige Mischung aus Teilen von 12 oder 15 Minuten zu einem Thema. Gemacht oder Ausgesucht durch Sie oder jemanden Anderen. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24670.html#This%20is%20Radioclash-L%27Automne</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-20T02:00:00+01:00" date-to="2015-11-20T03:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24141">
+    <title>Kol HaCampus - Hamachog Hakatan: Die kleine Hand #17</title>
+    <description>
+        Im Austausch zwischen Pi Radio und Ko HaCampus (106fm Israel) unser Nachtprogramm mit Chen Attar und seinen Nadeln. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24141.html#Kol%20HaCampus-Hamachog%20Hakatan</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-20T03:00:00+01:00" date-to="2015-11-20T04:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24104">
+    <title>Kol HaCampus - Afterflow: Der Nachlauf #5</title>
+    <description>
+        Im Austausch zwischen Pi Radio und Ko HaCampus (106fm Israel) unser Nachtprogramm mit Afterflow von Kapuze Aharoni. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24104.html#Kol%20HaCampus-Afterflow</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-20T04:00:00+01:00" date-to="2015-11-20T05:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="23582">
+    <title>Garagepunx Hideout - You Got Good Taste #54</title>
+    <description>
+        Funk, Soul, Surf und RnR aus der Garage von Spätinsbettgeher für Frühaufsteher. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/23582.html#Garagepunx%20Hideout-You%20Got%20Good%20Taste</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-20T05:00:00+01:00" date-to="2015-11-20T06:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24828">
+    <title>Berliner Runde - Radia Obskura #132</title>
+    <description>
+        Aktuelles Magazin für subversive Unternehmungen für, gegen und aus Berlin - eine gemeinsame Sendung von Radio Corax (Halle), dem Freien Sender Kombinat (Hamburg) und Pi Radio (Berlin). 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24828.html#Berliner%20Runde-Radia%20Obskura</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-25T19:00:00+01:00" date-to="2015-11-25T20:00:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+<broadcast id="24829">
+    <title>ORWOhaus - Plattensprung #113</title>
+    <description>
+        Plattensprung - die Sendung aus dem ORWOhaus. Alle zwei Wochen neuste Infos rund um das Haus und die Musik, die in ihm entsteht. 
+    </description>
+    <categories>
+        <category name="Wort" id="1" />
+        <category name="Musik" id="2" />
+    </categories>
+    <feed>
+        <title>Sendebeschreibung</title>
+        <url>http://piradio.de/programm/sendung/24829.html#ORWOhaus-Plattensprung</url>
+    </feed>
+    <transmit-times>
+        <transmit-time date-from="2015-11-25T20:00:00+01:00" date-to="2015-11-25T20:30:00+01:00" recurrence="false" rerun="false" />
+    </transmit-times>
+</broadcast>
+
+</programme>
+</station>
+
+

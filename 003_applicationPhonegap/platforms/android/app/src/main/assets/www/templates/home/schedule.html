@@ -1,0 +1,45 @@
+
+<div class="schedule">
+	<div class="innerContainer">
+	<div id="list">
+		<div class="broadcast-navigation">
+			<img class="broadcast-navigation-arrow-back" src="img/02_list/02.3_arrow_back.png" />
+			<span>{{#if isBroadcastDayToday}}<span>Heute</span>{{else}}{{dateFull broadcastDate}}{{/if}}</span>
+			<img class="broadcast-navigation-arrow-forward" src="img/02_list/02.3_arrow_foreward.png" />
+		</div>
+		
+		<div class="genres-container">
+			<div class="genres-title">
+				Genres ({{selectedCategoryIDs.length}}) 
+				{{#if genresListIsOpen}}
+					<img class="genres-icon" src="img/03_dropdown/03.1_dropdown-arrow-active.png" />
+				{{else}}
+					<img class="genres-icon" src="img/03_dropdown/03.1_dropdown-arrow.png" />
+				{{/if}}
+			</div>
+			<div class="genres-list {{#if genresListIsOpen}} active{{/if}}">
+				{{#each categories}}
+					<div class="genres-item {{#ifInArray this.id ../selectedCategoryIDs}}active{{/ifInArray}}" data-category-id="{{this.id}}">
+						{{this.name}}
+					</div>
+				{{/each}}
+			</div>
+		</div>
+		<div class="broadcastProgram">
+			{{#each transmitTimesToBroadcasts}}
+				{{#if this.broadcasts.length}}
+					<div data-href="scheduledetail?date_timestamp={{../dateTimeStamp}}&time_from={{this.timeFrom}}&time_to={{this.timeTo}}&categories={{../categoriesQueryValue}}" class="broadcastProgramEntry">
+						<div class="stationListElementLeft">
+							<span class="stationListElementHeader">{{this.timeFrom}} Uhr - {{this.timeTo}} Uhr</span>
+							<span class="stationListElementBody">{{this.broadcasts.length}} Sendungen</span>
+							<div class="favoriteIcons">
+								<img src="img/02_list/00.5_list-arrow.png" class="stationListArrow" />
+							</div>
+						</div>
+					</div>
+				{{/if}}
+			{{/each}}
+		</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,30 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "de.freefm.freieradioapp"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "de.freefm.freieradioapp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "de.freefm.freieradioapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "de.freefm.freieradioapp"
+    },
+    "cordova-sqlite-ext": {
+      "PACKAGE_NAME": "de.freefm.freieradioapp"
+    },
+    "cordova-plugin-appversion": {
+      "PACKAGE_NAME": "de.freefm.freieradioapp"
+    }
+  },
+  "dependent_plugins": {}
+}

@@ -1,0 +1,30 @@
+<div class="innerContainer">
+<div class="scheduleDetail">
+	 <div class="timeTitle">{{dateFull broadcastDate}} | {{timeFrom}} - {{timeTo}} Uhr</div>
+		<ul class="genres-list">
+	{{#if categories}}
+		{{#each categories}}
+			<li>{{this.name}}</li> 
+		{{/each}}
+	{{else}}
+		Keine Genres ausgewählt
+	{{/if}}
+		</ul>
+	<div class="broadcastProgram">		
+		{{#each broadcasts}}
+			<div data-href="broadcastdetail?station_id={{stationID}}&broadcasts_id={{this.id}}" class="broadcastProgramEntry">
+				<div class="stationListElementLeft">
+					<span class="stationListElementHeader">{{shortenString this.title 21}}</span>
+					<span class="stationListElementBody">{{timeHourAndMinute this.timeFrom}} - {{timeHourAndMinute this.timeTo}} Uhr | {{this.stationName}}</span>
+					<div class="favoriteIcons">
+						{{#if this.isFavorite}}
+							<img class="favoriteStarList" src="img/02_list/02.3_icon_favorites.png" />
+						{{/if}}
+					<img src="img/02_list/00.5_list-arrow.png" class="stationListArrow" />
+					</div>
+				</div>
+			</div>
+		{{/each}}
+	</div>
+</div>
+</div>

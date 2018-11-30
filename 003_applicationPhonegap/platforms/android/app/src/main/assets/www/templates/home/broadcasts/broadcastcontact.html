@@ -1,0 +1,53 @@
+<div class="broadcast-menu">
+	<div class="broadcast-item item-info"><span data-href="broadcastinfo?station_id={{stationID}}">INFO</span></div>
+	<div class="broadcast-item item-program"><span data-href="broadcast?station_id={{stationID}}">PROGRAMM</span></div>
+	<div class="broadcast-item item-contact active"><span data-href="broadcastcontact?station_id={{stationID}}">KONTAKT</span></div>
+</div>
+<div class="innerContainer">
+<section class="contact-container">
+	<h1>Ansprechpartner</h1>
+	{{#if stationDetail.fullName}}
+	<div class="block office">
+		<h1>Büro und Studio</h1>
+		<span>{{stationDetail.fullName}}</span><br />
+		<span>{{stationDetail.studioStreet}} {{stationDetail.studioStreetNumber}}</span><br />
+		<span>{{stationDetail.studioZIP}} {{stationDetail.studioCity}}</span>
+	</div>
+	{{/if}}
+	{{#if stationDetail.studioOpenTimeFrom}}
+	<div class="block opening-times">
+		<h1>Öffnungszeiten</h1>
+		<span>werktags {{stationDetail.studioOpenTimeFrom}} bis {{stationDetail.studioOpenTimeTo}} Uhr</span>
+	</div>
+	{{/if}}
+	
+	<div class="block telephone">
+		<h1>Telefon</h1>
+		{{#if stationDetail.studioStudioPhone}}
+			<h2>Studio</h2>
+			<p><a href="tel:{{stationDetail.studioStudioPhone}}">{{stationDetail.studioStudioPhone}}</a></p>
+		{{/if}}
+		{{#if stationDetail.studioOfficePhone}}
+			<h2>Büro</h2>
+			<p><a href="tel:{{stationDetail.studioOfficePhone}}">{{stationDetail.studioOfficePhone}}</a></p>
+		{{/if}}
+	</div>
+	<div class="block email">
+		<h1>E-Mail</h1>
+		{{#if stationDetail.studioStudioEMail}}
+			<h2>Studio</h2>
+			<p><a href="mailto:{{stationDetail.studioStudioEMail}}">{{stationDetail.studioStudioEMail}}</a></p>
+		{{/if}}
+		{{#if stationDetail.studioOfficeEMail}}
+			<h2>Büro</h2>
+			<p><a href="mailto:{{stationDetail.studioOfficeEMail}}">{{stationDetail.studioOfficeEMail}}</a></p>
+		{{/if}}
+	</div>
+	<div class="block website">
+		{{#if stationDetail.website}}
+		<h1>Website</h1>
+		<span><a href="{{stationDetail.website}}" target="_blank">{{stationDetail.website}}</a></span>
+		{{/if}}
+	</div>
+</section>
+</div>

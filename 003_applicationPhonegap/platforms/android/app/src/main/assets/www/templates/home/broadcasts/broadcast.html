@@ -1,0 +1,27 @@
+<div class="broadcast-menu">
+	<div class="broadcast-item item-info"><span data-href="broadcastinfo?station_id={{stationID}}">INFO</span></div>
+	<div class="broadcast-item item-program active"><span data-href="broadcast?station_id={{stationID}}">PROGRAMM</span></div>
+	<div class="broadcast-item item-contact"><span data-href="broadcastcontact?station_id={{stationID}}">KONTAKT</span></div>
+</div>
+<div class="innerContainer">
+<div id="list">
+	<div class="broadcast-navigation">
+		<img class="broadcast-navigation-arrow-back" src="img/02_list/02.3_arrow_back.png" />
+		<span>{{#if isBroadcastDayToday}}<span>Heute,</span> {{/if}}{{dateFull broadcastDate}}</span>
+		<img class="broadcast-navigation-arrow-forward" src="img/02_list/02.3_arrow_foreward.png" />
+	</div>
+	<div class="broadcastProgram">
+		{{#each broadcasts}}
+			<div data-href="broadcastdetail?station_id={{stationID}}&broadcasts_id={{this.id}}" class="broadcastProgramEntry">
+				<div class="stationListElementLeft">
+						<span class="stationListElementHeader">{{shortenString this.title 21}}</span>
+					<span class="stationListElementBody">{{timeHourAndMinute this.timeFrom}} - {{timeHourAndMinute this.timeTo}} Uhr</span>
+					<div class="favoriteIcons">
+						<img src="img/02_list/00.5_list-arrow.png" class="stationListArrow" />
+					</div>
+				</div>
+			</div>
+		{{/each}}
+	</div>
+</div>
+</div>

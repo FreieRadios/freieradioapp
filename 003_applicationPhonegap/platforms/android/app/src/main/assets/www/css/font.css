@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "SciFly";
+    src: url("../fonts/scifly/SciFly-Sans.ttf") format("opentype");   
+}
+
+@font-face {
+    font-family: "SourceSansProBold";
+    src: url("../fonts/SourceSansPro/SourceSansPro-Bold.ttf") format("opentype");   
+}
+
+@font-face {
+    font-family: "SourceSansProLight";
+    src: url("../fonts/SourceSansPro/SourceSansPro-Light.ttf") format("opentype");    
+    src: url("../fonts/SourceSansPro/other font styles/SourceSansPro-Light.ttf") format("opentype");    
+}
+
+@font-face {
+    font-family: "SourceSansProRegular";
+    src: url("../fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("opentype");   
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<freeradioapp lastupdate="2015-10-19T12:55:00.6875000+02:00" xmlns:gml="http://www.opengis.net/gml">
+	 <stationlist>
+	 	<station lastupdate="2015-03-09T12:55:00.6875000+02:00" id="0">
+	 		<name>Radio StHörfunk</name>
+	 		<city>Schwäbisch Hall</city>
+	 		<xmluri>/data/14_12_13_stf_station.xml</xmluri>
+	 		<frequency>97,5</frequency>
+	 		<lat>49.139667</lat>
+	 		<lng>10.084702</lng>
+	 		<streamurl>http://stream.sthoerfunk.de:7000/sthoerfunk.ogg</streamurl>
+	 	</station>
+	 	<station lastupdate="2015-10-19T12:55:00.6875000+02:00" id="1">
+	 		<name>bermuda.funk</name>
+	 		<city>Mannheim</city>
+	 		<xmluri>/data/14_12_15_bf_station.xml</xmluri>
+	 		<frequency>99,2</frequency>
+	 		<lat>49,49580123</lat>
+	 		<lng>8,47420038</lng>
+	 		<streamurl>http://streaming.fueralle.org:8000/bermudafunk.ogg</streamurl>
+	 	</station>
+	 	<station lastupdate="2015-10-19T12:55:00.6875000+02:00" id="2">
+	 		<name>Freies Radio Freudenstadt</name>
+	 		<city>Freudenstadt</city>
+	 		<xmluri>/data/14_12_15_frf_station.xml</xmluri>
+	 		<frequency>100,1</frequency>
+	 		<lat>48.466813</lat>
+	 		<lng>8.410399</lng>
+	 		<streamurl>http://85.25.176.186:9140/listen.pls</streamurl>
+	 	</station>
+		<station lastupdate="2015-10-19T12:55:00.6875000+02:00" id="3">
+	 		<name>Pi Radio</name>
+	 		<city>Berlin</city>
+	 		<xmluri>/data/15_11_09_prb_station.xml</xmluri>
+	 		<frequency>88,4</frequency>
+	 		<lat>52.53119</lat>
+	 		<lng>13.4066</lng>
+	 		<streamurl>http://ice.rosebud-media.de:8000/88vier-ogg1.ogg</streamurl>
+	 	</station>
+	 	<station lastupdate="2015-10-19T12:55:00.6875000+02:00" id="4">
+	 		<name>freeFM</name>
+	 		<city>Ulm</city>
+	 		<xmluri>/data/station3.xml</xmluri>
+	 		<frequency>88,4</frequency>
+	 		<lat>50.53119</lat>
+	 		<lng>10.4066</lng>
+	 		<streamurl>http://stream.freefm.de:8100/listen.pls</streamurl>
+	 	</station>
+	 </stationlist>
+</freeradioapp> 

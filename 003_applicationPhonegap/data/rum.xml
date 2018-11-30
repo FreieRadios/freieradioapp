@@ -1,0 +1,164 @@
+<station xmlns:gml="http://www.opengis.net/gml" lastupdate="2016-10-28T17:30:00.6875000+02:00">
+<info>
+<displayname>RUM</displayname>
+<fullname>Radio Unerhört Marburg e.V.</fullname>
+<logo src="http://www.radio-rum.de/blog/wp-content/uploads/2015/12/logo-rum.jpg"/>
+<basecolor/>
+<city>Marburg</city>
+<description>
+Senderbeschreibung: Radio für alle - Nix für jede:n!
+</description>
+<!-- v2 ergänzt -->
+<studio>
+<street>Rudolf-Bultmann-Straße</street>
+<number>2b</number>
+<city>Marburg</city>
+<zip>35039</zip>
+<studio-location>
+<gml:Point>
+<gml:pos>50.816175 8.778526</gml:pos>
+</gml:Point>
+</studio-location>
+<phone type="studio">+49 6421 961991</phone>
+<phone type="studio">+49 6421 961992</phone>
+<phone type="office">+49 6421 683265</phone>
+<email type="office">mail@fradio-rum.de</email>
+<open time-from="11:00:00" time-to="15:00:00"/>
+</studio>
+</info>
+<media-channels>
+<transmitter type="ukw">
+<frequency>90.1</frequency>
+<frequencyunit>MHz</frequencyunit>
+<city>Marburg</city>
+<operator>MediaBroadcast</operator>
+<transmit-power>1</transmit-power>
+<transmit-power-unit>kW</transmit-power-unit>
+<transmit-rds-id>RUM 90,1 MHz</transmit-rds-id>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<transmitter-location>
+<gml:Point>
+<gml:pos>50.824836 8.794071</gml:pos>
+</gml:Point>
+</transmitter-location>
+<receptionarea>
+<gml:Polygon>
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList></gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</receptionarea>
+</transmitter>
+<transmitter type="cable">
+<frequency>100.15</frequency>
+<frequencyunit>MHz</frequencyunit>
+<operator>UnityMedia</operator>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+</transmitter>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://stream.radio-rum.de:8000/rum.mp3.m3u</url>
+<format>audio/mpeg</format>
+<quality>128kbps</quality>
+</webstream>
+<website>
+<url>http://www.radio-rum.de</url>
+</website>
+</media-channels>
+<programme>
+<broadcast id="1">
+<title>Frühschicht</title>
+<description>Das Morgenmagazin</description>
+<categories>
+<category name="SoundExperiment" id="12"/>
+<category name="Gesellschaft" id="14"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MO" priority="0" time-from="07:00:00" time-to="09:00:00"/>
+<weekly day="DI" priority="0" time-from="07:00:00" time-to="09:00:00"/>
+<weekly day="MI" priority="0" time-from="07:00:00" time-to="09:00:00"/>
+<weekOfMonth day="FR" priority="0" time-from="07:00:00" time-to="09:00:00" lastWeek="true"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="2">
+<title>Solar Music</title>
+<description>Musikmagazin</description>
+<categories>
+<category name="Alternative" id="1"/>
+<category name="R'n'B / Black" id="7"/>
+</categories>
+<feed>
+<title>Podcast-Feed</title>
+<url>
+http://www.radio-rum.de/blog/feed/podcast/solar-music
+</url>
+</feed>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="21:00:00" time-to="22:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="3">
+<title>Auf den Schirm!</title>
+<description>Die Sendung der Technik AG</description>
+<categories>
+<category name="Medien" id="19"/>
+<category name="Gesellschaft" id="14"/>
+<category name="Wissenschaft" id="26"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekOfMonth day="DO" priority="0" time-from="20:00:00" time-to="22:00:00" week1="true" week2="false" week3="false" week4="false" week5="false"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="4">
+<title>Jazz-Zeit</title>
+<description>Neues aus der kreativen Musik</description>
+<categories>
+<category name="Jazz" id="4"/>
+</categories>
+<feed>
+<title>Podcast-Feed</title>
+<url>
+http://www.radio-rum.de/blog/feed/podcast/jazz-zeit
+</url>
+</feed>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="SO" priority="0" time-from="22:00:00" time-to="24:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="5">
+<title>Trotzfunk</title>
+<description>lokal, global, universal</description>
+<categories>
+<category name="International" id="15"/>
+<category name="Gesellschaft" id="14"/>
+</categories>
+<feed>
+<title>Podcast-Feed</title>
+<url>
+http://www.radio-rum.de/blog/feed/podcast/trotzfunk
+</url>
+</feed>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekOfMonth day="SO" priority="0" time-from="10:00:00" time-to="12:00:00" week1="true" week2="true" week3="false" week4="false" week5="false"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+</station>

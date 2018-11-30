@@ -1,0 +1,48 @@
+<div class="broadcast-menu">
+	<div class="broadcast-item item-info"><span data-href="broadcastinfo?station_id={{stationID}}">INFO</span></div>
+	<div class="broadcast-item item-program active"><span data-href="broadcast?station_id={{stationID}}">PROGRAMM</span></div>
+	<div class="broadcast-item item-contact"><span data-href="broadcastcontact?station_id={{stationID}}">KONTAKT</span></div>
+</div>
+<div class="innerContainer">
+
+<div class="programName">
+	<h1><span class="text">{{shortenString broadcast.title 21}}</span> <img class="programmClose" data-back-link src="img/03_dropdown/03.1_icon-close.png" /></h1>
+</div>
+<section class="programInfo-container">	
+	<div class="programInfo-banner">
+		<h1>Sendungsinfo <img class="programInfo-accordionOpen" data-accordion-for-id="programInfo-detail" src="img/03_dropdown/03.1_dropdown-arrow.png" /></h1>		
+	</div>
+	
+	<div class="programInfo-data" id="programInfo-detail">
+		<div class="programInfo-data-content">
+			<h2>Sendezeit:</h2>
+			{{#each transmitTimes}}
+				<span>{{transmitTimeStringInfo this}}</span><br />
+			{{/each}}
+			<p>{{broadcast.description}}</p>
+			
+			<div class="addToFavorites">
+				<img src="img/05_other/05.1_button-favorite.png" />
+				<span class="text">Zu Favoriten hinzufügen</span>
+			</div>
+			<div class="favorites-dialog">
+				<h3>Favorit hinzugefügt</h3>
+				<p>Die Sendung {{shortenString broadcast.title 21}} wurde zu Deinen Favoriten hinzugefügt.</p>
+				<div class="closeDialogButton">OK</div>
+			</div>
+		</div>
+	</div>
+	<div class="programInfo-banner">
+		<h1>Genres ({{categories.length}}) <img class="programInfo-accordionOpen" data-accordion-for-id="programGenres-detail" src="img/03_dropdown/03.1_dropdown-arrow.png" /></h1>		
+	</div>
+	<div class="programInfo-data" id="programGenres-detail">		
+		<div class="programInfo-data-content">
+			<ul>
+			{{#each categories}}
+				<li>{{this.name}}</li>
+			{{/each}}
+			</ul>
+		</div>
+	</div>
+</div>
+</div>

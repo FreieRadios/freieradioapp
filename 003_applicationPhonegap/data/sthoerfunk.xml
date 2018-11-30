@@ -1,0 +1,1456 @@
+<station xmlns:gml="http://www.opengis.net/gml" lastupdate="2016-10-28T17:29:00+02:00">
+<info>
+<displayname>StHörfunk</displayname>
+<fullname>Förderverein Freies Radio StHörfunk e.V.</fullname>
+<logo src="http://www.sthoerfunk.de/radio_app_ulm/radioapp_logo.png"/>
+<basecolor>#FFFFFF</basecolor>
+<city>Schwäbisch Hall & Crailsheim</city>
+<description>
+97,5 FM in Schwäbisch Hall & 104,8 FM in Crailsheim
+</description>
+<studio location="Schwäbisch Hall">
+<street>Haalstraße</street>
+<number>9</number>
+<city>Schwäbisch Hall</city>
+<zip>74523</zip>
+<studio-location>
+<gml:Point>
+<gml:pos>49.11158 9.736030</gml:pos>
+</gml:Point>
+</studio-location>
+<phone type="studio">+49 791 97 33 33</phone>
+<phone type="office">+49 791 97 33 44</phone>
+<email type="studio">studio@sthoerfunk.de</email>
+<email type="office">info@sthoerfunk.de</email>
+<open recurrence="weekly" day="MO" time-from="14:00:00" time-to="17:00:00"/>
+<open recurrence="weekly" day="DI" time-from="14:00:00" time-to="17:00:00"/>
+<open recurrence="weekly" day="MI" time-from="14:00:00" time-to="17:00:00"/>
+<open recurrence="weekly" day="DO" time-from="14:00:00" time-to="19:00:00"/>
+<open recurrence="weekly" day="FR" time-from="14:00:00" time-to="17:00:00"/>
+</studio>
+<studio location="Crailsheim">
+<street>Pamiers-Ring</street>
+<number>15</number>
+<city>Crailsheim</city>
+<zip>74564</zip>
+<studio-location>
+<gml:Point>
+<gml:pos>49.139667 10.084702</gml:pos>
+</gml:Point>
+</studio-location>
+<phone type="office">+49 7951 279 04 24</phone>
+<open recurrence="weekly" day="DO" time-from="18:00:00" time-to="20:00:00"/>
+</studio>
+</info>
+<media-channels>
+<transmitter type="ukw">
+<frequency>97,5</frequency>
+<frequencyunit>MHz</frequencyunit>
+<city>Schwäbisch Hall</city>
+<operator>MediaBroadcast</operator>
+<transmit-power>100</transmit-power>
+<transmit-power-unit>W</transmit-power-unit>
+<transmit-rds-id>Radio_SF</transmit-rds-id>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<transmitter-location>
+<gml:Point>
+<gml:pos/>
+</gml:Point>
+</transmitter-location>
+<receptionarea>
+<gml:Polygon>
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList></gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</receptionarea>
+</transmitter>
+<transmitter type="ukw">
+<frequency>104,8</frequency>
+<frequencyunit>MHz</frequencyunit>
+<city>Crailsheim</city>
+<operator>MediaBroadcast</operator>
+<transmit-power>100</transmit-power>
+<transmit-power-unit>W</transmit-power-unit>
+<transmit-rds-id>Radio_SF</transmit-rds-id>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<transmitter-location>
+<gml:Point>
+<gml:pos/>
+</gml:Point>
+</transmitter-location>
+<receptionarea>
+<gml:Polygon>
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList></gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</receptionarea>
+</transmitter>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://stream.sthoerfunk.de:7000/sthoerfunk.mp3</url>
+<format>audio/mp3</format>
+<quality>128kbps</quality>
+<url>http://stream.sthoerfunk.de:7000/sthoerfunk.ogg</url>
+<format>audio/ogg</format>
+<quality>vbr</quality>
+</webstream>
+<website>
+<url>http://www.sthoerfunk.de</url>
+</website>
+</media-channels>
+<programme>
+<broadcast id="1">
+<title>Arbeitswelt</title>
+<description>
+Infos rund um deinen Job Volker Stücklen Informationen und Nachrichten aus der Arbeitswelt der Region, aus Baden-Württemberg und ganz Deutschland. Ein aktuelles Magazin mit Studiogästen, Live-Mitschnitten, dazwischen ein bunter Musik-Mix. Arbeitsweltradio sendet seit den Anfängen von Radio StHörfunk.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 17 bis 18 Uhr  -->
+<weekly day="MO" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 12 bis 13 Uhr  -->
+<weekly day="MI" priority="0" time-from="12:00:00" time-to="13:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="2">
+<title>B-O-B vs. P.A.C.</title>
+<description>
+Balkan trifft Punkrock und Co. Frieder Künne und Tillmann Finger Eine exklusive Auswahl an Offbeat-Mucke mit Zappelgarantie und den Schwerpunkten auf Balkanbeats, Klezmer, Russendisko und Gipsy-Sounds trifft die gut sortierte Plattenkiste eines Musik-Junkies, der mit viel Liebe für Ton und Takt, Punkrock und Popcorn, Hardcore und HipHop ein Schmankerl nach dem anderen aus dem Ärmel zaubert.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 18 bis 19 Uhr  -->
+<weekly day="MO" priority="0" time-from="18:00:00" time-to="19:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 10 bis 11 Uhr  -->
+<weekly day="FR" priority="0" time-from="10:00:00" time-to="11:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="3">
+<title>Borderliner</title>
+<description>
+Geschichten über Grenzgänger Max Geschichten über Grenzgänger, Zeitraffer, Seemannslose, Rechthaber, Bettelhelfer und einer Frau im Klimakterium. Geschrieben und gelesen von Max.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 15 bis 16 Uhr  -->
+<weekly day="SO" priority="0" time-from="15:00:00" time-to="16:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 11 bis 12 Uhr  -->
+<weekly day="DI" priority="0" time-from="11:00:00" time-to="12:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="4">
+<title>DJ Pult vs. Kult</title>
+<description>
+2 Freunde, 2 Musikstile Nils Zaczek & Florian Schnabel 2 Freunde 2 Musikrichtungen 1 Sendung. Der eine fasziniert von Helden wie Queen und Michael Jackson, der andere begeistert sich für Rapsongs aus Deutschland und Übersee. So prallen Große Hits der Vergangenheit auf Gegenwärtiges und untermalen so alltägliche Themen, die mit Humor und Weisheiten behandelt werden. Also, Einschalten! Mitlachen! Mitfühlen!
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+<category name="HipHop" id="3"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Samstags von 12 bis 13 Uhr  -->
+<weekly day="SA" priority="0" time-from="12:00:00" time-to="13:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 15 bis 16 Uhr  -->
+<weekly day="DO" priority="0" time-from="15:00:00" time-to="16:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="5">
+<title>Deadicated Hour</title>
+<description>
+Greatful Dead Tribute Björn E. Münz Im Mittelpunkt der Deadicated Hour steht die US-Gruppe Grateful Dead und deren umfangreiches musikalisches Erbe. Ab 1965 prägte diese Gruppe Generationen von Musikern und Musikfreunden in aller Welt. Dem San Francisco Sounds, den Jambands, dem Psych-Folk aber auch den Vertretern des improvisationsfreudigen Krautrocks ist die Deadicated Hour gewidmet. Zu hören gibt es viele Livemitschnitte, Klassiker, Raritäten und Neuveröffentlichungen. Mit ihrer Sendetradition von inzwischen 15 Jahren ist die Deadicated Hour einzigartig in Deutschland. (Erstsendung 21.10.1998)
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Mittwochs von 17 bis 18 Uhr  -->
+<weekly day="MI" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 08 bis 09 Uhr  -->
+<weekly day="DO" priority="0" time-from="08:00:00" time-to="09:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="6">
+<title>Die Kunst-Pause</title>
+<description>
+CD-Neuvorstellungen Ralf Snurawa Hier werden Neuerscheinungen vorgestellt, die bei anderen Sendern mangels Massentauglichkeit unter den Tisch fallen.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Mittwochs von 17 bis 18 Uhr  -->
+<weekly day="MI" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 08 bis 09 Uhr  -->
+<weekly day="DO" priority="0" time-from="08:00:00" time-to="09:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="7">
+<title>Dubwise</title>
+<description>
+Dubmusik und Soundsytemkultur Timo und Sebastian Die Radioshow die Dub in all seinen Facetten aus der Szene heraus betrachtet, gibt es seit mittlerweile acht Jahren. Die Moderatoren Timo und Sebastian leben hier ihre tiefe Liebe zur Musik und Soundsystemkultur aus. Eine Stunde DJ-Mix mit Gästen, Specials, einer Menge unveröffentlichten Promotunes, sächselndem Wortwitz und vor allem Leidenschaft.
+</description>
+<categories>
+<category name="Reggae" id="6"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Dienstags von 22 bis 23 Uhr  -->
+<weekly day="DI" priority="0" time-from="22:00:00" time-to="23:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 01 bis 02 Uhr  -->
+<weekly day="MO" priority="0" time-from="01:00:00" time-to="02:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="8">
+<title>Emmas Töchter</title>
+<description>
+Frauen im Mittelpunkt Monika Heinrich 3. Montag im Monat: Emmas Töchter machen hier selbstbestimmtes Radio. Die Sendungen werden von Frauen aller Altersgruppen gestaltet, die Lust haben, sich redaktionell und technisch zu betätigen. Dabei stehen sie im Mittelpunkt und Frauen, die ihrer weiblichen Identität gut tun. Wo sehen und hören wir von den berühmten Frauen aus Geschichte und Gegenwart, die uns Mut machen? Wer spricht sonst über das, was Frauen noch so interessiert? Und wer oder welche nimmt die Angst vor dem „Femininum“, vor der Erstarkung der Frauen? Wie sehen Frauen den modernen Rollenwandel?
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 12 bis 13 Uhr  -->
+<weekly day="MO" priority="0" time-from="12:00:00" time-to="13:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 06 bis 07 Uhr  -->
+<weekly day="DI" priority="0" time-from="06:00:00" time-to="07:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="9">
+<title>Fokus Südwest|Europe on Air</title>
+<description>
+das regionale Info- und Europamagazin Ute Bartels, Ralf Snurawa, Melissa Eckstein, Miro Ruff verschiedenen Redakteuren Das unabhängige, freie und kritische Nachrichtenmagazin auf Radio StHörfunk. Wir bringen Nachrichten, informative Beiträge, spannende Interviews und die besten Veranstaltungstipps aus der Region Schwäbisch Hall, Hohenlohe und Tauber – und natürlich aus dem ganzen Ländle. Wir schauen für Euch genauer hin: auf Politik, Kultur, Wirtschaft und auf das ganz normale Leben. Wir wissen, um was es geht, jeden Sonntagnachmittag zwischen 16 und 17 Uhr. Hochaktuell präsentieren wir Sonntagnachmittags die Sportergebnisse vom Wochenende. Europe On Air bedeutet 20 Features und Reportagen über die Geschichte, Politik und die Sozialen Bewegungen in Europa. Als Kooperationsprojekt mit Radio-PartnerInnen in Sevilla und Dublin, geht Radio Dreyeckland (RDL) aus Freiburg mit einem neuen EU Projekt auf Sendung. Verschiedene Redaktionen von RDL stellen in einer halben Stunde ein Europa relevantes Thema vor. Und so unterschiedlich die RedakteurInnen sind, so vielseitig und spannend ist auch die 30-minütige Sendereihe Europe on Air.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnerstags von 14 bis 15 Uhr  -->
+<weekly day="DO" priority="0" time-from="14:00:00" time-to="15:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 06 bis 07 Uhr  -->
+<weekly day="FR" priority="0" time-from="06:00:00" time-to="07:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="10">
+<title>Fokus Südwest|Fokus Sport</title>
+<description>
+das lokale Info- und Sportmagazin Ute Bartels, Ralf Snurawa, Melissa Eckstein, Miro Ruff Das unabhängige, freie und kritische Nachrichtenmagazin auf Radio StHörfunk. Wir bringen Nachrichten, informative Beiträge, spannende Interviews und die besten Veranstaltungstipps aus der Region Schwäbisch Hall, Hohenlohe und Tauber – und natürlich aus dem ganzen Ländle. Wir schauen für Euch genauer hin: auf Politik, Kultur, Wirtschaft und auf das ganz normale Leben. Wir wissen, um was es geht, jeden Sonntagnachmittag zwischen 16 und 17 Uhr. Hochaktuell präsentieren wir Sonntagnachmittags die Sportergebnisse vom Wochenende. „Fokus Sport“ berichtet dabei über verschiedene Sportarten, Ligen und Vereinen aus der Region. Beiträge, Interviews und Studiogäste von Sportlern, Trainern und Vereinsverantwortlichen runden die Sportsendung ab. Ganze Sendungen und die einzelnen Beiträge können als Podcast auf www.sthoerfunk.de nachgehört werden.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 16 bis 17 Uhr  -->
+<weekly day="SO" priority="0" time-from="16:00:00" time-to="17:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 15 bis 16 Uhr  -->
+<weekly day="MO" priority="0" time-from="15:00:00" time-to="16:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 20 bis 21 Uhr  -->
+<weekly day="SO" priority="0" time-from="20:00:00" time-to="21:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="11">
+<title>Free Wheel</title>
+<description>
+english program featuring stories, radio plays and music Danny Antonelli A magazine program featuring stories, radio plays and music, in English.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 08 bis 10 Uhr  -->
+<weekly day="FR" priority="0" time-from="08:00:00" time-to="10:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 00 bis 02 Uhr  -->
+<weekly day="FR" priority="0" time-from="00:00:00" time-to="02:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="12">
+<title>Gametrack</title>
+<description>
+Soundtracks (un)bekannter PC-Spiele Andreas Hamm Die OSTs (Original Soundtracks) (un)bekannter Spieletitel stehen im Mittelpunkt von Gametrack. Im vierwöchentlichen Rhythmus präsentiert euch Andreas den Soundtrack eines Spiels oder einer Spielreihe, vom Klassiker Super Mario bis hin zu Ausnahmetiteln wie Knights of Honor werden unzählige Spiel- und Musikgenres bedient. Für Ideen, Vorschläge, Lob und Kritik könnt ihr eine Mail schicken.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 06 bis 07 Uhr  -->
+<weekly day="SO" priority="0" time-from="06:00:00" time-to="07:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="13">
+<title>Glauben und Zweifeln</title>
+<description>
+Diskussionen zu Religionen verschiedenen Moderator/innen Eine Sendung, die von Haller Religionsgemeinschaften in Form einer Diskussionsrunde gestaltet wird. Sowohl die evangelische wie die katholische Kirche sind dabei vertreten wie auch die DITIB Mevlana Moschee. Darüber hinaus werden immer wieder Gäste zu bestimmten Themen eingeladen, etwa Vertreter anderer Religionen oder religionsähnlicher Organisationen wie der Humanisten Baden-Württembergs. Darüber hinaus sollen auch Gäste aus bestimmten Bereichen der Pflege und anderer karitativer Einrichtungen in den Diskussionsrunden zu Wort kommen. Angedachte Themen handeln unter anderem von Geburt und Tod, von Ängsten, und wie man ihnen begegnet, von Gerechtigkeit und Solidarität, Medizin und Ethik, Umgang mit Krankheit, Krieg und Frieden, Extremhaltungen und Zerrbildern in Religionen, Atheismus, Religion und Schule sowie vom Sinn des Lebens. Öffentliche Diskussionsrunden in der Moschee, St. Michael und auf der Comburg werden die Themenreihe ergänzen.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 17 bis 18 Uhr  -->
+<weekly day="SO" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 18 bis 19 Uhr  -->
+<weekly day="SA" priority="0" time-from="18:00:00" time-to="19:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="14">
+<title>Graefs Kulturmagazin</title>
+<description>
+Eine Musik- und Plauderstunde Hans Graef Manchmal thematisch geordnet werden alte oder besondere Musiktitel aus meiner LP/CD-Sammlung gespielt, die selten gehört oder zensiert in Vergessenheit gerieten - ein Crossover von Klassik und Pop bis Folk und Punk. Dazwischen spontane Kommentare zu Fragen der Zeit, zu Kunst, Kultur und Politik. Literarische Zeugnisse werden zum Klingen gebracht, Gäste zum Interview in „Graefs Sprechstunde“ mit eigenen Musikwünschen eingeladen – das Ganze experimentell und live.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 15 bis 16 Uhr  -->
+<weekly day="FR" priority="0" time-from="15:00:00" time-to="16:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 16 bis 17 Uhr  -->
+<weekly day="DI" priority="0" time-from="16:00:00" time-to="17:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="15">
+<title>Grossstadtkind</title>
+<description>
+Spaß & Stories aus meinem Leben Marc Schneider Der Audiot aus dem Ruhrpott berichtet über alles, was ihm neulich so passierte: Privates, Interviews, Leserbriefe u.v.m. Leute schickt mir eure Aufreger, eure Leserbriefe. Ich lese sie vor! Musikwünsche, Themenvorschläge, Kritik usw. per mail.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 14 bis 15 Uhr  -->
+<weekly day="SO" priority="0" time-from="14:00:00" time-to="15:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 01 bis 03 Uhr  -->
+<weekly day="DO" priority="0" time-from="07:00:00" time-to="08:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="16">
+<title>Ground Original</title>
+<description>
+US-Underground Rap Alexander Gerold Zeitloser Underground Rap und Funk aus den USA.
+</description>
+<categories>
+<category name="HipHop" id="3"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 00 bis 02 Uhr  -->
+<weekly day="SO" priority="0" time-from="00:00:00" time-to="02:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 01 bis 03 Uhr  -->
+<weekly day="DI" priority="0" time-from="01:00:00" time-to="03:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="17">
+<title>Health Corner</title>
+<description>
+Der Gesundheitsregenbogen Georg Nusser Naturheilkunde zu diversen Erkrankungen und neue therapeutische Richtungen werden mit Hilfe von Experten genauer beleuchtet. Ihr könnt mir Eure Fragen zur Beantwortung durch die Experten zusenden.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Samstags von 17 bis 18 Uhr  -->
+<weekly day="SA" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 10 bis 11 Uhr  -->
+<weekly day="MO" priority="0" time-from="10:00:00" time-to="11:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="18">
+<title>Hörsturz</title>
+<description>
+Musik - auch gegen Selbstgenügsamkeit Bertram, der Radiotrinker Hier kommt das Unbehagen zu sich selbst und kloppt sich mit seiner eigenen Existenzgrundlage (um die Revolution natürlich).
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Samstags von 13 bis 14 Uhr  -->
+<weekly day="SA" priority="0" time-from="13:00:00" time-to="14:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 07 bis 08 Uhr  -->
+<weekly day="DI" priority="0" time-from="07:00:00" time-to="08:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="19">
+<title>Ibeats</title>
+<description>
+intelligent black music Tom Wiggenhauser Intelligent black music and facts selected and presented by DJ Dr. B. Sthörfunk wertet den Donnerstagabend auf: Tom Wiggenhauser präsentiert eine volle Stunde sorgfältig ausgewählte Musik aus den Genres HipHop, Funk und R'n'B. Im Zentrum der Show stehen HipHop Klassiker, deren Präsentation Tom mit kurzen Informationen und Hintergründen aus der Musikgeschickte hinterlegt. Die Übergänge zu angrenzenden musikalischen Stilrichtungen sind fließend und belegen letzlich stets den Claim der Show: Intelligent Black Music. Dial in!
+</description>
+<categories>
+<category name="HipHop" id="3"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnerstags von 22 bis 23 Uhr  -->
+<weekly day="DO" priority="0" time-from="22:00:00" time-to="23:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 21 bis 22 Uhr  -->
+<weekly day="SA" priority="0" time-from="21:00:00" time-to="22:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="20">
+<title>Indikator</title>
+<description>
+Indiepop, Rock, Alternative-Genres Ronny Pfeiffer Indikator ist paradox, unerklärlich und mehrdeutig – wie der Hexenmeister eines Märchenfilms. Hier findet das Ohr die Klänge und Beats, auf denen man surfen kann wie auf Wellen. Indikator ist hemmungslos subjektiv und bietet Musik aus dem Bereich des "klassischen" Indiepop/Rock/Alternative-Genres und vieles mehr.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 13 bis 14 Uhr  -->
+<weekly day="MO" priority="0" time-from="13:00:00" time-to="14:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 14 bis 15 Uhr  -->
+<weekly day="MI" priority="0" time-from="14:00:00" time-to="15:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="21">
+<title>Jazzclub</title>
+<description>
+Mitglieder des Jazzclub Schwäbisch Hall e.V. Jazz vom Feinsten! Im Mittelpunkt stehen Künstler, die Konzerte in Schwäbisch Hall geben (JazzTime, JazzArtFestival), dazu CD-Tipps und Aktuelles aus der weiten Jazzwelt.
+</description>
+<categories>
+<category name="Jazz" id="4"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Dienstags von 19 bis 20 Uhr  -->
+<weekly day="DI" priority="0" time-from="19:00:00" time-to="20:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 13 bis 14 Uhr  -->
+<weekly day="MI" priority="0" time-from="13:00:00" time-to="14:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="22">
+<title>Lebendige Quelle</title>
+<description>
+Christliches Russisches Radio Peter Ens, Alexander und Svetlana Werbach Christliche Lieder, Geschichten, Gedichte, Zeugnisse aus dem Leben mit Jesus, Lesungen aus der Bibel, Interviews, offene Gespräche, Gratulationen und Gebete bestimmen diese Sendung.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Samstags von 10 bis 12 Uhr  -->
+<weekly day="SA" priority="0" time-from="10:00:00" time-to="12:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="23">
+<title>LizCore</title>
+<description>
+Von Punkrock zu Posthardcore Lissy Eine Sendung, in der verschiedene Bands bzw. Künstler und deren Musik vorgestellt werden. Die Musik geht von Punkrock über Metalcore und Alternative-Metal bis hin zu Posthardcore. Liz gibt euch außerdem die heißesten Konzert- und Festivaltipps und liefert vielleicht auch das eine oder andere Interview. Worauf wartet ihr noch? Listen to Lizcore.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnerstags von 16 bis 17 Uhr  -->
+<weekly day="DO" priority="0" time-from="16:00:00" time-to="17:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 22 bis 23 Uhr  -->
+<weekly day="MO" priority="0" time-from="22:00:00" time-to="23:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="24">
+<title>Meister Äther und sein Coolmuckel</title>
+<description>
+mit Herz und handgemachter Mucke Jörg Thümmel `ne Stunde schöne Musik, interessante Interviews und gaaaaaaanz viel Mojo!
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnerstags von 19 bis 20 Uhr  -->
+<weekly day="DO" priority="0" time-from="19:00:00" time-to="20:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 06 bis 07 Uhr  -->
+<weekly day="MO" priority="0" time-from="14:00:00" time-to="15:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="25">
+<title>Mitakuye Oyasin</title>
+<description>
+indigene Völker Manuela Saenger 4. Montag im Monat: Mitakuye Oyasin ist ein Lakota-Sioux-Gebet, das auch andere Stämme verbindend verstehen. Es steht u.a. dafür, dass wir alles als Einheit betrachten. Das heißt, uns sind alle Formen des Lebens gleichwertig wichtig: andere Menschen, Tiere, Vögel, Insekten, Bäume und Pflanzen, und sogar Felsen, Flüsse, Berge und Täler. Wir erzählen also Geschichten aus alten Zeiten und bringen traditionelles zu Gehör; vorwiegend aus Nordamerika, aber auch die Mapuche oder Samen kommen hier zu Wort. Außerdem sieht sich das Magazin als aufklärendes und vernetzendes Programm. Wir begleiten Indigene bei politischen Kämpfen um Land und Menschenrechte. Wir spüren nach, welche Möglichkeiten sie anhand der Medienvielfalt Film, Musik, Literatur sowie mit der Kunst nutzen können, um ihr traditionelles Leben zu erhalten und es mit dem 21. Jahrhundert zu verbinden.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+<category name="World" id="11"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 12 bis 13 Uhr  -->
+<weekly day="MO" priority="0" time-from="12:00:00" time-to="13:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 06 bis 07 Uhr  -->
+<weekly day="DI" priority="0" time-from="06:00:00" time-to="07:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="26">
+<title>Monde global</title>
+<description>
+Eine-Welt-Themen Claude Keil beschäftigt sich mit der Auseinandersetzung mit globalen Themen, einer pädagogischen Antwort auf globale Zusammenhänge, Entwicklungs- und Zukunftsfragen. In der Sendung wird über Entwicklungspolitische Themen, Fairen Handel, Freiwilligendienst und Austauschprogramme diskutiert. Diese Themen sind Kernbestandteil einer Bildung für nachhaltige Entwicklung.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+<category name="World" id="11"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Samstags von 14 bis 15 Uhr  -->
+<weekly day="SA" priority="0" time-from="14:00:00" time-to="15:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 09 bis 10 Uhr  -->
+<weekly day="MI" priority="0" time-from="09:00:00" time-to="10:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="27">
+<title>Musikband</title>
+<description>
+Musik in der Dauerschleife Musik nach dem Zufallsprinzip. Hier könnte Deine Sendung laufen!
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+<category name="Electronica" id="2"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 02 bis 06 Uhr  -->
+<weekly day="MO" priority="0" time-from="02:00:00" time-to="06:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 11 bis 12 Uhr  -->
+<weekly day="MO" priority="0" time-from="11:00:00" time-to="12:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Dienstags von 03 bis 06 Uhr  -->
+<weekly day="DI" priority="0" time-from="03:00:00" time-to="06:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Mittwochs von 03 bis 07 Uhr  -->
+<weekly day="MI" priority="0" time-from="03:00:00" time-to="07:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnerstags von 02 bis 07 Uhr  -->
+<weekly day="DO" priority="0" time-from="02:00:00" time-to="07:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 02 bis 06 Uhr  -->
+<weekly day="FR" priority="0" time-from="02:00:00" time-to="06:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Samstags von 03 bis 06 Uhr  -->
+<weekly day="SA" priority="0" time-from="03:00:00" time-to="06:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonnntags von 02 bis 06 Uhr  -->
+<weekly day="SO" priority="0" time-from="02:00:00" time-to="06:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="28">
+<title>Neuerscheinung</title>
+<description>
+neu veröffentlichte Musik Zufallsfunktion des Computers Der Zufall entscheidet, welche Musiktitel aus unserem Archiv mit Neuerscheinungen zu hören sein werden. Willst du helfen es aufzufüllen? Dann schicke deine CD mit dem Stichwort „Archiv“ an StHörfunk.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+<category name="Electronica" id="2"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 09 bis 10 Uhr  -->
+<weekly day="MO" priority="0" time-from="09:00:00" time-to="10:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnerstags von 01 bis 02 Uhr  -->
+<weekly day="DO" priority="0" time-from="01:00:00" time-to="02:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 07 bis 08 Uhr  -->
+<weekly day="SO" priority="0" time-from="07:00:00" time-to="08:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="29">
+<title>Nik vor 12!</title>
+<description>
+mit und für Frauen Nikolaus Schyra Eine Sendung mit und für Frauen, die wissen, was die Stunde geschlagen hat. Hintergrund für mich ist, Frauen eine Plattform zu bieten, auf der nur sie sich positiv darstellen können.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 19 bis 20 Uhr  -->
+<weekly day="SO" priority="0" time-from="19:00:00" time-to="20:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 13 bis 14 Uhr  -->
+<weekly day="DO" priority="0" time-from="13:00:00" time-to="14:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="30">
+<title>Pitch It!</title>
+<description>
+elektronische Musik zum Aufwärmen Matthias & Friends Kennt ihr das nicht?! Es ist Samstagabend und man ist mal wieder auf der Suche nach der richtigen Musik zum warm werden. Dieses Problem ist jetzt passé! Denn nun gibt es jeden Samstag fette Beats, rollende Bässe und treibende Hi-Hat‘s auf die Ohren. Wir präsentieren euch die Cremé de la Cremé der Newcomer DJ‘s. Also Leute, einschalten, berieseln lassen und abfeiern!
+</description>
+<categories>
+<category name="Electronica" id="2"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Samstags von 22 bis 23 Uhr  -->
+<weekly day="SA" priority="0" time-from="22:00:00" time-to="23:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 00 bis 01 Uhr  -->
+<weekly day="MO" priority="0" time-from="00:00:00" time-to="01:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="31">
+<title>Praxis Dr. Homburg</title>
+<description>
+Die Psycho-Show Sebastian Steger Reden, reflektieren, Laber-Rhabarber: Kann ja eigentlich nicht schaden, so eine Therapie. Aber was ist mit dem Masterplan, mit dem Kompass fürs Leben, mit handfesten Bedienungsanleitungen? Den hat Dr. Homburg natürlich auch nicht. Immerhin verschreibt der Psycho-Onkel seinen Patienten feinste Musikrezepte: Mit hohem Einfühlungsvermögen hat er immer den passenden Song zu jeder Lebenslage parat. Denken Sie mal drüber nach und lassen Sie es wirken!
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 12 bis 13 Uhr  -->
+<weekly day="MO" priority="0" time-from="12:00:00" time-to="13:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 06 bis 07 Uhr  -->
+<weekly day="DI" priority="0" time-from="06:00:00" time-to="07:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="32">
+<title>Punk Rules</title>
+<description>
+von Punk bis Streetrock Mütze Punk Rock, Street Rock und Ska.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Dienstags von 17 bis 18 Uhr  -->
+<weekly day="DI" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 06 bis 07 Uhr  -->
+<weekly day="SA" priority="0" time-from="06:00:00" time-to="07:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="33">
+<title>Punk you want</title>
+<description>
+Punk, Hardcore und Oi! Blondie und Herr Schmeling 2. Montag im Monat: Punk You Want bringt euch einmal im Monat das Neueste, Beste und Sowieso aus den Bereichen Punk, Hardcore und Oi!. Wer denkt, dass Punk irgendwas mit dem Krams im kommerziellen Radio oder bei den Musiksendern zu tun hat, der sollte mal bei uns reinhören.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 12 bis 13 Uhr  -->
+<weekly day="MO" priority="0" time-from="12:00:00" time-to="13:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 06 bis 07 Uhr  -->
+<weekly day="DI" priority="0" time-from="06:00:00" time-to="07:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="34">
+<title>Radio AKTIV statt radioaktiv</title>
+<description>
+Politik aktuell Hans Graef Das Aktivradio soll Impulse zu Aktionen der sozialen Bewegungen wie Attac, Zeitgenossenschaft, Gewerkschaften oder Antifa und zu sozialen Plastiken der Kunstwelt geben. Wo sich etwas bewegt, soll das Radio dabei sein oder darauf hinweisen.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 16 bis 17 Uhr  -->
+<weekly day="FR" priority="0" time-from="16:00:00" time-to="17:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 08 bis 09 Uhr  -->
+<weekly day="MI" priority="0" time-from="08:00:00" time-to="09:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="35">
+<title>Radio Freie Welt</title>
+<description>
+volkstümliche Musik und Themen der Zeit Harald Erasymy Diese Sendung bietet Euch Themen abseits des Kommerz: außergewöhnliche Menschen mit seltenen Berufen und Hobbys, ehrenamtliche Aktionen und volkstümliche Musik bis zum deutschen Schlager.
+</description>
+<categories>
+<category name="Volksmusik" id="10"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnerstags von 17 bis 19 Uhr  -->
+<weekly day="DO" priority="0" time-from="17:00:00" time-to="19:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 09 bis 11 Uhr  -->
+<weekly day="SO" priority="0" time-from="09:00:00" time-to="11:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="36">
+<title>Raw Fusion</title>
+<description>
+HipHop, Drum 'n' Bass and more Daniel Neubert Raw Fusion beginnt mit Hip-Hop und fließt über zu Drum'n'Bass, gemischt mit Hip-Hop-Einflüssen bis zu Breakbeats, Techstep und Darkstep, vereinzelt elektronische Musik.
+</description>
+<categories>
+<category name="HipHop" id="3"/>
+<category name="Electronica" id="2"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 22 bis 23 Uhr  -->
+<weekly day="FR" priority="0" time-from="22:00:00" time-to="23:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="37">
+<title>Rentnerdialoge</title>
+<description>
+Fred und Max erklären den Staat und so Hilmar & Fred Die Rentner Fred und Max verstehen sich als politisch/philosophische Dickbrettbohrer und zeigen unverblümt, wo im Fachwerk unseres demokratischen Hauses die Statik nicht stimmt, der Wurm nagt und morsches Gebälk ausgetauscht werden muss. Dialog für Dialog bringen Fred und Max die Schadstellen ans Licht, analysieren sie und diskutieren Möglichkeiten einer Grundsanierung.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 15 bis 16 Uhr  -->
+<weekly day="SO" priority="0" time-from="15:00:00" time-to="16:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 11 bis 12 Uhr  -->
+<weekly day="DI" priority="0" time-from="11:00:00" time-to="12:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="38">
+<title>Russian Radio</title>
+<description>
+Die beste Musik aus Russland Alex Knack Zwei Stunden lang die beste Musik aus Russland. Alex erfüllt gerne eure Musikwünsche!
+</description>
+<categories>
+<category name="Electronica" id="2"/>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 20 bis 22 Uhr  -->
+<weekly day="FR" priority="0" time-from="20:00:00" time-to="22:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 09 bis 11 Uhr  -->
+<weekly day="DI" priority="0" time-from="09:00:00" time-to="11:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="39">
+<title>SUNDAY SERVICE</title>
+<description>
+News & Neuerscheinungen von Pop bis Elektronik Patrick Ziegelmüller Seit 1996 bietet der „Sunday Service“ aus Hamburg den RadiohörerInnen eine geschmackssichere Auswahl an musikalischen Neuveröffentlichungen zwischen Pop und Elektronik. Ausführliche Interviews sowie gelegentliche Live-Auftritte von KünstlerInnen im Studio gehören zum Service des Sonntags.
+</description>
+<categories>
+<category name="Electronica" id="2"/>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 12 bis 14 Uhr  -->
+<weekly day="SO" priority="0" time-from="12:00:00" time-to="14:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 23 bis 01 Uhr  -->
+<weekly day="MO" priority="0" time-from="23:00:00" time-to="01:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="40">
+<title>Schizophonia</title>
+<description>
+Musik aus 6 Jahrzehnten Wolf Sternberg Musik aus sechs Jahrzehnten - krass, skurril und abgefahren - meditativ, anregend oder heftig. Du musst nicht schizophren sein um Schizophonia hören zu können - schizophon allemal.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Mittwochs von 20 bis 22 Uhr  -->
+<weekly day="MI" priority="0" time-from="20:00:00" time-to="22:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 11 bis 13 Uhr  -->
+<weekly day="DO" priority="0" time-from="11:00:00" time-to="13:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="41">
+<title>Schwarzes Gold</title>
+<description>
+Schallplatten aus HipHop, Funk und Jazz Miro Ruff Hier dreht sich alles um die gute alte Schallplatte. Aus meiner Schatzkiste berge ich so Einiges an „Schwarzem Gold” und bringe es zum Kreisen. Unter die Plattennadel kommen: Hip-Hop, Funk & Reggae sowie Alles, was Spaß macht und Sinn hat.
+</description>
+<categories>
+<category name="HipHop" id="3"/>
+<category name="Jazz" id="4"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 17 bis 18 Uhr  -->
+<weekly day="FR" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 10 bis 11 Uhr  -->
+<weekly day="MI" priority="0" time-from="10:00:00" time-to="11:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="42">
+<title>Silent Noise</title>
+<description>
+leiser Alternative Krach Christiane Kugelmann & Jörg Thümmel Feinste Rockmusik aus unserem „Alternative Empire“: von ruhigen Klängen über „Elektro-Rock“ bis hin zu Metal ist alles dabei.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 18 bis 19 Uhr  -->
+<weekly day="FR" priority="0" time-from="18:00:00" time-to="19:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 08 bis 09 Uhr  -->
+<weekly day="SA" priority="0" time-from="08:00:00" time-to="09:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="43">
+<title>Sluggish</title>
+<description>
+Reggae, Dancehall, Ska Daniel Kielczewski Ein weiterer Grund, sich jede Woche erneut auf den Freitag zu freuen! Und das Argument? Reggae in allen Formen. Hört einfach mal rein! reggae-culture.de.
+</description>
+<categories>
+<category name="Reggae" id="6"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 16 bis 17 Uhr  -->
+<weekly day="FR" priority="0" time-from="19:00:00" time-to="20:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DI" priority="0" time-from="08:00:00" time-to="09:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="44">
+<title>StHörfleck</title>
+<description>
+Thema der Woche Schulen, Vereinen, Gruppen, Neumitglieder uva. Der StHörfleck ist unser offener Sendeplatz für Schulen, Vereine, Gruppen und Neumitglieder, die mal bei uns reinschnuppern oder einfach "ihr Programm" gestalten und produzieren möchten. Traut Euch!
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 16 bis 17 Uhr  -->
+<weekly day="MO" priority="0" time-from="16:00:00" time-to="17:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DI" priority="0" time-from="15:00:00" time-to="16:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="MI" priority="0" time-from="11:00:00" time-to="12:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DO" priority="0" time-from="23:00:00" time-to="00:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="FR" priority="0" time-from="07:00:00" time-to="08:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SA" priority="0" time-from="15:00:00" time-to="16:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SO" priority="0" time-from="08:00:00" time-to="09:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="45">
+<title>StHörfunk History</title>
+<description>
+Das Beste aus 19 Jahren StHörfunk verschiedenen Redakteuren Eine wilde Mischung aus 18 Jahren SF: Von „Gipsabbau im Streifleswald“ bis „Faschistenaufmarsch in SHA“, mancher Beitrag verliert (leider) nie an Aktualität! Und dann noch die Musiksendungen: von „Onkel Björn´s psychedelischer Stunde“ bis zu „Die Drei von der Funkstelle“ - Querbeet durchs Archiv. Infos findest Du auf der Homepage!
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Dienstags von 18 bis 19 Uhr  -->
+<weekly day="DI" priority="0" time-from="18:00:00" time-to="19:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 07 bis 08 Uhr  -->
+<weekly day="MI" priority="0" time-from="07:00:00" time-to="08:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 07 bis 08 Uhr  -->
+<weekly day="SA" priority="0" time-from="07:00:00" time-to="08:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="46">
+<title>T-Zone</title>
+<description>
+englische Radioshow C-Kay "T-Zone" ist eine englische Radio-Show für junge Leute und alle, die moderne Musik wie R&B, Pop, Hip-Hop oder House lieben. Außerdem wird hier jungen Künstlern eine Plattform geboten, in der sie ihr eigenes Talent präsentieren können. Hörer können über Facebook, E-Mails und Anrufe ins Studio ihre eigene Meinung hörbar machen.
+</description>
+<categories>
+<category name="HipHop" id="3"/>
+<category name="Electronica" id="2"/>
+<category name="R'n'B / Black" id="7"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Dienstags von 14 bis 15 Uhr  -->
+<weekly day="DI" priority="0" time-from="14:00:00" time-to="15:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 14 bis 15 Uhr  -->
+<weekly day="FR" priority="0" time-from="14:00:00" time-to="15:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="47">
+<title>THEdIVE</title>
+<description>
+Perlen elektronischer Musik Peter Musebrink Mit der Sendung THEdIVE von DeepDiveCorp.s Mastermind P.M.FM wird hier beim St(H)örfunk die seit fast sieben Jahren erfolgreiche Radiosendung von Radio IbizaSONICA übernommen. Einmal pro Woche wird in die unendlichen Weiten des Groove eingetaucht, um Euch die Perlen elektronischer Musik zu präsentieren.
+</description>
+<categories>
+<category name="Electronica" id="2"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 21 bis 22 Uhr  -->
+<weekly day="SO" priority="0" time-from="21:00:00" time-to="22:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 09 bis 10 Uhr  -->
+<weekly day="SA" priority="0" time-from="09:00:00" time-to="10:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="48">
+<title>Tea for two</title>
+<description>
+Musik zu Themenschwerpunkten Björn Münz & Ralf Snurawa Das Moderatorenteam stellt klassische Stücke, Rock, Folk oder Jazz unter einem thematischen Schwerpunkt gegenüber. Der Kontrast soll einen neuen Zugang zu beiden Sparten bieten.
+</description>
+<categories>
+<category name="Jazz" id="4"/>
+<category name="Klassik" id="5"/>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Mittwochs von 18 bis 20 Uhr  -->
+<weekly day="MI" priority="0" time-from="18:00:00" time-to="20:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 09 bis 11 Uhr  -->
+<weekly day="DO" priority="0" time-from="09:00:00" time-to="11:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="49">
+<title>Tendenz schräg bis heftig</title>
+<description>
+Punk, Hardcore, Ska, Oi Mark Rzepka Musik von Punk bis Hardcore, von Ska bis Oi und andere Schubladen. Songs von den frühen 1980ern bis heute. Nicht immer Vollgas und durchgeknallt, aber die Tendenz ist vorhanden!
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 18 bis 19 Uhr  -->
+<weekly day="SO" priority="0" time-from="18:00:00" time-to="19:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 13 bis 14 Uhr  -->
+<weekly day="FR" priority="0" time-from="13:00:00" time-to="14:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="50">
+<title>The Mix</title>
+<description>
+mach' Deinen DJ-Mix!! Various Bist du DJ? Dann sende deinen Mix an die angegebene eMail-Adresse.
+</description>
+<categories>
+<category name="Electronica" id="2"/>
+<category name="HipHop" id="3"/>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 23 bis 00 Uhr  -->
+<weekly day="SO" priority="0" time-from="23:00:00" time-to="00:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 21 bis 22 Uhr  -->
+<weekly day="MO" priority="0" time-from="21:00:00" time-to="22:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 02 bis 03 Uhr  -->
+<weekly day="SA" priority="0" time-from="02:00:00" time-to="03:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="51">
+<title>Timewarp</title>
+<description>
+Drum 'n' Bass Mateo Bei uns gibt es jeden Freitag Drum'n'Bass: von kranken Breaks bis hin zu gechillten Beatz.
+</description>
+<categories>
+<category name="Electronica" id="2"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 23 bis 00 Uhr  -->
+<weekly day="FR" priority="0" time-from="11:00:00" time-to="12:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Samstags von 00 bis 02 Uhr  -->
+<weekly day="SA" priority="0" time-from="00:00:00" time-to="03:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="52">
+<title>Treffpunkt Blasmusik</title>
+<description>
+internationale Blaskapellen Gregor Steer Es spielen Blaskapellen mit böhmisch-mährischer Stilrichtung, aber auch moderne und konzertante Blasmusik. Studiogäste sind Komponisten, Arrangeure und Dirigenten. Veranstaltungshinweise der Musikkapellen werden ebenso berücksichtigt wie Hörerwünsche.
+</description>
+<categories>
+<category name="Volksmusik" id="10"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 11 bis 12 Uhr  -->
+<weekly day="SO" priority="0" time-from="11:00:00" time-to="12:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 08 bis 09 Uhr  -->
+<weekly day="MO" priority="0" time-from="08:00:00" time-to="09:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="53">
+<title>Triangel on Air</title>
+<description>
+mit Werner & Kurt vom Konzertkreis Werner Feucht & Kurt Hohenstein Die Musiksendung, die uns vor dem TV-Programm rettet! Musik aus Rock, Folk, Blues und Jazz unorthodox, aber fachlich kompetent dargeboten von den Machern des Konzertkreises Triangel.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+<category name="Jazz" id="4"/>
+<category name="Singer-Songwriter" id="8"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Dienstags von 20 bis 22 Uhr  -->
+<weekly day="DI" priority="0" time-from="20:00:00" time-to="22:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 15 bis 17 Uhr  -->
+<weekly day="MI" priority="0" time-from="15:00:00" time-to="17:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="54">
+<title>Uptowns Finest</title>
+<description>
+Rap-News Ron & Jan Mehr als einmal wöchentlich „Uptowns Finest“ zu hören, braucht man nicht, um Bescheid zu wissen und ordentlich mitreden zu können! Ron und Jan nehmen sich jede Woche die musikalischen Neuerscheinungen vor. News und Klatsch&Tratsch aus der Welt des Rap und seinen umgebenden Themen kommen natürlich auch nicht zu kurz und werden gern bissig und amüsant kommentiert.
+</description>
+<categories>
+<category name="HipHop" id="3"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnertags von 21 bis 22 Uhr  -->
+<weekly day="DO" priority="0" time-from="21:00:00" time-to="22:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="55">
+<title>dancehallecho</title>
+<description>
+Dancehall aus Paris Dancehallecho Crew 5. Montag im Monat: A weekly reggae/dancehall radio show on french radio Aligre Fm.
+</description>
+<categories>
+<category name="Reggae" id="6"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 12 bis 13 Uhr  -->
+<weekly day="MO" priority="0" time-from="12:00:00" time-to="13:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 06 bis 07 Uhr  -->
+<weekly day="DI" priority="0" time-from="06:00:00" time-to="07:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="56">
+<title>rAdieu Tristesse</title>
+<description>
+Kulturverein aus Crailsheim Dirk Baumann, Frank Marchetti, Harald Haas, Sina Stuber, Michael Schütz, Holger Schilling, Benjamin Irschik, Frederik Kraft, Manuel Lässle, Harald Fleischer, Michael Klunker Unbequem, liebenswürdig, bunt, kreativ, kritisch und vor allem offen wollen wir uns präsentieren. Wir machen, was andere lassen, und lassen, was andere machen. So ist auch der Untertitel des Vereins zu verstehen: DENKEN:HANDELN:FEIERN:BLEIBEN.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Mittwochs von 22 bis 23 Uhr  -->
+<weekly day="MI" priority="0" time-from="22:00:00" time-to="23:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 22 bis 23 Uhr  -->
+<weekly day="SO" priority="0" time-from="22:00:00" time-to="23:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="57">
+<title>superufo!</title>
+<description>
+Kino on Air Cathrin Berger & Wolfgang Teufel „Musik!“- „Film“? – „Musik“? – „Film“! – „Musikfilm“? – „Filmmusik“? – „hmmmm“. – „Mhm – beides?“ – „Jaaaa, beides!!!“ Unterwegs in allen Galaxien des Film- und Musikuniversums. Das kommunale Kinoprogramm ist weiterhin mit an Bord.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 19 bis 21 Uhr  -->
+<weekly day="MO" priority="0" time-from="19:00:00" time-to="21:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 12 bis 14 Uhr  -->
+<weekly day="DI" priority="0" time-from="12:00:00" time-to="14:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 19 bis 21 Uhr  -->
+<weekly day="SA" priority="0" time-from="19:00:00" time-to="21:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="58">
+<title>verstärker</title>
+<description>
+Musik - gut, interessant, seltsam doppelvau verstärker präsentiert verschiedenartige Musik, die dem Moderator gefällt und den objektiven Kriterien von gut, interessant oder seltsam genügt.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnerstags von 20 bis 21 Uhr  -->
+<weekly day="DO" priority="0" time-from="20:00:00" time-to="21:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 12 bis 13 Uhr  -->
+<weekly day="FR" priority="0" time-from="12:00:00" time-to="13:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="59">
+<title>verstärker damals</title>
+<description>
+Retrospektive 1995 - 2005 doppelvau Mit 'verstärker damals' wagen wir einen Schritt ins Archiv von Radio StHörfunk. Zum Einsatz kommen die ersten verstärker-Sendungen, die in der Zeit von 1995 bis 2005 entstanden sind. Dabei handelt es sich um die ziemlich lustigen ersten Radio-Gehversuche von doppelvau.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Samstags von 16 bis 17 Uhr  -->
+<weekly day="SA" priority="0" time-from="16:00:00" time-to="17:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 11 bis 12 Uhr  -->
+<weekly day="FR" priority="0" time-from="11:00:00" time-to="12:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="60">
+<title>verstärker spezial</title>
+<description>
+Independent Music doppelvau Die klassische Morningshow bietet Unterschiedlichstes aus der Welt des unabhängig produzierten Musikschaffens. Allein schon die prominent bestückte Sammlung von Station-IDs („hello, this is xy, and you are listening to wörshtörkör„) ist das Einschalten wert!
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 06 bis 08 Uhr  -->
+<weekly day="MO" priority="0" time-from="06:00:00" time-to="08:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 23 bis 00 Uhr  -->
+<weekly day="MI" priority="0" time-from="23:00:00" time-to="01:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+<programme>
+<broadcast id="61">
+<title>187</title>
+<description>
+All about Junglemusic Daniel Petracca 187 sendet seit Oktober 2003. Unser Motto lautet: It`s all about Jungle Music!!! Es geht um Spaß an der Musik, die ich liebe.
+</description>
+<categories>
+<category name="Electronica" id="2"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Samstags von 23 bis 00 Uhr  -->
+<weekly day="SA" priority="0" time-from="23:00:00" time-to="00:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 23 bis 00 Uhr  -->
+<weekly day="DI" priority="0" time-from="23:00:00" time-to="00:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+</station>

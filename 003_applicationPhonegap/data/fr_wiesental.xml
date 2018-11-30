@@ -1,0 +1,686 @@
+<station xmlns:gml="http://www.opengis.net/gml" lastupdate="2016-11-16T04:04:01+01:00">
+<info>
+<displayname>Freies Radio Wiesental</displayname>
+<fullname>Förderkreis für das Freie Radio Wiesental e.V.</fullname>
+<logo src="http://freies-radio-wiesental.de/radioapp/logo.png"/>
+<basecolor>#880000</basecolor>
+<city>Schopfheim</city>
+<description>... anderes Hören!</description>
+<studio>
+<street>Hauptstraße</street>
+<number>82</number>
+<city>Schopfheim</city>
+<zip>79650</zip>
+<studio-location>
+<gml:Point>
+<gml:pos>47.6509191 7.8238084</gml:pos>
+</gml:Point>
+</studio-location>
+<phone type="studio">+49 7622 6692-55</phone>
+<phone type="office">+49 7622 6692-53</phone>
+<email type="studio">studio@freies-radio-wiesental.de</email>
+<email type="office">info@freies-radio-wiesental.de</email>
+<open time-from="8:00:00" time-to="16:00:00"/>
+</studio>
+</info>
+<media-channels>
+<transmitter type="ukw">
+<frequency>104.5</frequency>
+<frequencyunit>MHz</frequencyunit>
+<city>Hohe Möhr</city>
+<operator>MediaBroadcast</operator>
+<transmit-power>500</transmit-power>
+<transmit-power-unit>W</transmit-power-unit>
+<transmit-rds-id>FRW104,5</transmit-rds-id>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<transmitter-location>
+<gml:Point>
+<gml:pos>47.6927693 7.8745182</gml:pos>
+</gml:Point>
+</transmitter-location>
+<receptionarea>
+<gml:Polygon>
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>
+48.064 7.873 48.100 7.980 48.027 8.054 47.933 8.080 47.882 8.110 47.820 8.099 47.783 8.106 47.770 8.190 47.738 8.255 47.692 8.085 47.667 8.086 47.638 8.096 47.612 8.079 47.580 8.072 47.554 8.045 47.528 8.014 47.495 7.980 47.485 7.927 47.482 7.873 47.485 7.819 47.495 7.766 47.511 7.718 47.532 7.673 47.558 7.635 47.588 7.604 47.621 7.583 47.656 7.571 47.692 7.571 47.726 7.592 47.827 7.322 47.885 7.377 47.934 7.444 47.954 7.547 47.937 7.663 47.981 7.717 47.976 7.799
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</receptionarea>
+</transmitter>
+<transmitter type="cable">
+<frequency>89.35</frequency>
+<frequencyunit>MHz</frequencyunit>
+<operator>UnityMedia</operator>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+</transmitter>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://freies-radio-wiesental.de:8000/frw-lo.mp3</url>
+<format>audio/mpeg</format>
+<quality>56kbps</quality>
+</webstream>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://freies-radio-wiesental.de:8000/frw-hi.mp3</url>
+<format>audio/mpeg</format>
+<quality>128kbps</quality>
+</webstream>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://freies-radio-wiesental.de:8000/frw.ogg</url>
+<format>application/ogg</format>
+<quality>5</quality>
+</webstream>
+</media-channels>
+<programme>
+<broadcast id="0">
+<title>Bücher, Bücher, Bücher</title>
+<description>
+kurzweilige Buchvorstellungen, Aktuelles aber auch längst Verstaubtes wird präsentiert von Uschi Fridrich
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DO" priority="0" time-from="13:00:00" time-to="13:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="MO" priority="0" time-from="15:00:00" time-to="15:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SA" priority="0" time-from="03:00:00" time-to="3:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SO" priority="0" time-from="09:00:00" time-to="9:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="1">
+<title>Candlelight / Icegorilla Radio</title>
+<description>
+Gerade KW: Candlelight / Ungerade KW: Icegorilla Radio
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="FR" priority="0" time-from="21:00:00" time-to="22:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="MI" priority="0" time-from="14:00:00" time-to="15:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="2">
+<title>Die Sendung mit der Computermaus</title>
+<description>
+Wöchentliches Radiomagazin mit Neuigkeiten und Informationen rund um Computer und Elektronik.
+</description>
+<categories>
+<category name="Medien" id="19"/>
+<category name="Gesellschaft" id="14"/>
+<category name="Wissenschaft" id="26"/>
+</categories>
+<feed>
+<title>Die Sendung mit der Computermaus</title>
+<url>
+http://freies-radio-wiesental.de/raw,Podcast/show,computermaus
+</url>
+</feed>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="19:00:00" time-to="19:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SA" priority="0" time-from="15:00:00" time-to="15:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DI" priority="0" time-from="11:00:00" time-to="11:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="3">
+<title>Democracy Now!</title>
+<description>Unabhängiges US-amerikanisches Politikmagazin</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MO" priority="0" time-from="05:00:00" time-to="5:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="05:00:00" time-to="5:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="05:00:00" time-to="5:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="DO" priority="0" time-from="05:00:00" time-to="5:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="FR" priority="0" time-from="05:00:00" time-to="5:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="4">
+<title>Doomsday Night</title>
+<description>
+Langsam schreitet sie voran, die Nacht des Doom im Freien Radio Wiesental...
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="22:00:00" time-to="23:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="5">
+<title>Finsterwalde Süd</title>
+<description/>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DO" priority="0" time-from="17:00:00" time-to="17:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SA" priority="0" time-from="23:00:00" time-to="23:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="6">
+<title>H´ART On Air - Das KunstMagazin</title>
+<description>
+Bei H'ART On Air geht die Kunst ab! Ob Musik, Theater oder bildende Kunst! Redaktion: Klaus Kipfmüller
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="21:00:00" time-to="22:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SO" priority="0" time-from="18:00:00" time-to="19:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="MO" priority="0" time-from="06:00:00" time-to="7:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="7">
+<title>I ♥ ♪</title>
+<description>
+Menschen, die Freude an Musik haben, werden vorgestellt und gestalten den zweiten Teil der Sendung selbst.
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="13:00:00" time-to="13:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DI" priority="0" time-from="04:00:00" time-to="4:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="8">
+<title>io voi e La Musica</title>
+<description>
+italienisch sprachige Sendung: Persönlichkeiten, Musiker, Stars- sie alle sind bei Salvatore Libranti herzlich willkommen.
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="SO" priority="0" time-from="10:00:00" time-to="11:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="9">
+<title>JazzX</title>
+<description>Jazziges und eXperimentelles</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="17:00:00" time-to="17:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="FR" priority="0" time-from="13:00:00" time-to="13:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="10">
+<title>Stunde der Kirchenmusik</title>
+<description>
+Ein Jahrtausend sakrale Musik bildet die Basis für diese Sendung, mit dem Schwerpunkt Renaissance und Barock
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="SO" priority="0" time-from="08:00:00" time-to="8:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="11">
+<title>Krautrock Time</title>
+<description>
+Musiksendung, vorwiegend mit der Musik deutscher Bands, aber auch der Blick nach links und rechts ist angesagt.
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DO" priority="0" time-from="20:00:00" time-to="21:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="12">
+<title>KulturForum</title>
+<description>regionale und überregionale Kultur</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="18:00:00" time-to="18:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="MO" priority="0" time-from="13:00:00" time-to="13:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="DO" priority="0" time-from="06:00:00" time-to="6:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="13">
+<title>meinWiesental</title>
+<description/>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="16:00:00" time-to="16:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DO" priority="0" time-from="07:00:00" time-to="7:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="14">
+<title>Music on Top</title>
+<description/>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="SA" priority="0" time-from="11:00:00" time-to="12:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="15">
+<title>Musikertreff</title>
+<description>
+Vorstellungen von Musikbands zwischen volkstümlicher und Rockmusik.
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DO" priority="0" time-from="18:00:00" time-to="19:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="MO" priority="0" time-from="03:00:00" time-to="4:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SO" priority="0" time-from="14:00:00" time-to="15:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="16">
+<title>Nachtflug</title>
+<description/>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="FR" priority="0" time-from="23:00:00" time-to="25:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="17">
+<title>Onda Info</title>
+<description>Nachrichten aus Lateinamerika.</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="14:00:00" time-to="14:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="FR" priority="0" time-from="14:00:00" time-to="14:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="18">
+<title>OSP Dienstag</title>
+<description>Offener Sendeplatz</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="17:00:00" time-to="17:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="19">
+<title>OSP Donnerstag</title>
+<description>Offener Sendeplatz</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DO" priority="0" time-from="16:00:00" time-to="16:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="20">
+<title>OSP Freitag</title>
+<description>Offener Sendeplatz</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="FR" priority="0" time-from="16:00:00" time-to="16:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="21">
+<title>OSP Mittwoch</title>
+<description>Offener Sendeplatz</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="12:00:00" time-to="12:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="22">
+<title>OSP Montag</title>
+<description>Offener Sendeplatz</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MO" priority="0" time-from="12:00:00" time-to="12:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="23">
+<title>Phase 1</title>
+<description>Rock spoken here... (Englisch)</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="SO" priority="0" time-from="20:00:00" time-to="21:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DO" priority="0" time-from="00:00:00" time-to="1:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SA" priority="0" time-from="16:00:00" time-to="17:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="24">
+<title>RattenfängerSpezial</title>
+<description>Sendung für Folk, Weltmusik und Artverwandtes</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="19:00:00" time-to="20:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="SA" priority="0" time-from="09:00:00" time-to="10:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="SO" priority="0" time-from="22:00:00" time-to="23:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="25">
+<title>Sidekicks</title>
+<description>alternativer Hörgenuss mit Schwerpunkt Independent</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="20:00:00" time-to="21:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SA" priority="0" time-from="18:00:00" time-to="19:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="26">
+<title>SkullCrusher On Air</title>
+<description>\m/ Die Metal-Sendung beim FRW \m/</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MO" priority="0" time-from="18:00:00" time-to="19:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SO" priority="0" time-from="00:00:00" time-to="1:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="27">
+<title>Sound of the Suburbs</title>
+<description>
+Eine musikalische Zeitreise durch die wilden 50er, 60er, 70er, 80er, 90er und 2000er Jahre
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MO" priority="0" time-from="20:00:00" time-to="21:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SA" priority="0" time-from="07:00:00" time-to="8:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="28">
+<title>Sprechstunde</title>
+<description/>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="SO" priority="0" time-from="17:00:00" time-to="17:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="29">
+<title>Starthilfe</title>
+<description/>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="16:00:00" time-to="16:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DO" priority="0" time-from="11:00:00" time-to="11:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="30">
+<title>Stormy Monday Blues</title>
+<description>präsentiert Ihnen das Beste aus der Welt des Blues</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="FR" priority="0" time-from="17:00:00" time-to="18:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="DO" priority="0" time-from="02:00:00" time-to="3:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="MO" priority="0" time-from="22:00:00" time-to="23:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="06:00:00" time-to="7:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="31">
+<title>TuningBox</title>
+<description>Live DJ-Mixes aus der Techno Elektronischen Szene</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="SA" priority="0" time-from="20:00:00" time-to="22:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DI" priority="0" time-from="00:00:00" time-to="2:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="FR" priority="0" time-from="01:00:00" time-to="3:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="32">
+<title>Upside Up</title>
+<description/>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="SA" priority="0" time-from="13:00:00" time-to="14:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="MI" priority="0" time-from="00:00:00" time-to="1:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="33">
+<title>Uss 'em Hebelhuus</title>
+<description>
+Jeden Monat aktuelle Live-Interviews zu Veranstaltungen rund ums Hebelhaus Hausen, literarische Beiträge und Lesungen auf alemannisch, hochdeutsch oder in Fremdsprachen
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="15:00:00" time-to="15:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SO" priority="0" time-from="07:00:00" time-to="7:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="34">
+<title>Verein der Woche</title>
+<description>Vereine der Regio im Fokus mit Egbert Engst</description>
+<feed>
+<title>Verein der Woche</title>
+<url>
+http://freies-radio-wiesental.de/raw,Podcast/show,vereinderwoche
+</url>
+</feed>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="18:00:00" time-to="18:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DO" priority="0" time-from="14:00:00" time-to="14:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SO" priority="0" time-from="13:00:00" time-to="13:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="35">
+<title>Vielfalt aus Syrien</title>
+<description>
+Informationen, Tipps, Interviews, Kulturelles, Bücher, Geschichte & Musik aus Syrien, Libanon, Ägypten, Irak...dargeboten in arabischer und teilweise in deutscher Sprache
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MO" priority="0" time-from="16:00:00" time-to="16:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DO" priority="0" time-from="12:00:00" time-to="12:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="36">
+<title>Vor-Gelesen</title>
+<description>
+Buchvostellungen und,-Besprechungen jeden Genres,nicht nur Bestseller,auch Bücher, die nicht dem Mainstream folgen
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="13:00:00" time-to="13:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SO" priority="0" time-from="12:00:00" time-to="12:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="MO" priority="0" time-from="17:00:00" time-to="17:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="SA" priority="0" time-from="04:00:00" time-to="4:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="37">
+<title>We Will Rock You</title>
+<description>
+Musik und Infos über die Rockmusik von ca. 1960 bis heute
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="FR" priority="0" time-from="19:00:00" time-to="20:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="FR" priority="0" time-from="06:00:00" time-to="7:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<weekly day="DO" priority="0" time-from="22:00:00" time-to="23:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="38">
+<title>Wir sind auf Draht</title>
+<description>
+Wir sind auf Draht ist eine inklusive Sendung in Zusammenarbeit mit Leben+Wohnen in Lörrach und dem St.Josefshaus Herten
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="DO" priority="0" time-from="15:00:00" time-to="15:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="39">
+<title>Z'Nüni</title>
+<description>
+Die Morgenshow beim Freien Radio Wiesental mit täglich wechselnden Redakteuren.
+</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MO" priority="0" time-from="08:00:00" time-to="9:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="08:00:00" time-to="9:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="08:00:00" time-to="9:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="DO" priority="0" time-from="08:00:00" time-to="9:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="FR" priority="0" time-from="08:00:00" time-to="9:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="40">
+<title>Z'Nüni³</title>
+<description>
+Livegäste zu aktuellen Themen- oder einfach nur viel Musik
+</description>
+<categories>
+<category name="Talk" id="24"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MO" priority="0" time-from="10:00:00" time-to="10:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="DI" priority="0" time-from="10:00:00" time-to="10:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="10:00:00" time-to="10:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="DO" priority="0" time-from="10:00:00" time-to="10:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="FR" priority="0" time-from="10:00:00" time-to="10:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="41">
+<title>Zeitung zum Zuhören</title>
+<description>Aktuelles aus der Presse</description>
+<transmit-times>
+<transmit-time recurrence="true">
+<weekly day="MI" priority="0" time-from="11:00:00" time-to="11:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="FR" priority="0" time-from="11:00:00" time-to="11:59:00"/>
+</transmit-time>
+<transmit-time recurrence="true">
+<weekly day="MO" priority="0" time-from="11:00:00" time-to="11:59:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+</station>

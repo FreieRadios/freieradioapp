@@ -1,0 +1,56 @@
+<div class="broadcast-menu">
+	<div class="broadcast-item item-info active"><span data-href="broadcastinfo?station_id={{stationID}}">INFO</span></div>
+	<div class="broadcast-item item-program"><span data-href="broadcast?station_id={{stationID}}">PROGRAMM</span></div>
+	<div class="broadcast-item item-contact"><span data-href="broadcastcontact?station_id={{stationID}}">KONTAKT</span></div>
+</div>
+<div class="innerContainer">
+<section class="broadcastinfo-container">
+	<div class="info-header">
+		<div class="station-logo"><a href=""><img src="{{stationDetail.logoSource}}" class="logo" /></a></div>		
+		<div class="station-name">{{stationDetail.displayName}}
+			<!--</div>		
+		<div class="station-info">
+		-->
+			<div class="broadcast-cityandfreuqency">{{stationDetail.city}}<br/>
+			<strong>{{station.frequency}} MHz</strong></div>
+		</div>
+	</div>
+	{{#if mediaChannelTypes}}
+		{{#if mediaChannelTypes.length}} 
+			<div class="transmitting">Empfangbar über:
+				<span class="transmit-types">
+				{{#each mediaChannelTypes}}
+					{{#if @index}}
+					|
+					{{/if}}
+					{{this}}
+				{{/each}} 
+				</span>
+			</div>
+		{{/if}}
+	{{/if}}
+	{{#if currentBroadcast}}
+		<div class="broadcast-stream" data-stream-url="{{station.streamURL}}" data-stream-title="{{station.name}}">
+			<img src="img/05_other/05.4_button-livestream.png" class="liveStreamImage" />
+			<div class="broadcast-stream-info">
+				<div class="broadcast-stream-info-content">
+					<div class="broadcast-stream-info-contenttext">
+						<span class="cell title">
+							<span class="cell-content">Livestream</span>
+						</span>
+						<span class="cell times">
+							<span class="cell-content">{{timeHourAndMinute currentBroadcastTimeFrom}} Uhr - {{timeHourAndMinute currentBroadcastTimeTo}} Uhr</span>
+						</span>
+						<span class="cell broadcast-title">
+							<span class="cell-content">{{shortenString currentBroadcast.title 21}}</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="broadcast-description">{{currentBroadcast.description}}</div>
+	{{else}}
+		<div class="broadcast-noprogram"><em>Zur Zeit läuft auf diesem Sender keine Sendung. Bitte versuche es später erneut.</em></div>
+	{{/if}}
+</section>
+</div>

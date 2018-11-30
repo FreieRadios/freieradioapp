@@ -1,0 +1,817 @@
+<station xmlns:gml="http://www.opengis.net/gml" lastupdate="2016-11-16T11:39:02+01:00">
+<info>
+<displayname>Pi-Radio</displayname>
+<fullname>Pi-Radio</fullname>
+<logo src="http://piradio.de/sites/default/files/logo.png"/>
+<basecolor>#FF6600</basecolor>
+<city>Berlin</city>
+<studio>
+<street>Lottumstrasse</street>
+<number>9</number>
+<city>Berlin</city>
+<zip>10119</zip>
+<studio-location>
+<gml:Point>
+<gml:pos>52.53119 13.4066</gml:pos>
+</gml:Point>
+</studio-location>
+<phone type="studio">+49 030 609 37 277</phone>
+</studio>
+</info>
+<media-channels>
+<transmitter type="ukw">
+<frequency>88.4</frequency>
+<frequencyunit>MHz</frequencyunit>
+<city>Berlin</city>
+<operator>MediaBroadcast</operator>
+<transmit-power>500</transmit-power>
+<transmit-power-unit>W</transmit-power-unit>
+<transmit-rds-id>88vier</transmit-rds-id>
+<transmit-times>
+<transmit-time recurrence="true"/>
+<weekly day="MI" priority="0" time-from="19:00:00" time-to="06:00:00"/>
+<weekly day="DO" priority="0" time-from="19:00:00" time-to="06:00:00"/>
+</transmit-times>
+<transmitter-location>
+<gml:Point>
+<gml:pos>52.456534 13.625693</gml:pos>
+</gml:Point>
+</transmitter-location>
+</transmitter>
+<website>
+<url>http://piradio.de</url>
+</website>
+</media-channels>
+<programme>
+<broadcast id="27082">
+<title>
+Garagepunx Hideout - The Mal Thursday Show: Mass Pike Memory Lane #53
+</title>
+<description>
+Funk, Soul, Surf und RnR aus der Garage von Spätinsbettgeher für Frühaufsteher.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/27082.html#Garagepunx%20Hideout-The%20Mal%20Thursday%20Show
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T06:00:00+01:00" date-to="2016-11-17T07:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28311">
+<title>Radio Corax - Morgenmagazin</title>
+<description>
+Also … aufstehn, hinlegen, Radio hörn … (weitersagen) … Tagesaktuelles, Politik und Kultur von hier und da.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28311.html#Radio%20Corax-Morgenmagazin
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T07:00:00+01:00" date-to="2016-11-17T10:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28500">
+<title>We Are Born Free - Empowerment Radio!</title>
+<description>
+We Are Born Free – Empowerment Radio! (#We!R) is an independent radioformat by Friends and Enemies. It was formed throughout the German Refugee Resistance.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28500.html#We%20Are%20Born%20Free-Empowerment%20Radio%21
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T10:00:00+01:00" date-to="2016-11-17T11:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="29014">
+<title>
+Zonic Radio Show Süd - Für Randhörer und Kulturinvolvierte #32
+</title>
+<description>
+Die Zonic Radio Show ist die hör-mediale Erweiterung der Kulturerscheinung Zonic.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/29014.html#Zonic%20Radio%20Show%20S%C3%BCd-F%C3%BCr%20Randh%C3%B6rer%20und%20Kulturinvolvierte
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T11:00:00+01:00" date-to="2016-11-17T13:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28319">
+<title>Radio Corax - Mittagsmagazin</title>
+<description>
+Tagesaktuelles, Politik und Kultur von hier und da.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28319.html#Radio%20Corax-Mittagsmagazin
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T13:00:00+01:00" date-to="2016-11-17T15:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28931">
+<title>BARKness - 4DJs & No Mic #10</title>
+<description>
+Kafferunde mit BARKness. Von und mit Bjoin, Arachnula, Rebecca und Kadav. Wir spielen barking mad darkness zu laut für Deine Nachbarn aber direkt in Dein Herz.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28931.html#BARKness-4DJs%20und%20No%20Mic
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T15:00:00+01:00" date-to="2016-11-17T17:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28782">
+<title>Radio Hochsee - Das Klingende Hochsee Rätsel #75</title>
+<description>
+Das Klingende Radio Hochsee Rätsel von und mit Falko Hennig und Gästen.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28782.html#Radio%20Hochsee-Das%20Klingende%20Hochsee%20R%C3%A4tsel
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T17:00:00+01:00" date-to="2016-11-17T18:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28845">
+<title>Berliner Runde - Funkfabrik B #69</title>
+<description>
+Punk-Rock-Magazin für Punks, Hörer und Menschen. Ein bisschen Parodie, ein bisschen Anarchie und viel zu wenig Empathie. Die geschmeidige Stunde Dilettantismus und Nonsens mit Afri und Veit. Jetzt auch in Halle (Corax) und Hamburg (FSK).
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28845.html#Berliner%20Runde-Funkfabrik%20B
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T18:00:00+01:00" date-to="2016-11-17T19:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28599">
+<title>SubCult - Klänge jenseits des Hauptstroms #117</title>
+<description>
+Die Sendung für alle, die nicht nur tagsüber über das warme Pflaster der Stadt hüpfen, sondern sich auch dafür interessieren, was in den Kellern, Clubs und Konzertorten abgeht.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28599.html#SubCult-Kl%C3%A4nge%20jenseits%20des%20Hauptstroms
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T19:00:00+01:00" date-to="2016-11-17T20:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28604">
+<title>ORWOhaus - Plattensprung #131</title>
+<description>
+Plattensprung - die Sendung aus dem ORWOhaus. Alle zwei Wochen neuste Infos rund um das Haus und die Musik, die in ihm entsteht.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28604.html#ORWOhaus-Plattensprung
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T20:00:00+01:00" date-to="2016-11-17T20:30:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28928">
+<title>Outside Turn - Berlin Swing Radio Show #53</title>
+<description>
+Outside Turn - Berlin Beatet Besstes präsentiert die Swing-Sendung mit Jörg Heidemann und Andreas Michalke.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28928.html#Outside%20Turn-Berlin%20Swing%20Radio%20Show
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T20:30:00+01:00" date-to="2016-11-17T22:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28929">
+<title>mICROFON - timeless & homeless universal vibes #89</title>
+<description>
+Alte und neue Musik aus der Türkei und dem Rest der Welt.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28929.html#mICROFON-timeless%20und%20homeless%20universal%20vibes
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-17T22:00:00+01:00" date-to="2016-11-18T00:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28980">
+<title>
+Kol HaCampus - Hamachog Hakatan: Die kleine Hand #91
+</title>
+<description>
+Im Austausch zwischen Pi Radio und Kol HaCampus (106fm Israel) unser Programm mit Chen Attar und seinen Nadeln.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28980.html#Kol%20HaCampus-Hamachog%20Hakatan%3A%20Die%20kleine%20Hand
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T00:00:00+01:00" date-to="2016-11-18T01:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="27121">
+<title>
+Garagepunx Hideout - Big Enchilada: An American Is a Very Lucky Man #11
+</title>
+<description>
+Funk, Soul, Surf und RnR aus der Garage von Spätinsbettgeher für Frühaufsteher.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/27121.html#Garagepunx%20Hideout-Big%20Enchilada
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T06:00:00+01:00" date-to="2016-11-18T07:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28312">
+<title>Radio Corax - Morgenmagazin</title>
+<description>
+Also … aufstehn, hinlegen, Radio hörn … (weitersagen) … Tagesaktuelles, Politik und Kultur von hier und da.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28312.html#Radio%20Corax-Morgenmagazin
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T07:00:00+01:00" date-to="2016-11-18T10:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28501">
+<title>We Are Born Free - Empowerment Radio!</title>
+<description>
+We Are Born Free – Empowerment Radio! (#We!R) is an independent radioformat by Friends and Enemies. It was formed throughout the German Refugee Resistance.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28501.html#We%20Are%20Born%20Free-Empowerment%20Radio%21
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T10:00:00+01:00" date-to="2016-11-18T11:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28979">
+<title>Sissi.Fm #1</title>
+<description>
+Dein queerfeministisches Radiomagazin: leidenschaftlich live, performativ bis auf die Knochen. Konversationen, Kontroversen, Stimmen und große Gefühle!
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28979.html#Sissi.Fm
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T11:00:00+01:00" date-to="2016-11-18T13:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28320">
+<title>Radio Corax - Mittagsmagazin</title>
+<description>
+Tagesaktuelles, Politik und Kultur von hier und da.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28320.html#Radio%20Corax-Mittagsmagazin
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T13:00:00+01:00" date-to="2016-11-18T15:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28680">
+<title>
+Nordpolzigeuner - Kaputtes Feuerzeug: Immergut - Festival #78
+</title>
+<description>
+DJ Nordpolzigeuner ist nach eigener Aussage der schlechteste DJ aller Zeiten. Auf Pi Radio macht er die Sendung "Kaputtes Feuerzeug", ein Sammelsurium an Musik und poetischen Beiträgen.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28680.html#Nordpolzigeuner-Kaputtes%20Feuerzeug
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T15:00:00+01:00" date-to="2016-11-18T17:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28784">
+<title>Radio Sterni - Musik #64</title>
+<description>
+Radio Sterni ist ein experimentelles frankophones (Web-)Radio aus Berlin. Sendung auf Deutsch oder Französisch nach Lust und Laune der ModeratorInnen. Mit französischer Mucke, und verschiedenen Beiträgen. Radio Sterni est une (web-)radio expérimentale francophone berlinoise. L'émission est en allemand ou en français selon l'humeur du/de la/des modérat-eur/rice-s. Musique et reportages au programme.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28784.html#Radio%20Sterni-Musik
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T17:00:00+01:00" date-to="2016-11-18T18:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28666">
+<title>Berliner Runde - Frequenzkonsum #14</title>
+<description>
+Frequenzkonsum - eine Sendung der Gruppe Vosifa aus Pankow - junge Leute, die einen politischen und unkommerziellen Anspruch haben.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28666.html#Berliner%20Runde-Frequenzkonsum
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T18:00:00+01:00" date-to="2016-11-18T19:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28963">
+<title>Bongraucherradio - Kräftig Würzig #2</title>
+<description>Die feucht-fröhliche Einläutung des Wochendes.</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28963.html#Bongraucherradio-Kr%C3%A4ftig%20W%C3%BCrzig
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T19:00:00+01:00" date-to="2016-11-18T19:30:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28932">
+<title>Digital in Berlin - Recommended #135</title>
+<description>
+D/B Radio with a view to bringing different styles and directions in music to a wider audience, and so fostering music that has a formidable and extraordinary approach.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28932.html#Digital%20in%20Berlin-Recommended
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T19:30:00+01:00" date-to="2016-11-18T21:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28933">
+<title>Begilufin - Berlin Live #88</title>
+<description>
+Begilufin trys to bring a taste from the great diversity of the rich music world. With different sounds, old and new, vibes from different eras, different lands and Israeli music scene.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28933.html#Begilufin-Berlin%20Live
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T21:00:00+01:00" date-to="2016-11-18T22:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28934">
+<title>KulturWelle - Afterhour #4</title>
+<description>
+Eine Spätabendsendung von Redakteuren der »Kulturwelle« der Kulturwissenschaft der Humboldt-Universität zu Berlin. Entspanntes Nach-, Weiter- und Umhören mit Gästen und viel Musik.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28934.html#KulturWelle-Afterhour
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T22:00:00+01:00" date-to="2016-11-18T23:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28935">
+<title>
+Beatnik Radio - Kirche eklektischer elektrischer Religion: Beefus B #120
+</title>
+<description>
+Im Beatnikradio ist quasi alles möglich, obwohl der Moderator Gene Berlin als Gründer der "Kirche Eklektischer Elektrischer Religion" seinen Schwerpunkt auf elektronische Musik legt.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28935.html#Beatnik%20Radio-Kirche%20eklektischer%20elektrischer%20Religion
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-18T23:00:00+01:00" date-to="2016-11-19T01:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="27083">
+<title>
+Garagepunx Hideout - The Mal Thursday Show: Friendship Is Magic #54
+</title>
+<description>
+Funk, Soul, Surf und RnR aus der Garage von Spätinsbettgeher für Frühaufsteher.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/27083.html#Garagepunx%20Hideout-The%20Mal%20Thursday%20Show
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T06:00:00+01:00" date-to="2016-11-24T07:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28315">
+<title>Radio Corax - Morgenmagazin</title>
+<description>
+Also … aufstehn, hinlegen, Radio hörn … (weitersagen) … Tagesaktuelles, Politik und Kultur von hier und da.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28315.html#Radio%20Corax-Morgenmagazin
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T07:00:00+01:00" date-to="2016-11-24T10:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28502">
+<title>We Are Born Free - Empowerment Radio!</title>
+<description>
+We Are Born Free – Empowerment Radio! (#We!R) is an independent radioformat by Friends and Enemies. It was formed throughout the German Refugee Resistance.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28502.html#We%20Are%20Born%20Free-Empowerment%20Radio%21
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T10:00:00+01:00" date-to="2016-11-24T11:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="29015">
+<title>TINYA - Aragonien, Kastillien und León #1</title>
+<description>
+Die Radiosendung der Musikethnologie. Von Helen Hahmann.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/29015.html#TINYA-Aragonien%2C%20Kastillien%20und%20Le%C3%B3n
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T11:00:00+01:00" date-to="2016-11-24T12:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="29017">
+<title>Tipkin - "Besorgniserregende Eltern?" #1</title>
+<description>
+Sendung für Pop, Feminismus, Alltagsschrott und Queer Politics.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/29017.html#Tipkin-%22Besorgniserregende%20Eltern%3F%22
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T12:00:00+01:00" date-to="2016-11-24T13:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28321">
+<title>Radio Corax - Mittagsmagazin</title>
+<description>
+Tagesaktuelles, Politik und Kultur von hier und da.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28321.html#Radio%20Corax-Mittagsmagazin
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T13:00:00+01:00" date-to="2016-11-24T15:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="29132">
+<title>Shooshka - Joyful Noise #1</title>
+<description>
+There will be drums, there will be funk, there will be soul and beats, and joyful shrieks, and sometime even words.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/29132.html#Shooshka-Joyful%20Noise
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T15:00:00+01:00" date-to="2016-11-24T16:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28783">
+<title>Howdy Eddy - Musik jenseits von Gut und Böse #73</title>
+<description>
+Mit Edgar Lend die Welt entdecken: was klingt da, wer spricht da, wo bin ich, was tu ich?
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28783.html#Howdy%20Eddy-Musik%20jenseits%20von%20Gut%20und%20B%C3%B6se
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T17:00:00+01:00" date-to="2016-11-24T18:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="29067">
+<title>Pi Radio - Widerhall #2</title>
+<description>
+Tagesaktuelles, Politik und Kultur von hier und da.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/29067.html#Pi%20Radio-Widerhall
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T18:00:00+01:00" date-to="2016-11-24T19:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="29069">
+<title>Berliner Runde - Hauptstadtteam #161</title>
+<description>
+Was ist denn hier los? Herr Schinski, Herr Orange und Herr Boss stellen vor.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/29069.html#Berliner%20Runde-Hauptstadtteam
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T19:00:00+01:00" date-to="2016-11-24T20:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28609">
+<title>Pathos T - Der Wegbereiter #84</title>
+<description>
+Die Sendung informiert über die aktuellen Entwicklungen - was bewegt den postsowjetischen Raum. Analytische Interpretationseinblicke zu den Geschehnissen werden ausgesprochen.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28609.html#Pathos%20T-Der%20Wegbereiter
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T20:00:00+01:00" date-to="2016-11-24T20:30:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="29052">
+<title>Volksbühne</title>
+<description></description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/29052.html#Volksb%C3%BChne
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T20:30:00+01:00" date-to="2016-11-24T22:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28982">
+<title>Joe Le Taxi - The Little Dog Laughed #30</title>
+<description>
+The little dog laughed is a short story inside the great novel “ask the dust” written by John Fante. Eine musikalische Sendung von und mit Joe Le Taxi.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28982.html#Joe%20Le%20Taxi-The%20Little%20Dog%20Laughed
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-24T22:00:00+01:00" date-to="2016-11-25T00:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+<broadcast id="28981">
+<title>Kol HaCampus - Filter: Im Radio #105</title>
+<description>
+Im Austausch zwischen Pi Radio und Kol HaCampus (106fm Israel) unser Programm mit Filter von Rotem Doitcher.
+</description>
+<categories>
+<category name="Wort" id="1"/>
+<category name="Musik" id="2"/>
+</categories>
+<feed>
+<title>Sendebeschreibung</title>
+<url>
+http://piradio.de/programm/sendung/28981.html#Kol%20HaCampus-Filter%3A%20Im%20Radio
+</url>
+</feed>
+<transmit-times>
+<transmit-time date-from="2016-11-25T00:00:00+01:00" date-to="2016-11-25T01:00:00+01:00" recurrence="false" rerun="false"/>
+</transmit-times>
+</broadcast>
+</programme>
+</station>

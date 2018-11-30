@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="16" id="de.freefm.freieradioapp" version="0.9.3" versionCode="16" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SQLitePlugin">
+        <param name="android-package" value="io.sqlc.SQLitePlugin" />
+    </feature>
+    <feature name="RareloopAppVersion">
+        <param name="android-package" value="com.rareloop.cordova.appversion.RareloopAppVersion" />
+    </feature>
+    <name>Freie Radios</name>
+    <description>
+    </description>
+    <author email="freieradioapp@freefm.de" href="http://freefm.de">
+        Free FM
+    </author>
+    <content src="index.html" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <access origin="*" />
+    <icon density="ldpi" src="www/res/icons/android/ldpi.png" />
+    <icon density="mdpi" src="www/res/icons/android/mdpi.png" />
+    <icon density="hdpi" src="www/res/icons/android/hdpi.png" />
+    <icon density="xhdpi" src="www/res/icons/android/xhdpi.png" />
+    <icon density="xxhdpi" src="www/res/icons/android/xxhdpi.png" />
+    <icon density="xxxhdpi" src="www/res/icons/android/xxxhdpi.png" />
+    <splash density="port-ldpi" src="www/res/screens/android/splash-port-ldpi.png" />
+    <splash density="port-mdpi" src="www/res/screens/android/splash-port-mdpi.png" />
+    <splash density="port-hdpi" src="www/res/screens/android/splash-port-hdpi.png" />
+    <splash density="port-xhdpi" src="www/res/screens/android/splash-port-xhdpi.png" />
+    <splash density="port-xxhdpi" src="www/res/screens/android/splash-port-xxhdpi.png" />
+    <splash density="port-xxxhdpi" src="www/res/screens/android/splash-port-xxxhdpi.png" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>

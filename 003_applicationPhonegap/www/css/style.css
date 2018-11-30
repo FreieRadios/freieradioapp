@@ -1,0 +1,1101 @@
+html {
+  width: 100%;
+  height: 100%;
+  /*-webkit-transform: translate3d(0px,0px,0px);
+	transform: translate3d(0px,0px,0px);*/
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  /*-webkit-transform: translate3d(0px,0px,0px);
+	transform: translate3d(0px,0px,0px);*/
+  background-image: url('../img/00_globals/00.3_background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'SourceSansProRegular', 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+div.innerContainer {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+div#container {
+  width: 100%;
+  height: 100%;
+}
+
+.popup,
+.hidden {
+  display: none;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #eee;
+  background-image: url('../img/00_globals/00.4_background.png');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+div.titlebar h1 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  color: #999ca0;
+  font-weight: lighter !important;
+  font-family: 'SciFly';
+}
+div.titlebar a.backlink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../img/00_globals/02.3_arrow_back.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div.titlebar a.app_logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../img/00_globals/00.4_icon-tower.png');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+div.titlebar a.menu {
+  position: absolute;
+  top: 0;
+  right: 3px;
+  background-image: url('../img/00_globals/00.4_icon_menu.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/********** Popup-Menue ************/
+ul.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url('../img/04_menu/04.1_menu-background.png');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  list-style-type: none;
+}
+ul.popup li.close {
+  width: 100%;
+  background-image: url('../img/04_menu/04.1_marker.png');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+ul.popup li.close a {
+  position: absolute;
+  background-image: url('../img/04_menu/04.1_icon-menu-pressed.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ul.popup li.searchitem {
+  padding-bottom: 10%;
+  width: 100%;
+  color: #999ca0;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'SourceSansProBold';
+}
+ul.popup li.searchitem a {
+  margin: 0;
+  padding: 0;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+ul.popup li.searchitem a.search {
+  background-image: url('../img/04_menu/04.1_menu-icon-search.png');
+}
+ul.popup li.searchitem a.favorite {
+  background-image: url('../img/04_menu/04.1_menu-icon-favorite.png');
+}
+ul.popup li.searchitem a.info {
+  background-image: url('../img/04_menu/04.1_menu-icon-info.png');
+}
+ul.popup li.searchitem a.locating {
+  background-image: url('../img/04_menu/04.1_menu-icon-locating.png');
+}
+ul.popup li.searchitem a.map {
+  background-image: url('../img/04_menu/04.1_menu-icon-map.png');
+}
+ul.popup li.searchitem a.schedule {
+  background-image: url('../img/04_menu/04.1_menu-icon-schedule.png');
+}
+
+ul.popup li.searchitem hr {
+  margin: 8% 10% 0 10%;
+  width: 80%;
+  color: #999ca0;
+  opacity: 0.6;
+}
+/********** Popup-Menue ENDE ************/
+div.zoomControl {
+  position: fixed !important;
+  z-index: 100 !important;
+}
+div.zoomIn {
+  z-index: 100 !important;
+}
+div.zoomOut {
+  z-index: 100 !important;
+}
+div.map-list-menu,
+div.broadcast-menu {
+  position: fixed;
+  left: 0;
+  z-index: 9;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+div.map-list-item {
+  position: absolute;
+  box-sizing: border-box;
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div.broadcast-item {
+  float: left;
+  box-sizing: border-box;
+  width: 33.3%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.map-list-item.item-list {
+  left: 50%;
+}
+
+div.map-list-item span {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  font-family: SourceSansProBold;
+}
+
+div.map-list-item.active span {
+  color: #000;
+}
+
+div.map-list-item {
+  background-image: url(../img/01_map/01.1_button_submenu-downstate.png);
+}
+
+div.map-list-item.active {
+  background-image: url(../img/01_map/01.1_button_submenu.png);
+}
+div.broadcast-item {
+  background-image: url(../img/01_map/01.1_button_submenu.png);
+}
+div.broadcast-item.active {
+  background-image: url(../img/01_map/01.1_button_submenu-downstate.png);
+}
+div.broadcast-item.active span {
+  color: #fff;
+}
+div.broadcast-item span {
+  display: block;
+  color: #000;
+  text-align: center;
+  font-size: 0.8em;
+  font-family: SourceSansProBold;
+}
+
+div#map {
+  position: absolute;
+  top: 132px;
+  width: 100%;
+  height: calc(100% - 132px);
+}
+
+div#mapOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  background: url(../img/01_map/01.1_map-overlay.png) no-repeat center center;
+  background-size: 110% 110%;
+  pointer-events: none;
+}
+
+div.content {
+  width: 100%;
+  height: calc(100% - 132px);
+}
+
+div#container.withCurrentLiveStream {
+  overflow: hidden;
+}
+
+div#container.withCurrentLiveStream div.content {
+  padding-bottom: 60px;
+}
+
+#search {
+  display: table;
+  width: 100%;
+  /*padding-top: 3.33%;*/
+}
+#searchInput {
+  display: inline;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-left: 2.083%;
+  padding-left: 190px;
+  width: 78%;
+  height: 180px;
+  border: none;
+  background-color: transparent;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #33383d;
+  font-size: 85pt;
+  font-family: SourceSansProBold;
+
+  -webkit-appearance: none;
+}
+#searchMethod {
+  float: right;
+  margin-right: 2.083%;
+}
+.stationAndBroadcastList,
+.broadcastProgram {
+  margin-right: 2.083%;
+  margin-left: 2.083%;
+  padding-left: 0px;
+  list-style-type: none;
+  text-transform: none;
+}
+
+.stationListElement,
+.broadcastProgramEntry {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1%;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  width: 100%;
+  background-image: url('../img/02_list/00.5_list-element-transparent.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.stationListElementBody {
+  color: #777f88;
+  font-size: 63pt;
+  font-family: 'SourceSansProRegular';
+}
+.stationListElementHeader {
+  color: #33383d;
+  font-size: 85pt;
+  font-family: 'SourceSansProBold';
+}
+.stationAndBroadcastList a {
+  display: table-cell;
+  padding-right: 3.33%;
+  width: 8.75%;
+  vertical-align: middle;
+  text-align: right;
+}
+.stationAndBroadcastList a img {
+  vertical-align: middle;
+}
+.stationListElementLeft {
+  padding-left: 5%;
+  width: 85%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#searchInput {
+  background-image: url('../img/02_list/02.1_search-field.png');
+}
+
+#searchInput:focus {
+  background-image: url('../img/02_list/02.2_search-field-pressed.png');
+}
+
+.stationListElement {
+  background-image: url('../img/02_list/00.5_list-element-transparent.png');
+}
+
+.stationListElement:active {
+  background-image: url('../img/02_list/02.4_list-element_pressed.png');
+}
+
+div.favoriteIcons {
+  position: absolute;
+  top: 0px;
+  right: 5%;
+  display: inline-box;
+  height: 100%;
+}
+img.stationListArrow,
+img.favoriteStarList {
+}
+
+img.stationListArrow {
+  right: 7%;
+}
+
+img.favoriteStarList {
+  right: 20%;
+  cursor: pointer;
+}
+
+#searchIcon {
+  position: absolute;
+  top: auto;
+  left: 50px;
+  margin-top: 47px;
+  /*padding-top: 3.3%;*/
+  margin-left: 2.083%;
+}
+#searchClose {
+  position: absolute;
+  right: 24.083%;
+  z-index: 2;
+  visibility: hidden;
+  margin-top: 58px;
+  margin-right: 50px;
+  /*padding-top: 4.10%;*/
+}
+
+/***************** Suche ****************/
+div.popup_search h1 {
+  margin-right: 2.083%;
+  margin-left: 2.083%;
+  padding: 2% 0 2% 5%;
+  background-image: url('../img/03_dropdown/03.1_chapter-field.png');
+  background-size: cover;
+  color: white;
+  font-family: SourceSansProLight;
+}
+div.popup_search div#search {
+  margin-bottom: 5%;
+}
+/***************** Suche ENDE ****************/
+
+/***************** Info ****************/
+div.info_info {
+  padding: 5%;
+  color: black;
+  text-transform: none;
+  font-family: SourceSansProRegular;
+}
+div.info_info h3 {
+  font-weight: 200;
+  font-family: SourceSansProBold;
+}
+div.info_info a {
+  color: black;
+  text-decoration: none;
+  font-family: SourceSansProBold;
+}
+div.info_info img.inContentImg {
+  padding: 1% 38% 6% 38%;
+  width: 24%;
+}
+div.info_info p {
+  padding: 0 0 0 25%;
+}
+div.info_info img.bfr {
+  padding: 8% 45% 6% 45%;
+  width: 10%;
+}
+div.info_info p.supporter {
+  padding: 0;
+  text-align: center;
+}
+div.info_info img.supporter {
+  padding: 0;
+}
+.revisionInfo {
+  padding-top: 7%;
+}
+/***************** Info ENDE ****************/
+
+/***************** Ortung *****************/
+.geolocationBox {
+  box-sizing: border-box;
+  padding: 0 7.8%;
+  width: 100%;
+  height: 100%;
+}
+
+.geolocationSwitchBox {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: table;
+  box-sizing: border-box;
+  margin-bottom: 0.3%;
+  padding: 1.5% 4% 1% 4%;
+  width: 100%;
+  background-image: url('../img/02_list/00.5_list-element-transparent.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #33383d;
+  text-transform: none;
+  font-size: 54pt;
+  font-family: 'SourceSansProBold';
+}
+
+.geolocationSwitchBox label {
+  display: table;
+  padding: 4% 0;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#geolocationSwitch {
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  margin-top: -62px;
+  width: 221px;
+  height: 123px;
+  background-color: transparent;
+  background-image: url(../img/05_other/05.2_base_grey.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#geolocationSwitch.active {
+  background-image: url(../img/05_other/05.2_base.png);
+}
+
+#geolocationSwitchCircle {
+  position: absolute;
+  top: 13px;
+  right: auto;
+  left: 4%;
+  width: 97px;
+  height: 97px;
+  background-color: transparent;
+  background-image: url(../img/05_other/05.2_circle.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#geolocationSwitch.active #geolocationSwitchCircle {
+  right: 4%;
+  left: auto;
+}
+
+#geolocationText {
+  padding: 4%;
+  width: 92%;
+  color: #33383d;
+  text-transform: none;
+  word-wrap: break-word;
+  font-size: 36pt;
+}
+#geolocationSwitchLabel.active {
+  color: #000;
+}
+#geolocationSwitchLabel.inactive {
+  color: #777f88;
+}
+/***************** Ortung ENDE *****************/
+
+/***************** Sendeplan *****************/
+div.day_select {
+}
+/***************** Broadcast *****************/
+.broadcast-navigation {
+  position: relative;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.broadcast-navigation img {
+  position: absolute;
+}
+.broadcast-navigation > span {
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-transform: none;
+  font-weight: 600;
+  font-family: SourceSansProLight;
+}
+.broadcast-navigation > span > span {
+  color: #fff;
+  font-family: SourceSansProBold;
+}
+/*.broadcastProgramEntry {
+	width: 98%;
+	height: auto;
+	background-color: #ddd;
+	text-transform: none;
+	box-sizing: border-box;
+	position: relative;
+	font-family: "SourceSansProRegular", Arial, Helvetica, sans-serif;
+	font-weight: 600;	
+}*/
+.broadcastProgramEntry span.stationListElementHeader {
+  color: #222;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: 'SourceSansProBold', Arial, Helvetica, sans-serif;
+}
+.broadcastProgramEntry span.stationListElementBody {
+  display: block;
+  color: #777f88;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 100;
+  font-family: 'SourceSansProRegular';
+}
+
+/***************** Broadcast ENDE *****************/
+/***************** Sendeplan ENDE *****************/
+
+/***************** StreamPlayer *****************/
+.currentLiveStream {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2500;
+  width: 100%;
+  height: 60px;
+  background: #000;
+  opacity: 0.8;
+
+  -moz-opacity: 0.8;
+  -ms-opacity: 0.8;
+}
+
+.currentLiveStream div.text {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  width: 80%;
+  height: 60px;
+  color: #fff;
+  font-size: 0.8em !important;
+  font-family: 'SourceSansProBold' !important;
+  line-height: 1em;
+}
+
+.currentLiveStream div.text span.positionedText {
+  display: table-cell;
+  overflow: hidden;
+  width: 100%;
+  height: 60px;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+}
+
+.currentLiveStream a.close {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url('../img/03_dropdown/03.1_icon-close.png') !important;
+  background-position: center center;
+  background-size: 22px 21px;
+  background-repeat: no-repeat;
+}
+
+.liveStreamSpinnerLayer {
+  position: fixed;
+  top: 30%;
+  left: 5%;
+  z-index: 5000;
+  width: 90%;
+  height: 40%;
+  border-radius: 5px;
+  background: url('../img/05_other/spinner.gif') center center no-repeat rgba(0, 0, 0, 0.8);
+}
+
+.liveStreamSpinnerLayer div.text {
+  position: absolute;
+  top: 50%;
+  padding-top: 60px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 1em !important;
+  font-family: 'SourceSansProBold' !important;
+}
+/***************** StreamPlayer ENDE *****************/
+
+/***************** Kontakt *****************/
+section.contact-container {
+  padding: 7.8%;
+  text-transform: none;
+  font-size: 36pt;
+}
+
+section.contact-container h1 {
+  padding: 0 0 2% 0;
+  text-align: left;
+  font-weight: bold;
+  font-size: 54pt;
+}
+
+section.contact-container h2 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-weight: bold;
+  font-size: 36pt;
+  font-family: 'SourceSansProBold', Arial, Helvetica, sans-serif;
+}
+
+section.contact-container div.block {
+  padding: 0 0 7.8% 0;
+}
+
+section.contact-container p {
+  margin: 0;
+  padding: 0 0 2% 0;
+}
+
+section.contact-container div.block:last-child,
+section.contact-container p:last-child {
+  padding: 0;
+}
+
+section.contact-container a {
+  color: #33383d;
+}
+/***************** Kontakt ENDE *****************/
+
+/***************** Sender - Info *****************/
+section.broadcastinfo-container {
+  padding: 2%;
+  text-transform: none;
+  font-size: 36pt;
+}
+
+section.broadcastinfo-container div.info-header {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: table;
+  box-sizing: border-box;
+  margin-bottom: 0.3%;
+  padding: 4% 4% 4% 4%;
+  width: 100%;
+  background-image: url('../img/02_list/00.5_list-element-transparent.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #33383d;
+  text-transform: none;
+  font-size: 54pt;
+}
+section.broadcastinfo-container div.info-header div.station-logo {
+  display: table-cell;
+  float: left;
+  padding-top: 1.7%;
+  width: 30%;
+  vertical-align: middle;
+}
+section.broadcastinfo-container div.info-header div.station-logo img {
+  width: 100%;
+  height: auto;
+}
+
+section.broadcastinfo-container div.info-header div.station-name {
+  float: left;
+  padding: 0 5%;
+  width: 60%;
+  font-size: 54pt;
+  font-family: 'SourceSansProBold';
+}
+
+section.broadcastinfo-container div.info-header div.broadcast-cityandfreuqency {
+  padding-top: 4%;
+  font-size: 14pt;
+  font-family: 'SourceSansProRegular';
+}
+/*section.broadcastinfo-container div.info-header div.station-info*/
+section.broadcastinfo-container div.info-header div.station-name p {
+  padding-bottom: 0;
+  font-size: 36pt;
+  font-family: 'SourceSansProRegular';
+}
+/*section.broadcastinfo-container div.info-header div.station-info strong*/
+/*section.broadcastinfo-container div.info-header div.station-name p
+{
+	font-family: "SourceSansProBold";
+}*/
+section.broadcastinfo-container div.transmitting {
+  padding: 2% 4%;
+}
+
+section.broadcastinfo-container div.transmitting span.transmit-types {
+  text-transform: uppercase;
+  font-family: 'SourceSansProBold';
+}
+
+section.broadcastinfo-container div.broadcast-stream {
+  position: relative;
+  margin-left: -1%;
+  width: 102%;
+  cursor: pointer;
+}
+
+section.broadcastinfo-container div.broadcast-stream img.liveStreamImage {
+  position: relative;
+  width: 100%;
+}
+
+section.broadcastinfo-container div.broadcast-stream-info {
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  padding: 0 5%;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+section.broadcastinfo-container div.broadcast-stream-info-content {
+  position: absolute;
+  display: table;
+  width: 84.4%;
+  height: 100%;
+}
+
+section.broadcastinfo-container div.broadcast-stream-info-contenttext {
+  position: absolute;
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+section.broadcastinfo-container div.broadcast-stream-info-contenttext span.cell {
+  position: absolute;
+  display: table;
+  height: 32%;
+  font-size: 54pt;
+}
+
+section.broadcastinfo-container div.broadcast-stream-info-contenttext span.cell-content {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+section.broadcastinfo-container div.broadcast-stream-info-contenttext span.cell.title {
+  top: 2%;
+  text-transform: uppercase;
+  font-family: 'SourceSansProBold';
+}
+
+section.broadcastinfo-container div.broadcast-stream-info-contenttext span.cell.times {
+  top: 31%;
+  font-size: 36pt;
+}
+
+section.broadcastinfo-container div.broadcast-stream-info-contenttext span.cell.broadcast-title {
+  top: 60%;
+  font-family: 'SourceSansProBold';
+}
+
+section.broadcastinfo-container div.broadcast-description {
+  padding: 2% 4%;
+}
+section.broadcastinfo-container div.broadcast-noprogram {
+  padding: 2% 4%;
+}
+/***************** Sender - Info ENDE *****************/
+
+/***************** Sendungsdetails *****************/
+div.programName {
+  position: fixed;
+  z-index: 2;
+  margin-top: -2px;
+  width: 100%;
+  background-image: url(../img/03_dropdown/03.1_header.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 2px 0 2px 2px #555;
+}
+
+div.programName h1 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding: 4% 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  text-transform: none;
+  text-shadow: 2px 2px 2px #555;
+  font-size: 54pt;
+  font-family: 'SourceSansProBold';
+}
+
+div.programName h1 span.text {
+  overflow: hidden;
+  max-width: 75%;
+  text-overflow: ellipsis;
+}
+
+div.programName img.programmClose {
+  position: absolute;
+  top: 33.6%;
+  right: 5.31%;
+  height: 32.8%;
+}
+
+section.programInfo-container {
+  padding: 18.1% 2% 2% 2%;
+  color: #1c2a3a;
+  text-transform: none;
+  font-size: 36pt;
+}
+
+div.favorites-dialog {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  z-index: 11;
+  display: none;
+  padding: 3% 3% 0 3%;
+  width: 74%;
+  border: solid 1px #fff;
+  background-color: #1c2a3a;
+  color: white;
+  font-size: 16pt;
+}
+div.remove-favorites-dialog {
+  position: absolute;
+  left: 10%;
+  z-index: 11;
+  display: none;
+  padding: 3% 3% 0 3%;
+  width: 74%;
+  border: solid 1px #fff;
+  background-color: #1c2a3a;
+  color: white;
+  font-size: 16pt;
+}
+div.favorites-dialog h3,
+div.remove-favorites-dialog h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 18pt;
+  line-height: 18pt;
+}
+div.favorites-dialog div.closeDialogButton {
+  bottom: 0;
+  margin-left: -4%;
+  padding: 2% 4%;
+  width: 100%;
+  height: 25%;
+  background-color: #c2c8cf;
+  color: #1c2a3a;
+  text-align: center;
+  cursor: pointer;
+}
+div.remove-favorites-dialog div.submitDialogButton {
+  bottom: 0;
+  float: right;
+  margin-right: -4%;
+  padding: 2% 4%;
+  width: 44%;
+  height: 25%;
+  border: 1px solid #1c2a3a;
+  background-color: #c2c8cf;
+  color: #1c2a3a;
+  text-align: center;
+  cursor: pointer;
+}
+div.remove-favorites-dialog div.cancelDialogButton {
+  bottom: 0;
+  float: left;
+  margin-left: -4%;
+  padding: 2% 4%;
+  width: 44%;
+  height: 25%;
+  border: 1px solid #1c2a3a;
+  background-color: #c2c8cf;
+  color: #1c2a3a;
+  text-align: center;
+  cursor: pointer;
+}
+
+section.programInfo-container div.programInfo-banner {
+  position: relative;
+  width: 100%;
+  background-image: url(../img/03_dropdown/03.1_dropdown-button.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+section.programInfo-container div.programInfo-banner h1 {
+  position: relative;
+  padding: 3.66% 6.8%;
+  color: #cfcfd1;
+  text-align: left;
+  font-size: 54pt;
+  font-family: 'SourceSansProRegular';
+}
+
+section.programInfo-container div.programInfo-banner img.programInfo-accordionOpen {
+  position: absolute;
+  top: 33.6%;
+  right: 4.4%;
+  height: 32.8%;
+}
+
+section.programInfo-container div.programInfo-data {
+  position: relative;
+  display: none;
+  overflow: hidden;
+}
+
+section.programInfo-container div.programInfo-data div.programInfo-data-content {
+  padding: 6.8%;
+}
+
+section.programInfo-container div.programInfo-data h2 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-weight: bold;
+  font-size: 36pt;
+  font-family: 'SourceSansProBold', Arial, Helvetica, sans-serif;
+}
+
+section.programInfo-container div.programInfo-data p {
+  margin: 0;
+  padding: 6.8% 0;
+}
+
+section.programInfo-container div.programInfo-data ul,
+section.programInfo-container div.programInfo-data ul li {
+  margin: 0 0 0 4%;
+  padding: 0;
+  list-style-type: none;
+}
+
+section.programInfo-container div.programInfo-data div.addToFavorites {
+  cursor: pointer;
+}
+
+section.programInfo-container div.programInfo-data div.addToFavorites img {
+  margin-right: 4.1%;
+  width: 12.5%;
+  vertical-align: middle;
+}
+
+section.programInfo-container div.programInfo-data div.addToFavorites span.text {
+  font-weight: bold;
+  font-family: 'SourceSansProBold', Arial, Helvetica, sans-serif;
+}
+/***************** Sendungsdetails ENDE *****************/
+
+/***************** Sendungsplan / Schedule *****************/
+div.schedule {
+  margin-top: -225px;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+div.schedule div.genres-title {
+  margin: 4% 0%;
+  padding: 0.5em 0.8em 0.5em 0.8em;
+  background-image: url(../img/03_dropdown/03.1_dropdown-button.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #cfcfd1;
+  text-align: left;
+  text-transform: none;
+  font-weight: 800;
+  font-size: 14pt;
+  font-family: 'SourceSansProLight', Arial, Helvetica, sans-serif;
+}
+
+div.schedule div.genres-title img {
+  float: right;
+  padding: 0.5em 0 0 0;
+}
+
+div.schedule div.genres-container {
+  margin: 4% 2%;
+  border-radius: 5px;
+  background-image: url(../img/01_map/01.1_map-overlay.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+div.schedule div.genres-list {
+  display: none;
+  padding: 0 4% 4% 4%;
+}
+
+div.schedule div.genres-list.active {
+  display: block;
+  padding: 0 4% 4% 4%;
+}
+
+div.schedule div.genres-list div.genres-item {
+  display: inline-block;
+  margin: 4% 4% 0 0;
+  padding: 2%;
+  border-radius: 5px;
+  background-image: url('../img/01_map/01.1_button_submenu.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-transform: none;
+  font-weight: 600;
+  font-family: 'SourceSansProRegular', Arial, Helvetica, sans-serif;
+}
+
+div.schedule div.genres-list div.genres-item.active {
+  background-image: url('../img/01_map/01.1_button_submenu-downstate.png');
+  color: white;
+}
+/***************** Sendungsplan / Schedule ENDE *****************/
+
+div.scheduleDetail div.timeTitle {
+  margin: 4% 1%;
+  background-image: url(../img/03_dropdown/03.1_dropdown-button.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #cfcfd1;
+  text-align: center;
+  text-transform: none;
+  font-weight: 800;
+  font-family: 'SourceSansProLight', Arial, Helvetica, sans-serif;
+}
+div.scheduleDetail ul.genres-list {
+  margin: 0 0 4% 0;
+  list-style-type: none;
+}
+div.broadcastProgram {
+  font-weight: 600;
+  font-family: 'SourceSansProRegular', Arial, Helvetica, sans-serif;
+}
+#list div.broadcastProgram {
+  margin-top: 2.083%;
+}
+/***************** Sendungsplandetail / Schedule ENDE *****************/

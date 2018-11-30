@@ -1,0 +1,45 @@
+<div class="innerContainer">
+<div class="popup_search">
+		<div id="search">
+			<input type="text" id="searchInput" value="{{searchText}}" />
+			<img id="searchIcon" src="img/02_list/00.5_icon-search.png" />
+			<img id="searchClose" src="img/02_list/02.2_icon-close.png" />			
+			{{#if sortByDistance}}
+				<img id="searchMethod" src="img/02_list/toggle-button_ABC.png" />
+			{{else}}
+				<img id="searchMethod" src="img/02_list/toggle-button_location.png" />
+			{{/if}}
+		</div>
+		<h1>Sender</h1>
+		<ul class="stationAndBroadcastList" id="listStations">
+			{{#each stations}}
+				<li class="stationListElement" data-href="broadcastinfo?station_id={{this.id}}">
+					<div class="stationListElementLeft">
+					<span class="stationListElementHeader">{{this.name}}</span><br>
+					<span class="stationListElementBody">{{this.city}} | {{this.frequency}} MHz</span>
+					</div>
+					<div class="favoriteIcons">
+					<img class="stationListArrow" src="img/02_list/00.5_list-arrow.png" />
+					</div>
+				</li>
+			{{/each}}
+		</ul>
+		<h1>Sendung</h1>
+		<ul class="stationAndBroadcastList" id="listBroadcasts">
+			{{#each broadcasts}}
+				<li class="stationListElement" data-href="broadcastdetail?station_id={{this.stationID}}&broadcasts_id={{this.id}}">
+					<div class="stationListElementLeft">
+						<span class="stationListElementHeader">{{this.title}}</span><br>
+						<span class="stationListElementBody">{{this.stationName}}</span>
+					</div>
+					<div class="favoriteIcons">
+					{{#if this.isFavorite}}
+						<img class="favoriteStarList" src="img/02_list/02.3_icon_favorites.png" />
+					{{/if}}
+					<img class="stationListArrow" src="img/02_list/00.5_list-arrow.png" />
+					</div>
+				</li>
+			{{/each}}
+		</ul>
+</div>
+</div>

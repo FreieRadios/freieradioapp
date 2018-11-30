@@ -1,0 +1,178 @@
+<station xmlns:gml="http://www.opengis.net/gml" lastupdate="2013-08-21T15:07:38.6875000+02:00">
+<info>
+<displayname>LOHRO 90,2MHz</displayname>
+<fullname>Lokalradio Rostock</fullname>
+<logo src="https://www.lohro.de/wp-content/themes/wordpress-lohro-theme-oyla/logo.svg"/>
+<basecolor>#FF6600</basecolor>
+<city>Rostock</city>
+<description>Senderbeschreibung: 40 Wörter / 266 Zeichen</description>
+<!-- v2 ergänzt -->
+<studio>
+<street>Friedrichstraße</street>
+<number>23</number>
+<city>Rostock</city>
+<zip>18057</zip>
+<studio-location>
+<gml:Point>
+<gml:pos>54.0911602 12.1231374</gml:pos>
+</gml:Point>
+</studio-location>
+<phone type="Redaktion">+49 381 666 57 7</phone>
+<email type="Redaktion">presse@lohro.de</email>
+<open time-from="10:00:00" time-to="16:00:00"/>
+</studio>
+</info>
+<media-channels>
+<transmitter type="ukw">
+<frequency>90.2</frequency>
+<frequencyunit>MHz</frequencyunit>
+<city>Rostock</city>
+<operator>MediaBroadcast</operator>
+<transmit-power>100</transmit-power>
+<transmit-power-unit>W</transmit-power-unit>
+<transmit-rds-id>LOHRO</transmit-rds-id>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<transmitter-location>
+<gml:Point>
+<gml:pos>54.13101 12.12098</gml:pos>
+</gml:Point>
+</transmitter-location>
+<receptionarea>
+<gml:Polygon>
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>
+54.1352456 11.974146 54.1402071 11.9689458 54.0899413 11.9086196 54.0283296 12.0224148 54.0380318 12.1894587 54.1021403 12.2936499 54.1706016 12.2581057 54.1904241 12.199953 54.2185634 12.1106805
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</receptionarea>
+</transmitter>
+<transmitter type="cable">
+<frequency>94.0</frequency>
+<frequencyunit>MHz</frequencyunit>
+<operator>Kabel Deutschland</operator>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+</transmitter>
+<transmitter type="cable">
+<frequency>97.80</frequency>
+<frequencyunit>MHz</frequencyunit>
+<operator>PrimaCom</operator>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+</transmitter>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://stream.lohro.de:8000/lohro_vorbis.ogg</url>
+<format>audio/ogg</format>
+<quality>320kbps</quality>
+</webstream>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://stream.lohro.de:8000/lohro.mp3</url>
+<format>audio/mpeg</format>
+<quality>256kbps</quality>
+</webstream>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://stream.lohro.de:8000/lohro_low.mp3</url>
+<format>audio/mpeg</format>
+<quality>96kbps</quality>
+</webstream>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://stream.lohro.de:8000/lohro.aac</url>
+<format>audio/aac</format>
+<quality>72kbps</quality>
+</webstream>
+<website>
+<url>http://www.lohro.de</url>
+</website>
+</media-channels>
+<programme>
+<broadcast id="1">
+<title>Weckruf</title>
+<description>
+Aufstehen und Anziehen mit Infos aus Stadt und Land
+</description>
+<categories>
+<category name="Gesellschaft" id="14"/>
+<category name="Kultur" id="18"/>
+</categories>
+<feed>
+<title>Podcast-Feed</title>
+<url>https://www.lohro.de/nachhoeren</url>
+</feed>
+<transmit-times>
+<!-- regelmäßige Ausstrahlungen (Serien) -->
+<transmit-time recurrence="true">
+<!-- - Jede Woche Montags von 17 bis 19 Uhr  -->
+<weekly day="MO" priority="0" time-from="06:00:00" time-to="09:00:00"/>
+<weekly day="DI" priority="0" time-from="06:00:00" time-to="09:00:00"/>
+<weekly day="MI" priority="0" time-from="06:00:00" time-to="09:00:00"/>
+<weekly day="DO" priority="0" time-from="06:00:00" time-to="09:00:00"/>
+<weekly day="FR" priority="0" time-from="06:00:00" time-to="09:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="2">
+<title>Homerum</title>
+<description>
+Der Nachmittag mit Infos zu aktuellen Themen und Veranstaltungen
+</description>
+<categories>
+<category name="Gesellschaft" id="14"/>
+<category name="Kultur" id="18"/>
+</categories>
+<feed>
+<title>Podcast-Feed</title>
+<url>https://www.lohro.de/nachhoeren</url>
+</feed>
+<transmit-times>
+<!-- regelmäßige Ausstrahlungen (Serien) -->
+<transmit-time recurrence="true">
+<!-- - Jede Woche Montags von 17 bis 19 Uhr  -->
+<weekly day="MO" priority="0" time-from="15:00:00" time-to="17:00:00"/>
+<weekly day="DI" priority="0" time-from="15:00:00" time-to="17:00:00"/>
+<weekly day="MI" priority="0" time-from="15:00:00" time-to="17:00:00"/>
+<weekly day="DO" priority="0" time-from="15:00:00" time-to="17:00:00"/>
+<weekly day="FR" priority="0" time-from="15:00:00" time-to="17:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="3">
+<title>Beatbetrieb</title>
+<description>Das Neuste aus der Musikredaktion</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<feed>
+<title>Podcast-Feed</title>
+<url>https://www.lohro.de/nachhoeren</url>
+</feed>
+<transmit-times>
+<!-- regelmäßige Ausstrahlungen (Serien) -->
+<transmit-time recurrence="true">
+<!-- - Jede Woche Montags von 17 bis 19 Uhr  -->
+<weekly day="MO" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+<weekly day="MI" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+<weekly day="FR" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+</station>

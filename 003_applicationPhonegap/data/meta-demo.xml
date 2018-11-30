@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<freeradioapp lastupdate="2016-11-16T11:15:00.6875000+02:00" xmlns:gml="http://www.opengis.net/gml">
+	 <stationlist>
+	 	<station lastupdate="2016-11-16T11:15:00.6875000+02:00" id="0">
+	 		<name>Radio StHörfunk</name>
+	 		<city>Schwäbisch Hall</city>
+	 		<xmluri>/data/sthoerfunk.xml</xmluri>
+	 		<frequency>97,5</frequency>
+	 		<lat>49.11158</lat>
+	 		<lng>9.736030</lng>
+	 		<streamurl>http://stream.sthoerfunk.de:7000/sthoerfunk.mp3</streamurl>
+	 	</station>
+	 	<station lastupdate="2016-11-16T11:15:00.6875000+02:00" id="1">
+	 		<name>bermuda.funk</name>
+	 		<city>Mannheim</city>
+	 		<xmluri>/data/bermudafunk.xml</xmluri>
+	 		<frequency>99,2</frequency>
+	 		<lat>49,49580123</lat>
+	 		<lng>8,47420038</lng>
+	 		<streamurl>http://streaming.fueralle.org:8000/bermudafunk.ogg</streamurl>
+	 	</station>
+	 	<station lastupdate="2016-11-16T11:15:00.6875000+02:00" id="2">
+	 		<name>Freies Radio Freudenstadt</name>
+	 		<city>Freudenstadt</city>
+	 		<xmluri>/data/freies_radio_freudenstadt.xml</xmluri>
+	 		<frequency>100,1</frequency>
+	 		<lat>48.466813</lat>
+	 		<lng>8.410399</lng>
+	 		<streamurl>http://85.25.176.186:9140/listen.pls</streamurl>
+	 	</station>
+		<station lastupdate="2016-11-16T11:15:00.6875000+02:00" id="3">
+	 		<name>Pi Radio</name>
+	 		<city>Berlin</city>
+	 		<xmluri>/data/piradio.xml</xmluri>
+	 		<frequency>88,4</frequency>
+	 		<lat>52.53119</lat>
+	 		<lng>13.4066</lng>
+	 		<streamurl>http://ice.rosebud-media.de:8000/88vier</streamurl>
+	 	</station>
+	 	<station lastupdate="2016-11-16T11:15:00.6875000+02:00" id="4">
+	 		<name>freeFM</name>
+	 		<city>Ulm</city>
+	 		<xmluri>/data/freefm.xml</xmluri>
+	 		<frequency>88,4</frequency>
+	 		<lat>47.53119</lat>
+	 		<lng>10.4066</lng>
+	 		<streamurl>http://stream.freefm.de:8100/listen.pls</streamurl>
+	 	</station>
+	 	<station lastupdate="2016-11-16T11:15:00.6875000+02:00" id="5">
+	 		<name>Wüste Welle Tübingen</name>
+	 		<city>Tübingen</city>
+	 		<xmluri>/data/wueste_welle.xml</xmluri>
+	 		<frequency>96.6</frequency>
+	 		<lat>48.499204</lat>
+	 		<lng>9.064466</lng>
+	 		<streamurl>http://livestream.wueste-welle.de:8000/mp3</streamurl>
+	 	</station>
+	 	<station lastupdate="2016-11-16T11:15:00.6875000+02:00" id="6">
+	 		<name>RUM</name>
+	 		<city>Marburg</city>
+	 		<xmluri>/data/rum.xml</xmluri>
+	 		<frequency>90,1</frequency>
+	 		<lat>50.816175</lat>
+	 		<lng>8.778526</lng>
+	 		<streamurl>http://stream.radio-rum.de:8000/rum.mp3?_=1</streamurl>
+	 	</station>
+	 	<station lastupdate="2016-11-16T11:15:00.6875000+02:00" id="7">
+	 		<name>Freies Radio Wiesental</name>
+	 		<city>Wiesental</city>
+	 		<xmluri>/data/fr_wiesental.xml</xmluri>
+	 		<frequency>104,5</frequency>
+	 		<lat>47.6509191</lat>
+	 		<lng>7.8238084</lng>
+	 		<streamurl>http://freies-radio-wiesental.de:8000/frw-hi.mp3</streamurl>
+	 	</station>
+	 	<station lastupdate="2016-11-16T11:15:00.6875000+02:00" id="8">
+	 		<name>Corax Halle</name>
+	 		<city>Halle</city>
+	 		<xmluri>/data/corax.xml</xmluri>
+	 		<frequency>95,90</frequency>
+	 		<lat>51.4876800</lat>
+	 		<lng>11.9705900</lng>
+	 		<streamurl>http://streaming.fueralle.org:8000/corax.mp3</streamurl>
+	 	</station>
+	 	<station lastupdate="2016-11-16T11:15:00.6875000+02:00" id="9">
+	 		<name>Radio LOHRO Rostock</name>
+	 		<city>Rostock</city>
+	 		<xmluri>/data/lohro.xml</xmluri>
+	 		<frequency>90,2</frequency>
+	 		<lat>54.0911602</lat>
+	 		<lng>12.1231374</lng>
+	 		<streamurl>http://stream.lohro.de:8000/lohro.ogg</streamurl>
+	 	</station>
+	 </stationlist>
+</freeradioapp> 

@@ -1,0 +1,680 @@
+<station xmlns:gml="http://www.opengis.net/gml" lastupdate="2013-08-21T15:07:38.6875000+02:00">
+<info>
+<displayname>Freies Radio Wüste Welle</displayname>
+<fullname>Freies Radio Wüste Welle</fullname>
+<logo src="http://wueste-welle.de/frapp/wuestewelle.png"/>
+<basecolor>#f08a26</basecolor>
+<city>Tübingen</city>
+<description>
+Seit 1995 auf Sendung: Das einzige Freie Radio für die Region Tübingen, Reutlingen und Rottenburg
+</description>
+<!-- v2 ergänzt -->
+<studio>
+<street>Hechinger Strasse</street>
+<number>203</number>
+<city>Tübingen</city>
+<zip>72072</zip>
+<studio-location>
+<gml:Point>
+<gml:pos>48.499204 9.064466</gml:pos>
+</gml:Point>
+</studio-location>
+<phone type="studio">+49 7071 760204</phone>
+<phone type="office">+49 7071 760337</phone>
+<email type="studio">buero@wueste-welle.de</email>
+<email type="office">buero@wueste-welle.de</email>
+<open time-from="13:00:00" time-to="16:00:00"/>
+</studio>
+</info>
+<media-channels>
+<transmitter type="ukw">
+<frequency>96.6</frequency>
+<frequencyunit>MHz</frequencyunit>
+<city>Tübingen</city>
+<operator>MediaBroadcast</operator>
+<transmit-power>2</transmit-power>
+<transmit-power-unit>kW</transmit-power-unit>
+<transmit-rds-id>WELLE TUE</transmit-rds-id>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<transmitter-location>
+<gml:Point>
+<gml:pos>48.5352 9.07263</gml:pos>
+</gml:Point>
+</transmitter-location>
+<receptionarea>
+<gml:Polygon>
+<gml:exterior>
+<gml:LinearRing>
+<gml:posList>
+48.50387 9.74213 48.34472 9.74213 48.18565 9.73938 48.04354 9.77783 48.01047 9.85886 48.03068 10.06897 48.09585 10.40543 48.25336 10.61005 48.4514 10.80917 48.68075 10.94513 48.69525 10.83252 48.72063 10.70068 48.57182 10.29968 48.50387 9.94812 48.50387 9.74213
+</gml:posList>
+</gml:LinearRing>
+</gml:exterior>
+</gml:Polygon>
+</receptionarea>
+</transmitter>
+<transmitter type="cable">
+<frequency>97.45</frequency>
+<frequencyunit>MHz</frequencyunit>
+<operator>KabelBW</operator>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+</transmitter>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://livestream.wueste-welle.de:8000/ogg.m3u</url>
+<format>audio/ogg</format>
+<quality>192kbps</quality>
+</webstream>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://livestream.wueste-welle.de:8000/mp3.m3u</url>
+<format>audio/mpeg</format>
+<quality>192kbps</quality>
+</webstream>
+<website>
+<url>http://www.wueste-welle.de</url>
+</website>
+</media-channels>
+<programme>
+<broadcast id="1">
+<title>Jimmys NewsBeat</title>
+<description>
+Die "News" stehen im Vordergrund, aber auch der "Beat" fehlt nicht! Jede 2. Woche bringt euch Jimmy seine Auswahl von Nachrichten und journalistischen Themen, die irgendwie f𲠁ufregung sorgen, kurios oder interessant sind oder einfach in der Medienwelt kursieren. Die Vielfalt ist groߠ- egal ob Politik, Kultur, Technik, Games, Wirtschaft, Wissenschaft, Internet oder eben der Klatsch des Tages. Hier ist f𲠪eden etwas dabei. Ob es irgendwo auf der Welt passiert oder in Freudenstadt - bei Jimmys NewsBeat wird man informiert UND unterhalten. Die Musik dazu kommt aus allen Genres. Kontakt: jimmy(at)radio-fds.de
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+<category name="Medien" id="19"/>
+<category name="Kultur" id="18"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede 1. 3. Woche des Monats am Dienstag  -->
+<weekOfMonth day="DI" priority="0" time-from="16:00:00" time-to="17:00:00" week1="true" week2="false" week3="true" week4="false" week5="false"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede 2. 4. 5. Woche des Monats am Dienstag  -->
+<weekOfMonth day="DI" priority="0" time-from="16:00:00" time-to="17:00:00" week1="false" week2="true" week3="false" week4="true" week5="true"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 18 bis 19  -->
+<weekly day="DO" priority="0" time-from="18:00:00" time-to="19:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 12 bis 13  -->
+<weekly day="MO" priority="0" time-from="12:00:00" time-to="13:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="2">
+<title>GeschmacksVerirrung</title>
+<description>
+"GeschmacksVerirrung" hei࠴, neue Dinge auszuprobieren und sich auf sie einzulassen. Jeder hat doch seine Lieblingsmusik. Jeder h孴 doch manch andere f𲠢geschmacksverirrt". Doch richtig spannend wird es erst, wenn verschiedene Geschm夫er zusammenkommen und etwas Neues entsteht. Das Moderatoren-Duo Constantin Volz und Phil Seifert verspricht eine ausgewogene Sendung mit vielen ansprechenden musikalischen Beitr娥n, bei der f𲠪eden etwas dabei ist! Kontakt: www.facebook.de/geschmacksverirrung constantin@radio-fds.de
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede 1. 3. Woche des Monats am Samstag  -->
+<weekOfMonth day="SA" priority="0" time-from="14:00:00" time-to="15:00:00" week1="true" week2="false" week3="true" week4="false" week5="false"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede 2. 4. 5. Woche des Monats am Samstag  -->
+<weekOfMonth day="SA" priority="0" time-from="14:00:00" time-to="15:00:00" week1="false" week2="true" week3="false" week4="true" week5="true"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Diensstags von 02 bis 03  -->
+<weekly day="DI" priority="0" time-from="02:00:00" time-to="03:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 00 bis 01  -->
+<weekly day="MI" priority="0" time-from="00:00:00" time-to="01:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 18 bis 19  -->
+<weekly day="MI" priority="0" time-from="18:00:00" time-to="19:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 03 bis 04  -->
+<weekly day="DO" priority="0" time-from="03:00:00" time-to="04:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="3">
+<title>Kinotante</title>
+<description>
+Ich lade Euch ein auf ein Kaffeekr寺chen mit der KINOTANTE ... Die besten Kinofilme der Region, Neuigkeiten, filmische Highlights, alles rund ums Zelluloid und um digitale Bilder; was f𲠤ie Augen, die Ohren, f𲠤ie Herzen und f𲠤ie Seele. mit Alejandra M. Falcone Kontakt: kinotante(at)radio-fds.de
+</description>
+<categories>
+<category name="Kultur" id="18"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede 1. 3. Woche des Monats am Mittwoch  -->
+<weekOfMonth day="MI" priority="0" time-from="19:00:00" time-to="20:00:00" week1="true" week2="false" week3="true" week4="false" week5="false"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede 2. 4. 5. Woche des Monats am Mittwoch  -->
+<weekOfMonth day="MI" priority="0" time-from="19:00:00" time-to="20:00:00" week1="false" week2="true" week3="false" week4="true" week5="true"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 07 bis 08  -->
+<weekly day="DO" priority="0" time-from="07:00:00" time-to="08:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 15 bis 16  -->
+<weekly day="DO" priority="0" time-from="15:00:00" time-to="16:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="4">
+<title>33 / 45</title>
+<description>
+Verstaubt, das Cover vergilbt und f𲠩mmer vergessen, die runden Sch嵺e in Schwarz... Sie stehen auf der B𨮥 oder im Keller oder irgendwo im Eck... Ich hole sie hervor und spiele f𲠥uch 2 Stunden Musik von Schallplatte. H򲴠rein und lasst euch 𢥲raschen was alles dabei ist! Kontakt: juergen(at)radio-fds.de
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede 1. Woche des Monats am Samstag  -->
+<weekOfMonth day="SA" priority="0" time-from="20:00:00" time-to="22:00:00" week1="true" week2="false" week3="false" week4="false" week5="false"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede 2. 3. 4. 5. Woche des Monats am Samstag  -->
+<weekOfMonth day="SA" priority="0" time-from="20:00:00" time-to="22:00:00" week1="false" week2="true" week3="true" week4="true" week5="true"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 18 bis 20  -->
+<weekly day="SO" priority="0" time-from="18:00:00" time-to="20:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="5">
+<title>Afternoon Pop and Rockshop</title>
+<description>
+Rock, Pop und Indie FreundInnen aufgepasst! Einen erstklassigen Mix aus diesen drei Musikrichtungen, gekoppelt mit spannenden Themen und einer einzigartigen Moderation, bietet euch der Afternoon Pop and Rockshop! W婲end die kommerziellen Sender ihr minimalistisches Reΰerδoire rauf und runter spielen, findet ihr hier auch viele neue und bislang unbekannte Songs. Mehr Infos zur Sendung und die M򧬩chkeit, eure Musikw𮳣he loszuwerden, findet ihr auf dieser Homepage: http://pop-and-rock-shop.de.to/ mit Marc Blochwitz
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 15 bis 16  -->
+<weekly day="SO" priority="0" time-from="15:00:00" time-to="16:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 13 bis 14  -->
+<weekly day="MO" priority="0" time-from="13:00:00" time-to="14:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 09 bis 10  -->
+<weekly day="MI" priority="0" time-from="09:00:00" time-to="10:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="6">
+<title>Backbeat</title>
+<description>
+Die w򣨥ntliche Musikquelle f𲠃lassic Rock, Blues und Progressive Rock aus Kanada, USA und der internationalen Szene. The weekly music source for Classic Rock, Blues and Progressive Rock from Canada, USA and the international scene. mit Andre Graziadei Kontakt: andre(at)radio-fds.de
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnerstags von 20 bis 23  -->
+<weekly day="DO" priority="0" time-from="20:00:00" time-to="23:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 09 bis 12  -->
+<weekly day="FR" priority="0" time-from="09:00:00" time-to="12:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 17 bis 20  -->
+<weekly day="SA" priority="0" time-from="17:00:00" time-to="20:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 22 bis 01  -->
+<weekly day="SO" priority="0" time-from="22:00:00" time-to="01:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 12 bis 15  -->
+<weekly day="DI" priority="0" time-from="12:00:00" time-to="15:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="7">
+<title>Buntfunk</title>
+<description>
+Buntfunk - Live Interviews, Festivals und Konzerte aus der Region, lokale Musik, Buchtipps und der Musikwelt aus 100 Jahren Musikgeschichte. mit Dieter Lachermund.
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 16 bis 17 Uhr  -->
+<weekly day="FR" priority="0" time-from="16:00:00" time-to="17:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 16 bis 17 Uhr  -->
+<weekly day="MI" priority="0" time-from="16:00:00" time-to="17:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 13 bis 14 Uhr  -->
+<weekly day="SO" priority="0" time-from="13:00:00" time-to="14:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="8">
+<title>Free Wheel</title>
+<description>
+... is a 60-minute magazine-type program with stories, radio plays and of course good music in between! mit Danny Antonelli (Hamburg) Kontakt: freewheel(at)radio-fds.de
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnerstags von 11 bis 13 Uhr  -->
+<weekly day="DO" priority="0" time-from="11:00:00" time-to="13:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="9">
+<title>Geek Speak</title>
+<description>
+...Mit Musik f𲠦ast jeden Geschmack: Von Hip Hop 𢥲 Rock bis Elektro ist alles dabei. Ihr erfahrt vieles 𢥲 eure Musiker in Geek Speak, die einmal im Monat zu h򲥮 ist. In unser Sendung spielen wir Rock, Hip Hop und Elektro, zudem noch Informationen 𢥲 Bands und S寧er/innen sowie Tourdaten der Bands und K𮳴erler/innen. Am Mikrofon junge Moderatoren namens Niklas Hayer und Elias Fraile. Einmal pro Monat wird eine Sendung ausgestrahlt. Kontakt: globalmusic@radio-fds.de
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+<category name="Electronica" id="2"/>
+<category name="HipHop" id="3"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede 1. Woche des Monats am Montag  -->
+<weekOfMonth day="MO" priority="0" time-from="09:00:00" time-to="10:00:00" week1="true" week2="false" week3="false" week4="false" week5="false"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 09 bis 10 Uhr  -->
+<weekly day="MO" priority="0" time-from="09:00:00" time-to="10:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="10">
+<title>Hrvatska Glazba</title>
+<description>kroatische Musik</description>
+<categories>
+<category name="Alternative" id="1"/>
+<category name="World" id="11"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 18 bis 19 Uhr  -->
+<weekly day="FR" priority="0" time-from="18:00:00" time-to="19:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="11">
+<title>Heimkino.fm</title>
+<description>
+"HeimKino.fm" setzt den Fokus auf Cineasten, Serienjunkies und Nerds, die offen sind f𲠤ie ein oder andere Perle aus der Unterhaltungsindustrie. Wir bewerten Filme, Serien und Games, die f𲠅uer eigenes Home-Entertainment-Center zu haben sind. Abgerundet wird das durch passende Soundtracks, interessante Diskussionen und Fakten 𢥲 die wunderbare Welt der Popkultur.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jeden ersten Freitag im Monat 20 bis 22  -->
+<weekOfMonth day="FR" priority="0" time-from="20:00:00" time-to="22:00:00" lastWeek="false" firstWeek="true"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 20 bis 22 Uhr  -->
+<weekly day="FR" priority="0" time-from="20:00:00" time-to="22:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 01 bis 03 Uhr  -->
+<weekly day="SO" priority="0" time-from="01:00:00" time-to="03:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 02 bis 04 Uhr  -->
+<weekly day="MI" priority="0" time-from="02:00:00" time-to="04:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="12">
+<title>Jazz Now</title>
+<description>
+... wie der Name schon sagt! mit Peter Schlegl Kontakt: jazz(at)radio-fds.de
+</description>
+<categories>
+<category name="Jazz" id="4"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 04 bis 05 Uhr  -->
+<weekly day="FR" priority="0" time-from="04:00:00" time-to="05:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 00 bis 01 Uhr  -->
+<weekly day="SO" priority="0" time-from="00:00:00" time-to="01:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="13">
+<title>Mein Verein im Radio</title>
+<description>Vereine k򮮥n sich vorstellen</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 17 bis 18 Uhr  -->
+<weekly day="FR" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 08 bis 09 Uhr  -->
+<weekly day="SA" priority="0" time-from="08:00:00" time-to="09:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 12 bis 13 Uhr  -->
+<weekly day="SA" priority="0" time-from="12:00:00" time-to="13:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 22 bis 23 Uhr  -->
+<weekly day="MO" priority="0" time-from="22:00:00" time-to="23:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 23 bis 00 Uhr  -->
+<weekly day="DI" priority="0" time-from="23:00:00" time-to="00:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="14">
+<title>Musikantensch寫e</title>
+<description>
+Volkst𭬩che Melodien & Weisen. mit Richard Baumann, Thomas Baumann und Hannes Hornberger. Kontakt: musikanten(at)radio-fds.de www.richard-baumann.com
+</description>
+<categories>
+<category name="U-Musi & Schlager" id="9"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Mittwochs von 20 bis 22 Uhr  -->
+<weekly day="MI" priority="0" time-from="20:00:00" time-to="22:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 09 bis 11 Uhr  -->
+<weekly day="DO" priority="0" time-from="09:00:00" time-to="11:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 12 bis 14 Uhr  -->
+<weekly day="FR" priority="0" time-from="12:00:00" time-to="14:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 11 bis 13 Uhr  -->
+<weekly day="SO" priority="0" time-from="11:00:00" time-to="13:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 04 bis 06 Uhr  -->
+<weekly day="MO" priority="0" time-from="004:00:00" time-to="06:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="15">
+<title>Nat𲬩ch Informiert</title>
+<description>
+Erika Lauerwald vom Naturheilverein Freudenstadt e.V. ist wieder regelm堩g On Air. Sie pr崥ntiert interessante und heitere Themen die sich um Einheit von K򲰥r, Geist und Seele drehen. Aktuell anstehende Veranstaltungen des Naturheilvereins und gesunde Rezepte zum Nachkochen runden die Sendestunde ab.
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 14 bis 15 Uhr  -->
+<weekly day="MO" priority="0" time-from="14:00:00" time-to="15:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 17 bis 18 Uhr  -->
+<weekly day="SO" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 17 bis 18 Uhr  -->
+<weekly day="MO" priority="0" time-from="16:00:00" time-to="17:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="16">
+<title>Neugut</title>
+<description>
+Trends sollen ruhig die anderen suchen - wir machen sie hier einfach selbst. Jeden Montagabend. F𲠵nd mit euch. Klare Sache: Welche Mucke in eurem MP3-Player, CD-Spieler, auf eurem Rechner l嶦t, was euch interessiert und wof𲠩hr euch engagiert, das entscheidet ihr selbst. Wenn ihr euch f𲠎eues und Gutes interessiert, dann seid ihr hier jedenfalls richtig. Aber nicht das stupide Abspulen der Charts und beliebiger (= langweiliger) In/Out-Listen ist unser Programm sondern das, was aus einem ganz pers򮬩chen Blickwinkel f𲠳o neu und so gut (aha!) befunden wird, dass es eine Plattform bei Freies Radio Freudenstadt verdient hat. mit Gunther Ziegler Kontakt: neugut(at)radio-fds.de
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 20 bis 22 Uhr  -->
+<weekly day="MO" priority="0" time-from="20:00:00" time-to="22:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 08 bis 10 Uhr  -->
+<weekly day="DI" priority="0" time-from="08:00:00" time-to="10:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 13 bis 15 Uhr  -->
+<weekly day="MI" priority="0" time-from="13:00:00" time-to="15:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 04 bis 06 Uhr  -->
+<weekly day="DO" priority="0" time-from="04:00:00" time-to="06:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 00 bis 02 Uhr  -->
+<weekly day="SA" priority="0" time-from="00:00:00" time-to="02:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="17">
+<title>Schlagerkarussell</title>
+<description>Party, Schlager</description>
+<categories>
+<category name="U-Musi & Schlager" id="9"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 20 bis 21 Uhr  -->
+<weekly day="SO" priority="0" time-from="20:00:00" time-to="21:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="18">
+<title>Plastic Lounge</title>
+<description>
+Erwin Kelemen - alias DJ KELEMEN aus Horb, versorgt samstagabends die Zuh򲥲Innen bei Freies Radio Freudenstadt mit satten Beats und Hintergrundinformationen rund um das Thema Housemusic. Mit vielen Veranstaltungs- und Plattentipps sowie Gewinnspielen, ist die 'Plastic Lounge' die geeignete Sendung f𲠆ans der elektronischen Tanzmusik. mit Erwin Kelemen Kontakt: plasticlounge(at)radio-fds.de
+</description>
+<categories>
+<category name="Electonica" id="2"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Samstags von 22 bis 24 Uhr  -->
+<weekly day="SA" priority="0" time-from="22:00:00" time-to="24:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 03 bis 05 Uhr  -->
+<weekly day="SO" priority="0" time-from="03:00:00" time-to="05:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="19">
+<title>Raybel</title>
+<description>
+Raybel, die Sendung zum Thema 'Deutscher HipHop' ist wieder da! Kevin Mutschler war schon einmal von 2009 bis 2013 mit Raybel auf Sendung - nun ist er zur𣫠bei Freies Radio Freudenstadt! Wie fr𨥲 schon, hat er von Oldschool bis Newschool des deutschen HipHop alles im Gep夫 und plant auch neue Interviews mit spannenden G崴en. Einige seiner Fans werden sich vielleicht noch an das Interview mit Alligatoah erinnern, der 2013 auf Platz 1 der deutschen Albumcharts landete. Lasst euch entf𨲥n in das faszinierende und umfangreiche Genre des deutschen HipHop!
+</description>
+<categories>
+<category name="HipHop" id="3"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Mittwochs von 17 bis 18 Uhr  -->
+<weekly day="MI" priority="0" time-from="17:00:00" time-to="18:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="20">
+<title>Second Chance</title>
+<description>
+Die Cover und Soundtrack Show mit Anna Prysok Sowohl Cover als auch Soundtrack k򮮥n f𲠥inen Song eine zweite Chance sein. Manchmal wird das Cover sogar bekannter als das Original - wer weiߠschon, dass Whitney Houstons "I will always love you" im Original von Dolly Parton stammt? Und manch unbekanntes Lied schie࠴ pl򴺬ich auf Platz 1 der Charts, weil es durch den Einsatz als Soundtrack bekannt wurde. In dieser Sendung k򮮴 ihr beides genieࠥn: Bekanntes und Unbekanntes. Altes und Neues. Erwartetes und Unerwartetes. Lasst euch 𢥲raschen. Facebook: Second Chance Kontakt: anna(at)radio-fds.de
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Dienstags von 18 bis 19 Uhr  -->
+<weekly day="DI" priority="0" time-from="18:00:00" time-to="19:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 13 bis 14 Uhr  -->
+<weekly day="SA" priority="0" time-from="13:00:00" time-to="14:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 08 bis 09 Uhr  -->
+<weekly day="FR" priority="0" time-from="08:00:00" time-to="09:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 21 bis 22 Uhr  -->
+<weekly day="SO" priority="0" time-from="21:00:00" time-to="22:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="21">
+<title>Uwe's Rockshow</title>
+<description>
+Musik, die nicht jeden Tag im Radio zu h򲥮 ist. Mit Bands und Interviews aus der Region - satte drei Stunden! mit Uwe KlomfaߊKontakt: uwe(at)radio-fds.de
+</description>
+<categories>
+<category name="Alternative" id="1"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Dienstags von 20 bis 23 Uhr  -->
+<weekly day="DI" priority="0" time-from="20:00:00" time-to="23:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 10 bis 13 Uhr  -->
+<weekly day="MI" priority="0" time-from="10:00:00" time-to="13:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 08 bis 11 Uhr  -->
+<weekly day="SO" priority="0" time-from="08:00:00" time-to="11:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Montags von 23 bis 02 Uhr  -->
+<weekly day="MO" priority="0" time-from="23:00:00" time-to="02:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="22">
+<title>Vesperwelle</title>
+<description>
+Aktuelles aus dem Landkreis, inklusive Interviews mit und Statements von Menschen direkt von hier, Veranstaltungshinweisen und jeder Menge Lokalkolorit. Die verschiedenen RedakteurInnen der Vesperwelle sorgen daf𲬠dass die Vesperwelle jedes Mal auch eine etwas andere Musikfarbe hat. Anregungen 𢥲 Berichtenswertes, Hinweise auf Veranstaltungen im Sendegebiet, und nat𲬩ch auch Feedback zu Sendungsinhalten sind immer willkommen. Wir suchen st寤ig interessierte ehrenamtliche ModeratorenInnen f𲠤ie Vesperwelle! Wer sich f𲳠Mitmachen im Team der Vesperwelle interessiert, kann sich von Montag bis Freitag jeweils von 14-17 im Radio unter Telefon 07441-8822-1 informieren. mit Uschi G𮴨er, Alejandra Falcone (Kino-Tante), Susanne K򨬥, Anna Prysok, Andrea Vogt, Martin Winter, Gunther Ziegler und vielen anderen mehr... Kontakt: vesperwelle(at)radio-fds.de oder info(at)radio-fds.de
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Montags von 19 bis 20 Uhr  -->
+<weekly day="MO" priority="0" time-from="19:00:00" time-to="20:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Dienstags von 19 bis 20 Uhr  -->
+<weekly day="DI" priority="0" time-from="19:00:00" time-to="20:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Mittwochs von 19 bis 20 Uhr  -->
+<weekly day="MI" priority="0" time-from="19:00:00" time-to="20:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Donnerstags von 19 bis 20 Uhr  -->
+<weekly day="DO" priority="0" time-from="19:00:00" time-to="20:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Freitags von 19 bis 20 Uhr  -->
+<weekly day="FR" priority="0" time-from="19:00:00" time-to="20:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Dienstags von 07 bis 15 Uhr  -->
+<weekly day="DI" priority="0" time-from="07:00:00" time-to="15:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Mittwochs von 07 bis 15 Uhr  -->
+<weekly day="MI" priority="0" time-from="07:00:00" time-to="15:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Donnerstags von 07 bis 15 Uhr  -->
+<weekly day="DO" priority="0" time-from="07:00:00" time-to="15:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Freitags von 07 bis 15 Uhr  -->
+<weekly day="FR" priority="0" time-from="07:00:00" time-to="15:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Samstags von 07 bis 15 Uhr  -->
+<weekly day="SA" priority="0" time-from="07:00:00" time-to="15:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="23">
+<title>Vesperwelle Dienstag</title>
+<description>
+Willkommen bei der Vesperwelle am Dienstag. Von 19 bis 20 senden wir aktuelles aus der Region und den benachbarten Landkreisen. Wir spielen flotte Schlagerrythmen und geben interessante Veranstaltungstipps. ݢer Leute die sich trauen,ihren Verein oder ein Projekt vorzustellen freuen wir uns sehr. Bei Interesse einfach im Sender anrufen unter 07441-88221. Mit dabei ist die weitgereiste,die einzigartige Berta Amalie Schuhmacher-Schneidewind,die uns aus ihrem bewegten Leben manchen Schwank zu erz婬en hat. Also bis bald,wir h򲥮 uns ? Ihre Susanne K򨬥
+</description>
+<categories>
+<category name="Wort" id="12"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Dienstags von 19 bis 20 Uhr  -->
+<weekly day="DI" priority="0" time-from="19:00:00" time-to="20:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+<broadcast id="24">
+<title>Wonderful World of Jazz</title>
+<description>
+Das Jazzprogramm bei Freies Radio Freudenstadt mit Thomas Wagner Jeden Sonntag widmet sich Thomas einem neuen musikalischen Thema und pr崥ntiert Jazz und Jazzverwandtes aus seinem umfangreichen Musikarchiv, das mehrere tausend Tontr娥r umfasst. Thomas freut sich sehr 𢥲 R𣫭eldungen, H򲥲fragen und W𮳣he. Zu erreichen ist er unter jazz(at)jazzomat.com oder per Post an Freies Radio Freudenstadt, c/o Wonderful World of Jazz, Postfach 462, 72234 Freudenstadt. Auf seiner Homepage http://www.jazzomat.com hat er auch die Listings seiner WWoJ- Sendungen zum Download bereitgestellt: Einfach auf "Wonderful World of Jazz" klicken. Die Listings enthalten alle bekannten und notwendigen diskografischen Angaben der gesendeten Musiktitel.
+</description>
+<categories>
+<category name="Jazz" id="4"/>
+</categories>
+<transmit-times>
+<transmit-time recurrence="true" rerun="false">
+<!-- - Jede Woche Sonntags von 16 bis 17 Uhr  -->
+<weekly day="SO" priority="0" time-from="16:00:00" time-to="17:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 18 bis 19 Uhr  -->
+<weekly day="MO" priority="0" time-from="18:00:00" time-to="19:00:00"/>
+</transmit-time>
+<transmit-time recurrence="true" rerun="true">
+<!-- - Jede Woche Sonntags von 23 bis 00 Uhr  -->
+<weekly day="DO" priority="0" time-from="23:00:00" time-to="00:00:00"/>
+</transmit-time>
+</transmit-times>
+</broadcast>
+</programme>
+</station>

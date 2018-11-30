@@ -1,0 +1,22 @@
+<div class="header titlebar">
+	<a data-back-link class="backlink {{backButtonCSSClass}}"></a>
+	<a data-app-logo class="app_logo {{logoCSSClass}}" href=""></a>
+	<h1>{{pageTitle}}</h1>
+	<a data-popup-menu-show class="menu" id="menu"></a>
+</div>
+
+<!-- External:Popup --> 
+<ul id="popup" class="popup {{popupCSSClass}}"> 
+    <li class="close"><a data-popup-menu-close>&nbsp;</a></li> 
+    <li class="searchitem"><a data-href="search" class="search">SUCHE</a><hr /></li> 
+    <li class="searchitem"><a data-href="map" class="map">KARTE</a><hr /></li>        
+    <li class="searchitem"><a data-href="favorite" class="favorite">FAVORITEN</a><hr /></li>
+    <li class="searchitem"><a data-href="info" class="info">INFO</a><hr /></li>
+    <li class="searchitem"><a data-href="locate" class="locating">ORTUNG</a><hr /></li>
+    <li class="searchitem last"><a data-href="schedule" class="schedule">SENDEPLAN</a></li>
+</ul>
+<!-- /END External:Popup -->
+
+<div class="content">
+	{{{content}}}
+</div>

@@ -1,0 +1,363 @@
+div.content
+{
+	padding-top: 264px;
+}
+
+.header
+{
+	height: 132px;
+}
+div.titlebar h1 
+{ 
+	font-size: 48px;
+	line-height: 132px;
+	width: 400px;
+	vertical-align: middle;
+	margin: 0 0 0 -200px;
+}
+div.titlebar a.backlink
+{
+	background-size: 57px 40px;
+	height: 132px;
+	width: 180px;
+	/*padding: 60px 121px 31px 51px;*/
+	background-position: 30px center;
+	/*margin: 0 -60px 0 0;*/
+}
+div.titlebar a.app_logo 
+{
+	height: 76px;
+	width: 60px;
+	margin: 28px 30px 28px 58px;
+}
+div.titlebar a.menu 
+{
+	background-size: 64px 44px;
+	height: 44px;
+	width: 64px;
+	padding: 44px 51px 44px 51px;
+	margin: 0;
+}
+/********** Popup-Menue ************/
+ul.popup
+{
+	width: 179px;
+}
+ul.popup li.close
+{
+	height: 160px;
+	margin-bottom: 80px;
+}
+ul.popup li.close a
+{
+	background-size: 64px 44px;
+	height: 44px;
+	width: 64px;
+	padding: 44px 61px 44px 61px;
+	margin: 0;
+}
+ul.popup li.searchitem
+{
+	height: 140px;
+}
+ul.popup li.last
+{
+	height: 50px;
+}
+ul.popup li.searchitem a
+{
+	font-size: 24px;
+	background-size: auto 61px;
+	padding: 70px 30px 0 30px;
+}
+/********** Popup-Menue ENDE ************/
+div.zoomControl
+{
+	top: 240px!important;
+	padding: 30px 20px 0 0!important; 
+}
+div.zoomIn, div.zoomOut
+{
+	background-size = 94px 94px!important;
+	width: 94px!important;
+	height: 94px!important;
+	margin: 10px 20px!important;
+}
+div.map-list-menu, div.broadcast-menu {
+	top: 132px;
+}
+div.map-list-menu, div.broadcast-menu {
+	height: 132px;
+	box-shadow: 0 6px 6px #555;
+}
+div.map-list-item span, div.broadcast-item span {
+	line-height: 132px;
+}
+div.map-list-item span
+{
+	font-size: 2em;
+}
+div#zoomControl
+{
+	position: absolute;
+	paddingTop = 30px;
+    paddingRight = 20px;
+}
+div#zoomIn
+{
+	backgroundSize = 94px;
+    width = 94px;
+    height = 94px;
+    margin = 10px;
+}
+div#zoomOut
+{
+	backgroundSize = 94px;  
+    width = 94px;
+    height = 94px;
+    margin = 10px;
+}
+/********** Liste ************/
+
+div#search 
+{
+	padding-top: 30px;	
+}
+input#searchInput {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 2em;
+	height: 115px;
+	padding-left: 90px;
+}
+img#searchMethod {
+	width: 115px;
+}
+img#searchIcon {
+	margin-top: 32px;
+  	width: 48px;
+  	left: 20px;
+}
+img#searchClose {
+	width: 36px;
+	margin-top: 38px;
+	margin-right: 0px;
+}
+span.stationListElementHeader {
+	font-size: 2em;
+}
+span.stationListElementBody {
+	font-size: 1.5em;
+}
+img.stationListArrow 
+{
+	height: 32px;
+	padding: 48px 10px 50px 30px;
+}
+img.favoriteStarList {
+	height: 48px;
+	padding: 42px 10px;
+}
+
+/********** Liste ENDE************/
+
+/***************** Suche ****************/
+div.popup_search
+{
+	margin-top: -134px;
+}
+div.popup_search h1 
+{
+	font-size: 48px;	
+}
+/***************** Suche ENDE ****************/
+
+/***************** Favoriten ****************/
+.favorites {
+	margin-top: -100px;
+}
+/***************** Favoriten ENDE ****************/
+
+/***************** Info ****************/
+div.info_info
+{
+	margin-top: -100px;
+	font-size: 36px;
+}
+div.info_info h3
+{
+	font-size: 42px;
+}
+div.info_info img.supporter
+{
+	max-width: 360px;
+	max-height: 140px;
+}
+/***************** Info ENDE ****************/
+
+/***************** Ortung *****************/
+.geolocationSwitchBox
+{
+	font-size: 36pt;
+}
+
+#geolocationText
+{
+	font-size: 24pt;
+}
+
+#geolocationSwitch
+{
+	width: 111px;
+	height: 62px;
+	margin-top: -31px;
+}
+
+#geolocationSwitchCircle
+{
+	top: 7px;
+	width: 49px;
+	height: 49px;
+}
+/***************** Ortung ENDE*****************/
+.item-info, .item-contact, .item-program
+{
+	font-size: 48px;
+}
+/***************** Kontakt *****************/
+section.contact-container h1 
+{
+	font-size: 42px;
+}
+
+section.contact-container,
+section.contact-container h2
+{
+	font-size: 36px;
+}
+/***************** Kontakt ENDE *****************/
+
+
+/***************** Sender - Info *****************/
+section.broadcastinfo-container div.info-header,
+section.broadcastinfo-container div.info-header div.station-name,
+section.broadcastinfo-container div.broadcast-stream-info-contenttext span.cell
+{
+	font-size: 42px;
+}
+
+section.broadcastinfo-container,
+section.broadcastinfo-container div.info-header div.station-info,
+section.broadcastinfo-container div.info-header div.station-name p,
+section.broadcastinfo-container div.broadcast-stream-info-contenttext span.cell.times
+{
+    font-size: 36px;
+}
+/***************** Sender - Info ENDE *****************/
+
+/***************** Sendungsdetails *****************/
+div.programName h1,
+section.programInfo-container div.programInfo-banner h1
+{
+	font-size: 36pt;
+}
+
+section.programInfo-container,
+section.programInfo-container div.programInfo-data h2
+{
+	font-size: 32pt;
+}
+section.programInfo-container div.programInfo-data ul,
+section.programInfo-container div.programInfo-data ul li
+{
+	font-size: 36pt;	
+}
+/***************** Sendungsdetails ENDE *****************/
+
+/***************** Broadcast *****************/
+.broadcast-navigation {
+	height: 6em;
+}
+.broadcast-navigation img {
+	width: 3em;
+	height: 2.5em;
+	margin-top: -1.5em;
+}
+.broadcast-navigation img:first-child {
+	top: 1.6em;
+    padding: 1.5em 3em 1.5em 0;
+	left: 0;
+}
+.broadcast-navigation img:last-child {
+	top: 1.6em;
+    padding: 1.5em 0 1.5em 3em;
+	right: 0;
+}
+.broadcast-navigation > span {
+	font-size: 1.8em;
+	padding-top: 0.95em;
+}
+/*.broadcastProgramEntry {
+	border-radius: 0.4em;
+	margin: 0.3em 1%;	
+}
+.broadcastProgramEntry h1 {
+	font-size: 2em;
+	padding: 0.3em 0 0.3em 0.5em;
+}
+.broadcastProgramEntry span {
+	font-size: 1.5em;
+	padding: 0 0 0.3em 0.75em;
+}
+.broadcastProgramEntry img {
+	height: 1.5em;
+}*/
+div.programName img.programmClose, section.programInfo-container div.programInfo-banner img.programInfo-accordionOpen
+{
+	margin-top: -1.2em;
+    padding: 1.2em;
+}
+/***************** Broadcast ENDE *****************/
+
+/***************** Sendungsplan / Schedule *****************/
+div.schedule
+{
+	margin-top: -132px;
+}
+div.schedule div.genres-title
+{
+	font-size: 34pt; 
+}
+
+div.schedule div.genres-title img
+{
+	height: 22px;
+	width: 38px;
+}
+div.schedule div.genres-list div.genres-item
+{
+	font-size: 34pt;
+}
+/***************** Sendungsplan / Schedule ENDE *****************/
+
+/***************** Sendungsplandetail / Schedule *****************/
+div.scheduleDetail 
+{
+	margin-top: -114px;
+}
+div.scheduleDetail div.timeTitle
+{
+	padding: 1em;
+	font-size: 42px;
+}
+div.scheduleDetail ul.genres-list
+{
+	font-size: 30pt;
+	padding: 0em 0 0 1.3em;
+}
+/***************** Sendungsplandetail / Schedule ENDE *****************/
+
+/***************** Broadcast ****************/
+.broadcast-navigation {
+
+}

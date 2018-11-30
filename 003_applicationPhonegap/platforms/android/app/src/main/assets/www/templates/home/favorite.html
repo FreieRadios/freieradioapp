@@ -1,0 +1,24 @@
+<div class="innerContainer">
+<ul class="stationAndBroadcastList favorites">
+{{#each broadcasts}}
+	<li class="stationListElement" data-href="broadcastdetail?station_id={{this.stationID}}&broadcasts_id={{this.id}}">
+		<div class="stationListElementLeft">
+			<span class="stationListElementHeader">{{shortenString this.title 21}}</span><br>
+			<span class="stationListElementBody">{{this.stationName}}</span>
+		</div>
+		<div class="remove-favorites-dialog">
+			<h3>Favorit entfernen</h3>
+				<p>Die Sendung {{shortenString this.title 21}} wird aus Deinen Favoriten entfernt.</p>
+				<div class="submitDialogButton">OK</div>
+				<div class="cancelDialogButton">Abbrechen</div>
+		</div>
+		
+		<div class="favoriteIcons">
+			<img class="favoriteStarList" src="img/02_list/02.3_icon_favorites.png" data-station-id="{{this.stationID}}" data-broadcasts-id="{{this.id}}" data-broadcasts-title="{{this.title}}" />
+			<img class="stationListArrow" src="img/02_list/00.5_list-arrow.png" />
+		</div>
+	</li>
+{{/each}}
+</ul>
+
+</div>

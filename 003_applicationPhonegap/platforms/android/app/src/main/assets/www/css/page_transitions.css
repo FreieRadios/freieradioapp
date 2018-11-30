@@ -1,0 +1,72 @@
+/***** Slide-Transition *****/
+div.slideTransitionPage
+{
+	overflow: hidden;
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+div.slideTransitionPage.last
+{
+	left: 0px;
+}
+
+div.slideTransitionPage.next
+{
+	left: 100%;
+}
+
+div.slideTransitionPage.next.reverse
+{
+	left: -100%;
+}
+
+div.slideTransitionPageWrapper
+{
+	overflow: hidden;
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+/***** Flip-Transition *****/
+div.flipTransitionPageWrapper
+{
+	perspective: 1000;	
+}
+
+div.flipTransitionPageFlipper
+{
+	transform-style: preserve-3d;
+	position: relative;	
+}
+
+div.flipTransitionPageWrapper,
+div.flipTransitionPage
+{
+	width: 100%;
+	height: 100%;
+}
+
+div.flipTransitionPage 
+{
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div.flipTransitionPage.last 
+{
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+div.flipTransitionPage.next
+{
+	transform: rotateY(180deg);
+}

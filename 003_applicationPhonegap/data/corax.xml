@@ -1,0 +1,60 @@
+<station xmlns:gml="http://www.opengis.net/gml" lastupdate="2013-08-21T15:07:38.6875000+02:00">
+<info>
+<displayname>RadioCorax Test</displayname>
+<fullname>Radio Corax</fullname>
+<logo src="http://radiocorax.de/wp-content/themes/Radiocorax/library/images/logo.png"/>
+<basecolor>#FFFFFF</basecolor>
+<city>Halle (Saale)</city>
+<description>RadioCorax Test Data by RadioCo</description>
+<studio>
+<street>Unterberg</street>
+<number>11</number>
+<city>Halle</city>
+<zip>6114</zip>
+<studio-location>
+<gml:Point>
+<gml:pos>51.4876800 11.9705900</gml:pos>
+</gml:Point>
+</studio-location>
+<phone type="office">+49 345 4700745</phone>
+<email type="office">info@radiocorax.de</email>
+<open time-from="08:00:00" time-to="22:00:00"/>
+</studio>
+</info>
+<media-channels>
+<transmitter type="ukw">
+<frequency>95,90</frequency>
+<frequencyunit>MHz</frequencyunit>
+<city>Petersberg</city>
+<operator>Mediabroadcast</operator>
+<transmit-power>1500</transmit-power>
+<transmit-power-unit>W</transmit-power-unit>
+<transmit-rds-id>Radio Corax</transmit-rds-id>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<transmitter-location>
+<gml:Point>
+<gml:pos>51.5951111 11.9578790</gml:pos>
+</gml:Point>
+</transmitter-location>
+<receptionarea>
+<gml:CircleByCenterPoint numArc="1">
+<gml:pos>51.5951111 11.9578790</gml:pos>
+<gml:radius uom="km">50</gml:radius>
+</gml:CircleByCenterPoint>
+</receptionarea>
+</transmitter>
+<webstream>
+<transmit-times>
+<transmit-time time-from="00:00:00" time-to="23:59:59"/>
+</transmit-times>
+<url>http://streaming.fueralle.org:8000/corax.mp3</url>
+<format>audio/mpeg</format>
+<quality>120kbps</quality>
+</webstream>
+<website>
+<url>http://www.radiocorax.de</url>
+</website>
+</media-channels>
+</station>
