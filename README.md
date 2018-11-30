@@ -2,6 +2,10 @@
 
 The app is a hybrid app based on "Adobe Phonegap". The App is simply just a website with javascript.
 
+[<img src="AboutTheApp.png"
+alt="Screenshot"
+height="400">]
+
 ## Prerequisites
 
 You need the following tools:
