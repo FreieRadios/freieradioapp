@@ -1,6 +1,7 @@
 # Freie Radio App
 
 The app is a hybrid app based on "Adobe Phonegap". The App is simply just a website with javascript.
+Goal of the App is, to display the program data of all free radios in germany in one App. So you can search with genres the transmissions you like. Also you have the ability to listen to the radios via their internet streams and you can discover new stations with the map. 
 
 [<img src="AboutTheApp.png"
 alt="Screenshot"
