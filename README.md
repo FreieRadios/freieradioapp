@@ -56,15 +56,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-## License
-[GNU](https://choosealicense.com/licenses/gpl-3.0/)
-
-## Useful links
-
-http://bfrtech.critmass.de/redmine/projects/freie-radios-app/wiki/Freie_Radio_App_-_Entwickler
-
-http://bfrtech.critmass.de/redmine/projects/freie-radios-app/wiki/Freie_Radio_App_-_User_Manual
-
+## The format from the stations
 
 meta.xml 
 provides links to station- and program.xml of broadcasting stations participating at Freie Radio App
@@ -74,3 +66,6 @@ latest template for xml which provides station- and program-data of broadcasting
 
 station-v4.xml 
 next generation template, not used so far
+
+## License
+[GNU](https://choosealicense.com/licenses/gpl-3.0/)
