@@ -68,4 +68,4 @@ station-v4.xml
 next generation template, not used so far
 
 ## License
-[GNU](https://choosealicense.com/licenses/gpl-3.0/)
+[GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
