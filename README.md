@@ -67,5 +67,8 @@ latest template for xml which provides station- and program-data of broadcasting
 station-v4.xml 
 next generation template, not used so far
 
+## Further information
+For further information please visit the [wiki page](https://github.com/FreieRadios/freieradioapp/wiki). Editors are welcome. Fetching the wiki pages like git is possible.
+
 ## License
 [GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
