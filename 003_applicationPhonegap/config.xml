@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="16" id="de.freefm.freieradioapp" version="0.9.3" versionCode="16" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="16" id="de.freefm.freieradioapp" version="0.10.0" versionCode="16" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Freie Radios</name>
     <description>
     </description>
