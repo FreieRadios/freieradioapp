@@ -4,6 +4,7 @@
 # Node
 npm-debug.logph
 /node_modules
+/003_applicationPhonegap/node_modules
 
 # Cordova
 /platforms
