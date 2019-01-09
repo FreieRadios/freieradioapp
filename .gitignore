@@ -3,7 +3,7 @@
 
 # Node
 npm-debug.logph
-/node_modules
+# /node_modules
 
 # Cordova
 /platforms
