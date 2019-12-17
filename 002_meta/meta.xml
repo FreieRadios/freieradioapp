@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--2019-12-19 url stream Radio free FM aktualisiert -->
 <!--2018-03-01 url stream Slubfurt, WüsteWelle, bermudafunk, FDS, Wiesental, Coloradio, freefm, Kassel, ARA, Meißner aktualisiert -->
 <!--2018-01-31 url xml coloRadio Dresden aktualisiert -->
 <!--2018-01-18 url xml Lora München, Radio FREI, RDL aktualisiert -->
@@ -249,7 +250,7 @@
 			<gml:Point>
 				<gml:pos>48.400566 9.991118</gml:pos>
 			</gml:Point>
-			<streamurl>http://stream.freefm.de:8100/</streamurl>
+			<streamurl>http://stream.freefm.de:7000/Studio</streamurl>
 		</station>
 		<station lastupdate="2018-03-01T12:55:00.6875000+02:00" id="32">
 			<name>Freies Radio Kassel</name>
